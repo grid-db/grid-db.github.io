@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Global RIver-lanD (GRID) Database</title>
+<link>https://grid-db.github.io/database/data-highlights.html</link>
+<atom:link href="https://grid-db.github.io/database/data-highlights.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.40</generator>
+<lastBuildDate>Mon, 15 May 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites</title>
+  <link>https://grid-db.github.io/database/highlights/usgs-226-stream-2023.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://grid-db.github.io/database/highlights/usgs-226-stream-2023.png" class="img-fluid"></p>
+<p>This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water quality data from 226 USGS river monitoring sites across the U.S. <a href="https://doi.org/10.1016/j.scitotenv.2023.164138" target="_blank">Click this link</a> to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this <a href="https://doi.org/10.5281/zenodo.7937820" target="_blank">data DOI</a>.</p>
+
+
+
+ ]]></description>
+  <category>River</category>
+  <category>Hydrogeochemistry</category>
+  <category>Surface Water</category>
+  <category>U.S.</category>
+  <guid>https://grid-db.github.io/database/highlights/usgs-226-stream-2023.html</guid>
+  <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://grid-db.github.io/database/highlights/usgs-226-stream-2023.png" medium="image" type="image/png" height="78" width="144"/>
+</item>
+</channel>
+</rss>

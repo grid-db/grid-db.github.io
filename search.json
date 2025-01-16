@@ -1,0 +1,339 @@
+[
+  {
+    "objectID": "people/people.html",
+    "href": "people/people.html",
+    "title": "Meet the Community",
+    "section": "",
+    "text": "Tao Wen\n        Syracuse University\n      \n    \n    \n      \n        Shuang Zhang\n        Texas A&M University"
+  },
+  {
+    "objectID": "people/people.html#management-team",
+    "href": "people/people.html#management-team",
+    "title": "Meet the Community",
+    "section": "",
+    "text": "Tao Wen\n        Syracuse University\n      \n    \n    \n      \n        Shuang Zhang\n        Texas A&M University"
+  },
+  {
+    "objectID": "people/people.html#working-group-members",
+    "href": "people/people.html#working-group-members",
+    "title": "Meet the Community",
+    "section": "Working Group Members",
+    "text": "Working Group Members\n\n  \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n        Ruta Basijokaite\n        Syracuse University\n      \n    \n    \n      \n        Liyang Qin\n        Syracuse University\n      \n    \n    \n      \n        Zanchenling Wang\n        Syracuse University"
+  },
+  {
+    "objectID": "get-involved.html",
+    "href": "get-involved.html",
+    "title": "Get Involved",
+    "section": "",
+    "text": "We are excited about the diverse watershed attributes included in the harmonized Global RIver-lanD (GRID) Database and are delighted by your interest in participating. We warmly welcome anyone passionate about and eager to investigate questions related to watershed sciences within a collaborative group setting to join the project.\nIf you would like to contribute new data to the GRID database and/or propose collaborative projects to work with us, please consider reaching out to the Mangement Team"
+  },
+  {
+    "objectID": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
+    "href": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
+    "title": "A Machine Learning Approach to Freshwater Analysis",
+    "section": "",
+    "text": "From protecting biodiversity to ensuring the safety of drinking water, the biochemical makeup of rivers and streams around the United States is critical for human and environmental welfare. Studies have found that human activity and urbanization are driving salinization (increased salt content) of freshwater sources across the country. In excess, salinity can make water undrinkable, increase the cost of treating water, and harm freshwater fish and wildlife.\nAlong with the rise in salinity has also been an increase in alkalinity over time, and past research suggests that salinization may enhance alkalinization. But unlike excess salinity, alkalinization can have a positive impact on the environment due to its ability to neutralize water acidity and absorb carbon dioxide in the Earth’s atmosphere—a key component to combating climate change. Understanding the processes at play that affect salinity and alkalinity have important environmental and health implications.\nA team of researchers from Syracuse University and Texas A&M University have applied a machine learning model to explore where and to what extent human activities are contributing to the hydrogeochemical changes, such as increases in salinity and alkalinity in U.S. rivers.\nThe group used data from 226 river monitoring sites across the U.S. and built two machine-learning models to predict monthly salinity and alkalinity levels at each site. These sites were selected because long-term continuous water quality measurements have been recorded for at least 30 years.\nFrom urban to rural settings, the model explored a diverse range of watersheds, which are areas where all flowing surface water converges to a single point, such as a river or lake. It evaluated 32 watershed factors ranging from hydrology, climate, geology, soil chemistry, land use and land cover to pinpoint the factors contributing to rising salinity and alkalinity. The team’s models determined human activities as major contributors to the salinity of U.S. rivers, while rising alkalinity was mainly attributed more to natural processes than human activities.\nThe team, which included Syracuse University researchers Tao Wen, assistant professor in the College of Arts and Sciences’ Department of Earth and Environmental Sciences (EES), Beibei E, a graduate student in EES, Charles T. Driscoll, University Professor of Environmental Systems and Distinguished Professor in the College of Engineering and Computer Science, and Texas A&M assistant professor Shuang Zhang, recently had their findings published in the journal Science of the Total Environment.\n\nWhat’s Driving Salinization and Alkalinization?\nThe results from the group’s sodium prediction model, which detected human activities such as the application of road salt as major contributions to the salinity of U.S. rivers, were consistent with previous studies. This model specifically revealed population density and impervious surface percentage (artificial surfaces such as roads) as the two most important contributors to higher salt content in U.S. rivers.\nAccording to Wen, the accuracy of the salinity model provided an important proof of concept for the research team.\n“In regard to causes of salinity in rivers, the results from our machine learning model matched those of previous studies which focused on field observation, lab work and statistical analysis,” says Wen. “This proved that our approach was working.”\nWith the salinity results confirming the accuracy of the team’s model, they then turned their attention to alkalinity. Their model identified natural processes as predominantly contributing to variation in river alkalinity, a contrast to previous research that identified human activities as the main contributor to alkalinization (Kaushal et al., 2018). They found that local climatic and hydrogeological conditions including runoff, sediment, soil pH and moisture, were features most affecting river alkalinity.\n\n\nCritical to the Carbon Cycle\nTheir findings have important environmental and climate implications as alkalinity in rivers forms a vital link in the carbon cycle. Consider the movement of carbon during a rainstorm. When it rains, carbon dioxide from the atmosphere combines with water to form carbonic acid. When the carbonic acid reaches the ground and comes into contact with certain rocks, it triggers a chemical reaction that extracts gaseous carbon dioxide from the atmosphere and transports it to the ocean via land water systems like lakes and rivers.\nKnown as rock weathering, this natural process continuously erodes away rocks and sequesters atmospheric CO2 over millions of years. It is also a key regulator of greenhouse gases that contribute to global warming.\n“Rock weathering is the primary source of alkalinity in natural waters and is one of the main ways to bring down carbon dioxide in air,” says Wen. Think of it as a feedback loop: when there is too much carbon dioxide in the atmosphere, temperatures increase leading to enhanced rock weathering. With more rock being dissolved into watersheds due to enhanced rock weathering, alkalinity rises and in turn, brings down carbon dioxide.\n“Alkalinity is a critical component of the carbon cycle,” says Wen. “While we found that natural processes are the primary drivers of alkalinization, these natural factors can still be changed by humans. We can alter the alkalinity level in rivers by changing the natural parameters, so we need to invest more to restore the natural conditions of watersheds and tackle global warming and climate changes to deal with alkalinization in U.S. rivers.”\nThe results from the team’s study can help inform future research about enhanced rock weathering efforts—where rocks are ground up and spread across fields. By distributing rock dust across large areas, it increases the amount of contact between rain and rock, which enhances carbon removal from the atmosphere. Wen says the team’s model can help answer questions about the evolution of natural conditions in different regions—an important step needed to implement enhanced rock weathering more effectively."
+  },
+  {
+    "objectID": "education/hydrolearn-ds-ees.html",
+    "href": "education/hydrolearn-ds-ees.html",
+    "title": "Data Science in Earth and Environmental Sciences",
+    "section": "",
+    "text": "This course, Data Science in Earth and Environmental Sciences, is designed to introduce learners to the basics of R and Python programming as well as the application of emerging data analytics and machine learning methods in the Earth and Environmental Sciences. This course is offered through the HydroLearn platform, in partnership with CUAHSI HydroShare\nThis course is designed to serve a broad mix of learners whose coding expertise ranges from beginner to expert level and whose geoscience-related research interests. At the end of this course, you should be able to describe and implement the steps involved in:\n\nreviewing and modifying others’ codes in R and/or Python\nwriting codes in R and/or Python\ndeveloping and implementing a data science workflow for a data-driven project\ndesigning a data science project by conceptualizing a domain science problem\n\nThis will be accomplished through activities within each section. Results from each activity will be recorded in specified results templates. The results templates for each activity can be found at the beginning of each activity. The results templates are organized such that results from one activity can easily be used in successive activities.\n\n\n\nThis image was created with the assistance of DALL·E"
+  },
+  {
+    "objectID": "education/hydrolearn-ds-ees.html#course-description",
+    "href": "education/hydrolearn-ds-ees.html#course-description",
+    "title": "Data Science in Earth and Environmental Sciences",
+    "section": "",
+    "text": "This course, Data Science in Earth and Environmental Sciences, is designed to introduce learners to the basics of R and Python programming as well as the application of emerging data analytics and machine learning methods in the Earth and Environmental Sciences. This course is offered through the HydroLearn platform, in partnership with CUAHSI HydroShare\nThis course is designed to serve a broad mix of learners whose coding expertise ranges from beginner to expert level and whose geoscience-related research interests. At the end of this course, you should be able to describe and implement the steps involved in:\n\nreviewing and modifying others’ codes in R and/or Python\nwriting codes in R and/or Python\ndeveloping and implementing a data science workflow for a data-driven project\ndesigning a data science project by conceptualizing a domain science problem\n\nThis will be accomplished through activities within each section. Results from each activity will be recorded in specified results templates. The results templates for each activity can be found at the beginning of each activity. The results templates are organized such that results from one activity can easily be used in successive activities.\n\n\n\nThis image was created with the assistance of DALL·E"
+  },
+  {
+    "objectID": "education/hydrolearn-ds-ees.html#when-is-this-taught",
+    "href": "education/hydrolearn-ds-ees.html#when-is-this-taught",
+    "title": "Data Science in Earth and Environmental Sciences",
+    "section": "When is this taught?",
+    "text": "When is this taught?\nThis course is completely online and self-paced. You can take the course on the HydroLearn platform anytime you want."
+  },
+  {
+    "objectID": "education/env-brine.html",
+    "href": "education/env-brine.html",
+    "title": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development",
+    "section": "",
+    "text": "This course, Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania, is designed to teach how to use online datasets to investigate the stream water chemistry upstream and downstream to brine water disposal site at multiple locations in Pennsylvania watersheds. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, learners will explore three aspects of oil and gas development-related production waters:\n\nwhy the waters cannot be discharged directly into rivers;\nhow disposal can be sometimes associated with earthquakes;\nhow Pennsylvania tries to find ways to dispose of brines safely. We use different online services to find publicly available data.\n\n\n\n\nThis image was created with the assistance of DALL·E"
+  },
+  {
+    "objectID": "education/env-brine.html#course-description",
+    "href": "education/env-brine.html#course-description",
+    "title": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development",
+    "section": "",
+    "text": "This course, Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania, is designed to teach how to use online datasets to investigate the stream water chemistry upstream and downstream to brine water disposal site at multiple locations in Pennsylvania watersheds. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, learners will explore three aspects of oil and gas development-related production waters:\n\nwhy the waters cannot be discharged directly into rivers;\nhow disposal can be sometimes associated with earthquakes;\nhow Pennsylvania tries to find ways to dispose of brines safely. We use different online services to find publicly available data.\n\n\n\n\nThis image was created with the assistance of DALL·E"
+  },
+  {
+    "objectID": "education/env-brine.html#when-is-this-taught",
+    "href": "education/env-brine.html#when-is-this-taught",
+    "title": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development",
+    "section": "When is this taught?",
+    "text": "When is this taught?\nThis course is completely online and self-paced. You can take the course on the SERC platform anytime you want."
+  },
+  {
+    "objectID": "database/data-use-and-embargo-policy.html",
+    "href": "database/data-use-and-embargo-policy.html",
+    "title": "Data Use and Embargo Policy",
+    "section": "",
+    "text": "This page is under construction. Stay tuned.",
+    "crumbs": [
+      "Data Use and Embargo Policy"
+    ]
+  },
+  {
+    "objectID": "database/data-highlights.html",
+    "href": "database/data-highlights.html",
+    "title": "Dataset Highlights",
+    "section": "",
+    "text": "Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites\n\n\n\nRiver\n\n\nHydrogeochemistry\n\n\nSurface Water\n\n\nU.S.\n\n\n\na compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites\n\n\n\n\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Dataset Highlights"
+    ]
+  },
+  {
+    "objectID": "database/contribute-data.html",
+    "href": "database/contribute-data.html",
+    "title": "Contribute Data",
+    "section": "",
+    "text": "We are actively inputting data into the Shale Network database. We have input published data, new data, online data, and unpublished data. Shale Network is interested in data providers and volunteers that can collect their own water data and add this data to the Shale Network dataset. We seek datasets from community groups, researchers, government agencies, industry, and river commissions. If you would like to submit a database or begin working with us, please fill out the quick data volunteer form.",
+    "crumbs": [
+      "Contribute Data"
+    ]
+  },
+  {
+    "objectID": "about/history.html",
+    "href": "about/history.html",
+    "title": "History",
+    "section": "",
+    "text": "The Shale Network is a project funded by the National Science Foundation to help scientists and citizens publish data about water resources that may be affected by gas exploitation in shale. Started in October 2011, the project was initiated by scientists from Penn State, the University of Pittsburgh, Dickinson College, and throughout Pennsylvania. Our goal is to find, organize, and upload data for water resources for online publication. Your data can help. To learn more about the Shale Network and how you can help, contact us by emailing Dr. Tao Wen.\nThe Shale Network is a group of individuals working together to organize water quality and quantity data in regions where shale gas is being exploited. The Steering Committee of the Shale Network derive from Dickinson College, the University of Pittsburgh, Penn State, and the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI). The group was funded by the National Science Foundation in October 2011 to put together the database and to run annual workshops between 2012 and 2016.\nThe Shale Network database connects researchers, agencies, industry representatives, and community organizers to generate societally-relevant knowledge from data collected by diverse groups of scientists and citizens. The Shale Network acts as an honest broker that collates datasets and learns and teaches how to synthesize that data into useful knowledge.",
+    "crumbs": [
+      "History"
+    ]
+  },
+  {
+    "objectID": "about/history.html#founding-the-shale-network",
+    "href": "about/history.html#founding-the-shale-network",
+    "title": "History",
+    "section": "",
+    "text": "The Shale Network is a project funded by the National Science Foundation to help scientists and citizens publish data about water resources that may be affected by gas exploitation in shale. Started in October 2011, the project was initiated by scientists from Penn State, the University of Pittsburgh, Dickinson College, and throughout Pennsylvania. Our goal is to find, organize, and upload data for water resources for online publication. Your data can help. To learn more about the Shale Network and how you can help, contact us by emailing Dr. Tao Wen.\nThe Shale Network is a group of individuals working together to organize water quality and quantity data in regions where shale gas is being exploited. The Steering Committee of the Shale Network derive from Dickinson College, the University of Pittsburgh, Penn State, and the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI). The group was funded by the National Science Foundation in October 2011 to put together the database and to run annual workshops between 2012 and 2016.\nThe Shale Network database connects researchers, agencies, industry representatives, and community organizers to generate societally-relevant knowledge from data collected by diverse groups of scientists and citizens. The Shale Network acts as an honest broker that collates datasets and learns and teaches how to synthesize that data into useful knowledge.",
+    "crumbs": [
+      "History"
+    ]
+  },
+  {
+    "objectID": "about/history.html#founding-team",
+    "href": "about/history.html#founding-team",
+    "title": "History",
+    "section": "Founding Team",
+    "text": "Founding Team\nPenn State Team\nThe Penn State team is leading the effort for database development for waters from the central and eastern parts of PA and the Devonian shale gas region. The team will work closely with a professor at Lock Haven University, M. Khalequzzaman, who is already sampling rivers in central PA near Lock Haven.\nThe Director of the Shale Network is Susan Brantley, an aqueous geochemist and Director of Penn State’s Earth and Environmental Systems Institute (EESI). Brantley has more than 25 years of research experience and 10 years experience in administration of research and education teams. Brantley is responsible for coordinating and supervising all activities of the Shale Network, including the running of the annual workshops, and supervision of all Penn State personnel working on the ShaleNetwork. In this endeavor she is aided by EESI staff assistant Shelly Farrell and science writer Matt Carroll. Ferrell is the main staff coordinator for the annual workshop. Data specialists are working with Brantley to input data into the database.\nDavid Yoxtheimer, an outreach specialist for the Penn State Marcellus Center for Outreach and Research (a center within EESI) and a PSU-trained hydrogeologist, is helping to identify and communicate with water sampling groups throughout the state. Yoxtheimer participates as part of his job in the Marcellus Center for Outreach and Education in more than 200 outreach activities per year working with PA citizens to understand Marcellus impacts.\nIn addition, Yoxtheimer works closely with the Marcellus Shale Coalition (MSC), an organization committed to the responsible development of natural gas from the Marcellus Shale geological formation and the enhancement of the region’s economy related to this energy source. The members of the coalition, which include most of the energy companies developing shale gas in both Pennsylvania and surrounding states, work with partners across the region to address issues with regulators, local, county, state and federal government officials and communities about all aspects of natural gas from the Marcellus Shale. This contact is keeping communication open with industry stakeholders and will facilitate possible future use of proprietary industry data. Conversations about proprietary data sources are already ongoing.\nDr. Greg O’Toole is a faculty member and Web technology expert at Penn State (IST, EESI), and is the ShaleNetwork HCI engineer for online networking and environmental data-sharing web applications. Greg is a Lecturer in the College of Information Science & Technology at Penn State. Greg runs the scientific content management system czen.org, a clearinghouse for research and researchers on soils and water, and he is building and managing the scientific content management system for the ShaleNetwork (shalenetwork.org).\nJennifer Williams, Penn State researcher, works in data organization for Shale Network and also works to lead the Teen Shale Network. Teen Shale Network is an effort to help teenagers from State College Area High school and a few other high schools in the northeast to sample and analyze water quality data in the area of shale gas development.\nPitt Team\nPitt is facilitating identification and communication with water sampling groups in the western part of PA and the Devonian shale gas region and will host one of the annual ShaleNetwork meetings. Specific questions of interest to the Pitt team have included the following:\nHow do the flow hydrodynamics modulate the mixing processes of contaminants throughout the streams and are they important for developing appropriate protocols for water chemistry sampling? Are the above protocols similar for small streams (e.g. Fonner Run and Bates Fork) and large river systems (e.g. Monongahela River)? What are temporal and spatial scales for the mixing processes for different contaminant species? What relationships can be observed between hydrogeochemical and hydrological observations and locations of Marcellus shale extraction points as well as population density or land use characteristics?\nShaleNetwork Steering Committee member, Radisav Vidic (Environmental Engineering program in Pitt CEE with specialties in water quality, pollutant transformation, transport and water treatment), has worked since 2007 on Marcellus water quality problems. Vidic works closely with the entire ShaleNetwork team in all aspects of management of the ShaleNetwork.\nCUAHSI Team\nConsortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI), an NSF-funded organization of academic hydrologists, is responsible for all technical aspects of the water database development and coordination with the CUAHSI-developed Hydrologic Information System. CUAHSI is providing training for ShaleNetwork personnel. CUAHSI is hosting a Hydroserver for the ShaleNetwork database. In addition, CUAHSI is assisting to adapt the HydroDesktop client for use by the ShaleNetwork team, shale gas play scientists, and citizen scientists. CUAHSI will also be providing training at the annual meetings on data access and analysis. CUAHSI will also be providing training at the annual meetings on data access and analysis. Liza Brazil, community support specialist at CUAHSI, works closely to train Penn State and Pitt personnel to input data into the HIS system.",
+    "crumbs": [
+      "History"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "GRID Database Overview",
+    "section": "",
+    "text": "The Shale Network project (“Shale Network”) revolves around a relational database containing water resource information from energy production regions. However, the Shale Network is much more than just a database—it is an integrated system comprising a database, a software ecosystem, and a thriving community.",
+    "crumbs": [
+      "GRID Database Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#why-shale-network",
+    "href": "about/overview.html#why-shale-network",
+    "title": "GRID Database Overview",
+    "section": "",
+    "text": "The Shale Network project (“Shale Network”) revolves around a relational database containing water resource information from energy production regions. However, the Shale Network is much more than just a database—it is an integrated system comprising a database, a software ecosystem, and a thriving community.",
+    "crumbs": [
+      "GRID Database Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#our-mission",
+    "href": "about/overview.html#our-mission",
+    "title": "GRID Database Overview",
+    "section": "Our Mission",
+    "text": "Our Mission\nOur mission is to:\n\nIdentify groups that are collecting water data in the region of hydrocarbon extraction from shales and other target formations and create a sustainable network among these groups by arranging and helping to organize their data and generate opportunities to discuss and analyze the data\nWork with the Consortium of Universities for the Advancement of Hydrologic Sciences, Inc. (CUAHSI) to organize a water database that can be used to establish background concentrations and to assess impacts across hydrocarbon extraction regions\nTrain students in database development and use for betterment of communities impacted by hydrocarbon extraction\nFacilitate community groups in organizing, collecting, and interpreting water data\nEvaluate hydrogeochemical data using geographic information systems (GIS) that incorporate population and economic data in order to evaluate the potential for public health risk factors",
+    "crumbs": [
+      "GRID Database Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#our-vision",
+    "href": "about/overview.html#our-vision",
+    "title": "GRID Database Overview",
+    "section": "Our Vision",
+    "text": "Our Vision\nThe Shale Network will create a central and accessible repository for geochemistry and hydrology data collected by watershed groups, government agencies, industry stakeholders, and universities working together to document the natural variability and potential environmental impacts of hydrocarbon extraction activities.",
+    "crumbs": [
+      "GRID Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/data-access.html",
+    "href": "database/data-access.html",
+    "title": "Data Access",
+    "section": "",
+    "text": "This is a partial list of analytes that are included in ShaleNetwork Database. Not all sites provide data for all analytes.\nCommon water quality measurements:\n\npH\nNa\nK\nMg\nCa\nSulfate\nChloride\nBromide\nNH4\nNitrate\nNitrite\nTotal N\nAcidity\nAlkalinity\nBOD\nCOD\nHardness\nTDS\n\nSpecific conductance, TSS Trace elements:\n\nAl\nAs\nBa\nBe\nB\nCd\nCr\nCo\nCu\nFe\nPb\nLi\nMg\nMn\nHg\nMo\nNi\nPb\nSe\nAg\nSr\nTh\nU\nZn\n\nNaturally occurring radioactive material measurements:\n\nGross alpha\nGross beta\nRa-226\nRa-228\n\nOrganic constituents:\n\nAcetophenone\nBenzene\nBis(2-ethylhexyl) phthalate\nEthylbenzene\nEthylene glycol\nMethanol\nMethylene blue active substances\nNapthalene\nOil and grease\nPhenolics\nToluene\nXylenes",
+    "crumbs": [
+      "Data Access"
+    ]
+  },
+  {
+    "objectID": "database/data-access.html#example-analytes",
+    "href": "database/data-access.html#example-analytes",
+    "title": "Data Access",
+    "section": "",
+    "text": "This is a partial list of analytes that are included in ShaleNetwork Database. Not all sites provide data for all analytes.\nCommon water quality measurements:\n\npH\nNa\nK\nMg\nCa\nSulfate\nChloride\nBromide\nNH4\nNitrate\nNitrite\nTotal N\nAcidity\nAlkalinity\nBOD\nCOD\nHardness\nTDS\n\nSpecific conductance, TSS Trace elements:\n\nAl\nAs\nBa\nBe\nB\nCd\nCr\nCo\nCu\nFe\nPb\nLi\nMg\nMn\nHg\nMo\nNi\nPb\nSe\nAg\nSr\nTh\nU\nZn\n\nNaturally occurring radioactive material measurements:\n\nGross alpha\nGross beta\nRa-226\nRa-228\n\nOrganic constituents:\n\nAcetophenone\nBenzene\nBis(2-ethylhexyl) phthalate\nEthylbenzene\nEthylene glycol\nMethanol\nMethylene blue active substances\nNapthalene\nOil and grease\nPhenolics\nToluene\nXylenes",
+    "crumbs": [
+      "Data Access"
+    ]
+  },
+  {
+    "objectID": "database/data-access.html#data-access",
+    "href": "database/data-access.html#data-access",
+    "title": "Data Access",
+    "section": "Data Access",
+    "text": "Data Access\nThere are multiple ways to access the data included in the Shale Network Database:\n\nCUAHSI HydroClient website: https://data.cuahsi.org/\nIndividual datasets are published and interpreted in peer-reviewed articles. These datasets can be accessed via the data DOI that is included in the corresponding article. These datasets are all hosted on the Penn State DataCommons and/or CUAHSI HydroShare.\nFollowing each major data upload, the Shale Network team will harvest the entire database and publish a snapshot on CUAHSI HydroShare. To request access, you may email Dr. Tao Wen.",
+    "crumbs": [
+      "Data Access"
+    ]
+  },
+  {
+    "objectID": "database/data-overview.html",
+    "href": "database/data-overview.html",
+    "title": "Database Overview",
+    "section": "",
+    "text": "Shale Network publishes data online from all sources with quality assurance and quality control. For example, since 2010, a booming interest has developed among watershed associations to collect stream data in the region of Marcellus Shale development. Toward that end, two members of the ShaleNetwork steering committee, Candie Wilderman and Julie Vastine (ALLARM, Dickinson College), have been working to develop a volunteer-based Marcellus Monitoring protocol. Over 700 volunteers across the Shale region are collecting data and these data are published online as part of the Shale Network database, accessible through HydroDesktop. Shale Network also publishes data online from county, state, and federal agencies, and from members of colleges, universities, nonprofit groups, and private companies including members of the gas industry. We focus on finding, organizing, utilizing, and interpreting the data. The ShaleNetwork database will be housed permanently online for quality and quantity of waters in the northeastern gas production region. The team anticipates this database will pull together the network of research and citizen scientists and allow better understanding of water issues – the team “makes knowledge from the numbers”.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/data-overview.html#making-knowledge-from-numbers",
+    "href": "database/data-overview.html#making-knowledge-from-numbers",
+    "title": "Database Overview",
+    "section": "",
+    "text": "Shale Network publishes data online from all sources with quality assurance and quality control. For example, since 2010, a booming interest has developed among watershed associations to collect stream data in the region of Marcellus Shale development. Toward that end, two members of the ShaleNetwork steering committee, Candie Wilderman and Julie Vastine (ALLARM, Dickinson College), have been working to develop a volunteer-based Marcellus Monitoring protocol. Over 700 volunteers across the Shale region are collecting data and these data are published online as part of the Shale Network database, accessible through HydroDesktop. Shale Network also publishes data online from county, state, and federal agencies, and from members of colleges, universities, nonprofit groups, and private companies including members of the gas industry. We focus on finding, organizing, utilizing, and interpreting the data. The ShaleNetwork database will be housed permanently online for quality and quantity of waters in the northeastern gas production region. The team anticipates this database will pull together the network of research and citizen scientists and allow better understanding of water issues – the team “makes knowledge from the numbers”.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/data-overview.html#shale-network-data-focus",
+    "href": "database/data-overview.html#shale-network-data-focus",
+    "title": "Database Overview",
+    "section": "Shale Network Data Focus",
+    "text": "Shale Network Data Focus\nThe database contains surface water, groundwater, formation water, flowback water, and production water from hydrocarbon extraction regions. Such data will enable investigations into the interplay between water and energy.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/data-overview.html#quality-assurance-and-quality-control",
+    "href": "database/data-overview.html#quality-assurance-and-quality-control",
+    "title": "Database Overview",
+    "section": "Quality Assurance and Quality Control",
+    "text": "Quality Assurance and Quality Control\nWe accept project data from associations, groups, or agencies in all formats. Data that will be input into the Shale Network database will generally be stored first as Excel files. We assemble these files for data entry into the CUAHSI Hydrologic Information System (HIS) for permanent publication online and for access through HydroClient and HydroShare.\nThe Shale Network database team will accept data and organize it and place it online so that citizens and researchers can understand whether development of shale gas is affecting water quality and quantity. The data are housed in a permanent database that is funded for permanent access online by the National Science Foundation. Data in Shale Network can be accessed along with all other data published online, including data from EPA, USGS, and academic researchers. Assessment of the quality of data is very difficult, regardless of whether data is collected by scientists or volunteers. Our overall philosophy will be to accept data and place it online for the community of citizens and researchers to evaluate, as long as the data provider has some level of quality assurance and control. Levels of data quality will be indicated within the database as a metadata field. All data in the database will not have the same data quality. However, finding data will be much easier: the researcher can then spend resources assessing data quality rather than finding data.\nQuality assurance refers to measures taken to ensure data meets data quality standards; quality control means the actions implemented to achieve quality. Data quality objectives include that the data must be credible and of sufficient value for timely response to problems. We accept data from volunteers who have received training from service providers in the state of PA such as ALLARM. This training generally consists of close examination of the monitoring manuals, laboratory training on equipment, and field training including chemical monitoring, flow measurement, and visual assessment. Meters for measurement of conductivity are calibrated with standard solutions before each use and are stored according to manufacturer specifications between use. Volunteers generally work with ALLARM to pass a split sample quality control test annually. Specifically, monitors generally use meters to test waters and then collect an extra set of water samples to send to the ALLARM lab. At the lab, the water is tested using the monitors’ equipment as well as laboratory equipment and results are compared to volunteer data. If precision is acceptable, volunteers have passed quality control and can continue monitoring to provide data. If precision is not acceptable (outside limits), ALLARM re-trains volunteers. All methods are documented. ALLARM is responsible for QC/QA with volunteer groups as appropriate. Some ALLARM groups collect samples and send them to commercial laboratories as well.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/data-overview.html#shale-network-database-technologies",
+    "href": "database/data-overview.html#shale-network-database-technologies",
+    "title": "Database Overview",
+    "section": "Shale Network Database Technologies",
+    "text": "Shale Network Database Technologies\nThe Shale Network database is growing to include data from published and unpublished sources, from citizen scientists, from county, state, and federal agencies, from industry, and from researchers. Metadata within the database indicate the source of the data. At this time, the source information does not show when data are downloaded with HydroDesktop but the information can be found on the ShaleNetwork.org website. The database will remain easily accessible through CUAHSI’s Hydrodesktop even after NSF funding for Shale Network runs out. Hydrodesktop accesses many databases other than the ShaleNetwork, and many of these databases will also have utility for understanding water quality and quantity issues with respect to the Devonian shale gas plays. The ShaleNetwork team is working with other entities such as the Susquehanna River Basin Commission to help provide their data appropriately, either within the ShaleNetwork database or at least accessible by HydroDesktop.\nThe database standard used by the Shale Network database is evoling from the Observations Data Model (ODM) (Horsburgh et al., 2008) to ODM2. We are also following the CUAHSI-HIS data and metadata standards available in the same reference. For GIS coverages and spatial data, we are following the Federal Geographic Data Commission’s (FGDC) US Federal Metadata standard, the Content Standard for Digital Geospatial Metadata (CSDGM),Ver.2.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/data-overview.html#publishing-and-accessing-data-with-cuahsi-his",
+    "href": "database/data-overview.html#publishing-and-accessing-data-with-cuahsi-his",
+    "title": "Database Overview",
+    "section": "Publishing and Accessing Data with CUAHSI HIS",
+    "text": "Publishing and Accessing Data with CUAHSI HIS\nThe CUAHSI HIS (Hydrologic Information System) is designed to manage and to publish data collected at fixed points, such as wells and surface water sampling stations. We are using this service because we have data from various sources that we want to make accessible online – this is called publishing the data – in a standard way so that everyone can access and use it. CUAHSI hosts a HydroServer and uses it to host the Shale Network database. CUAHSI already interacts heavily with the USGS, and USGS data are already a part of the CUAHSI HIS, or can be “ingested” easily. CUAHSI has also worked with EPA so that EPA data are available using HydroClient, and has worked with several state agencies around the country to format the state data into the HIS. Agencies that are interested in having their data available in HydroClient are encouraged to contact CUAHSI directly or discuss the issue with members of Shale Network.\nA Hydroserver is essentially a Windows XP computer running HIS software designed for data publication. Because it does not require a commercial license we are using HydroServer Lite. HydroLite uses the Observations Data Model for data storage and a WaterOneFlow web service for data publication.\nFor some datasets that we are given from data providers, we use the application ODM Data Loader (ODMDL) to load data files into an ODM database. This method is appropriate for data that are the result of a project or study that has been completed and will not need periodic updating. For data that are being continuously updated (i.e., data streaming from sensors in the field) we use the ODM Streaming Data Loader (also free software). The concept behind ODMDL is that it accepts input data in table format (Excel, CSV, or tab- separated), and it is designed to enable the loading of data into ODM tables either one at a time or as bulk data loading from a single file into multiple tables all at once. Once data are loaded into an ODM database, we can look at the data using the application ODM Tools. ODM Tools provide query and visualization capabilities. If the data look good, we can then publish the data with a WaterOne Flow web service. This service essentially hooks directly into an ODM database to publish data from that database. When data are published this way, it results in a standard output format called WaterML.\nThe next step after publishing is to register our WaterOneFlow web service. Registering is necessary in order for people to access our data (data discovery). To do this, HIS Central is a website maintained by the CUAHSI HIS team where we register our WaterOneFlow web service. Our service will then be discoverable along with dozens of other web services registered with the system (including services for the USGS NWIS and the EPA STORET datasets). HIS Central is the largest single catalog of the nation’s water data. HIS Central includes the free and open source desktop application, Hydrodesktop. Hydrodesktop allows users to search for data across all registered data sources at once.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/highlights/usgs-226-stream-2023.html",
+    "href": "database/highlights/usgs-226-stream-2023.html",
+    "title": "Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites",
+    "section": "",
+    "text": "This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water quality data from 226 USGS river monitoring sites across the U.S. Click this link to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this data DOI."
+  },
+  {
+    "objectID": "education/env-methane.html",
+    "href": "education/env-methane.html",
+    "title": "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania",
+    "section": "",
+    "text": "This course, Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania, is to guide students through the initial stages of a hypothetical water supply complaint investigation for 3 scenarios where methane has been detected in surface water in PA. This activity uses data accessible through the CUAHSI database (Shale Network (2015)) at three stream locations, and introduces three different potential sources of the observed in-stream methane. The data were collected by personnel from Penn State, the U.S. Geological Survey, and volunteers. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, students will first investigate a low methane concentration measured in Southwest PA in Washington County. Students will find the analyses for samples in this area in HydroClient, then you will look up nearby well locations and records using the PA Oil and Gas Mapping Tool and the Exploration and Development Web Information Network (EDWIN), respectively, to begin to assess whether any of the streams may be contaminated by gas or oil wells. Students will also learn something about possible methane sources.\n\n\n\nThis image was created with the assistance of DALL·E"
+  },
+  {
+    "objectID": "education/env-methane.html#course-description",
+    "href": "education/env-methane.html#course-description",
+    "title": "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania",
+    "section": "",
+    "text": "This course, Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania, is to guide students through the initial stages of a hypothetical water supply complaint investigation for 3 scenarios where methane has been detected in surface water in PA. This activity uses data accessible through the CUAHSI database (Shale Network (2015)) at three stream locations, and introduces three different potential sources of the observed in-stream methane. The data were collected by personnel from Penn State, the U.S. Geological Survey, and volunteers. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, students will first investigate a low methane concentration measured in Southwest PA in Washington County. Students will find the analyses for samples in this area in HydroClient, then you will look up nearby well locations and records using the PA Oil and Gas Mapping Tool and the Exploration and Development Web Information Network (EDWIN), respectively, to begin to assess whether any of the streams may be contaminated by gas or oil wells. Students will also learn something about possible methane sources.\n\n\n\nThis image was created with the assistance of DALL·E"
+  },
+  {
+    "objectID": "education/env-methane.html#when-is-this-taught",
+    "href": "education/env-methane.html#when-is-this-taught",
+    "title": "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania",
+    "section": "When is this taught?",
+    "text": "When is this taught?\nThis course is completely online and self-paced. You can take the course on the SERC platform anytime you want."
+  },
+  {
+    "objectID": "education/index.html",
+    "href": "education/index.html",
+    "title": "Education",
+    "section": "",
+    "text": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development\n\n\n\nSERC\n\n\nEarth and Environmental Sciences\n\n\nCUAHSI\n\n\n\nan online course on investigating environmental impact of oil and gas production on water quality\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania\n\n\n\nSERC\n\n\nEarth and Environmental Sciences\n\n\nCUAHSI\n\n\n\nan online course on investigating methane content in Pennsylvanian streams\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science in Earth and Environmental Sciences\n\n\n\nHydroLearn\n\n\nR\n\n\nPython\n\n\nEarth and Environmental Sciences\n\n\nData Sciences\n\n\nCUAHSI\n\n\n\nan online course on introducing data sciences in earth and environmental sciences\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "News & Events",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Machine Learning Approach to Freshwater Analysis\n\n\n\n\n\n\nNews\n\n\nPublication\n\n\nResearch Updates\n\n\n\n\n\n\nJun 6, 2023\n\n\n5 min\n\n\n905 words\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Global RIver-lanD (GRID) Database",
+    "section": "",
+    "text": "Sites\nData Values\nData Providers\n\n\n62,025\n2,109,467\n515\n\n\n\nAs of 12/10/2024"
+  },
+  {
+    "objectID": "index.html#status-of-the-global-river-land-grid-database",
+    "href": "index.html#status-of-the-global-river-land-grid-database",
+    "title": "Global RIver-lanD (GRID) Database",
+    "section": "",
+    "text": "Sites\nData Values\nData Providers\n\n\n62,025\n2,109,467\n515\n\n\n\nAs of 12/10/2024"
+  },
+  {
+    "objectID": "index.html#news-events",
+    "href": "index.html#news-events",
+    "title": "Global RIver-lanD (GRID) Database",
+    "section": "News & Events",
+    "text": "News & Events\n\n\n\n\n\n\n\n\n\n\nA Machine Learning Approach to Freshwater Analysis\n\n\n\n\n\n\n\n\n\nJun 6, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#dataset-highlights",
+    "href": "index.html#dataset-highlights",
+    "title": "Global RIver-lanD (GRID) Database",
+    "section": "Dataset Highlights",
+    "text": "Dataset Highlights\n\n\n\n\n\n\n\n\n\n\nLong-Term Stream Water Analyses from 226 USGS River Monitoring Sites\n\n\na compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites\n\n\n\n\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  }
+]

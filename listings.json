@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/database/data-highlights.html",
+    "items": [
+      "/database/highlights/usgs-226-stream-2023.html"
+    ]
+  },
+  {
+    "listing": "/education/index.html",
+    "items": [
+      "/education/env-brine.html",
+      "/education/env-methane.html",
+      "/education/hydrolearn-ds-ees.html"
+    ]
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
+      "/database/highlights/usgs-226-stream-2023.html"
+    ]
+  }
+]
