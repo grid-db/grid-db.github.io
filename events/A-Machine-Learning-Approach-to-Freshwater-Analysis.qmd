@@ -1,0 +1,44 @@
+---
+title: "A Machine Learning Approach to Freshwater Analysis"
+date: "June 6, 2023"
+image: A-Machine-Learning-Approach-to-Freshwater-Analysis/image.jpg
+categories: [News, Publication, Research Updates]
+authors: 
+  - name: Dan Bernardi
+---
+
+![](A-Machine-Learning-Approach-to-Freshwater-Analysis/image.jpg)
+
+From protecting biodiversity to ensuring the safety of drinking water, the biochemical makeup of rivers and streams around the United States is critical for human and environmental welfare. Studies have found that human activity and urbanization are driving salinization (increased salt content) of freshwater sources across the country. In excess, salinity can make water undrinkable, increase the cost of treating water, and harm freshwater fish and wildlife.
+
+Along with the rise in salinity has also been an increase in alkalinity over time, and past research suggests that salinization may enhance alkalinization. But unlike excess salinity, alkalinization can have a positive impact on the environment due to its ability to neutralize water acidity and absorb carbon dioxide in the Earth’s atmosphere—a key component to combating climate change. Understanding the processes at play that affect salinity and alkalinity have important environmental and health implications.
+
+A team of researchers from Syracuse University and Texas A&M University have applied a machine learning model to explore where and to what extent human activities are contributing to the hydrogeochemical changes, such as increases in salinity and alkalinity in U.S. rivers.
+
+The group used data from 226 river monitoring sites across the U.S. and built two machine-learning models to predict monthly salinity and alkalinity levels at each site. These sites were selected because long-term continuous water quality measurements have been recorded for at least 30 years.
+
+From urban to rural settings, the model explored a diverse range of watersheds, which are areas where all flowing surface water converges to a single point, such as a river or lake. It evaluated 32 watershed factors ranging from hydrology, climate, geology, soil chemistry, land use and land cover to pinpoint the factors contributing to rising salinity and alkalinity. The team’s models determined human activities as major contributors to the salinity of U.S. rivers, while rising alkalinity was mainly attributed more to natural processes than human activities.
+
+The team, which included Syracuse University researchers Tao Wen, assistant professor in the College of Arts and Sciences’ Department of Earth and Environmental Sciences (EES), Beibei E, a graduate student in EES, Charles T. Driscoll, University Professor of Environmental Systems and Distinguished Professor in the College of Engineering and Computer Science, and Texas A&M assistant professor Shuang Zhang, recently had their findings published in the journal Science of the Total Environment.
+
+### What’s Driving Salinization and Alkalinization?
+
+The results from the group’s sodium prediction model, which detected human activities such as the application of road salt as major contributions to the salinity of U.S. rivers, were consistent with previous studies. This model specifically revealed population density and impervious surface percentage (artificial surfaces such as roads) as the two most important contributors to higher salt content in U.S. rivers.
+
+According to Wen, the accuracy of the salinity model provided an important proof of concept for the research team.
+
+“In regard to causes of salinity in rivers, the results from our machine learning model matched those of previous studies which focused on field observation, lab work and statistical analysis,” says Wen. “This proved that our approach was working.”
+
+With the salinity results confirming the accuracy of the team’s model, they then turned their attention to alkalinity. Their model identified natural processes as predominantly contributing to variation in river alkalinity, a contrast to previous research that identified human activities as the main contributor to alkalinization (Kaushal et al., 2018). They found that local climatic and hydrogeological conditions including runoff, sediment, soil pH and moisture, were features most affecting river alkalinity.
+
+### Critical to the Carbon Cycle
+
+Their findings have important environmental and climate implications as alkalinity in rivers forms a vital link in the carbon cycle. Consider the movement of carbon during a rainstorm. When it rains, carbon dioxide from the atmosphere combines with water to form carbonic acid. When the carbonic acid reaches the ground and comes into contact with certain rocks, it triggers a chemical reaction that extracts gaseous carbon dioxide from the atmosphere and transports it to the ocean via land water systems like lakes and rivers.
+
+Known as rock weathering, this natural process continuously erodes away rocks and sequesters atmospheric CO2 over millions of years. It is also a key regulator of greenhouse gases that contribute to global warming.
+
+“Rock weathering is the primary source of alkalinity in natural waters and is one of the main ways to bring down carbon dioxide in air,” says Wen. Think of it as a feedback loop: when there is too much carbon dioxide in the atmosphere, temperatures increase leading to enhanced rock weathering. With more rock being dissolved into watersheds due to enhanced rock weathering, alkalinity rises and in turn, brings down carbon dioxide.
+
+“Alkalinity is a critical component of the carbon cycle,” says Wen. “While we found that natural processes are the primary drivers of alkalinization, these natural factors can still be changed by humans. We can alter the alkalinity level in rivers by changing the natural parameters, so we need to invest more to restore the natural conditions of watersheds and tackle global warming and climate changes to deal with alkalinization in U.S. rivers.”
+
+The results from the team’s study can help inform future research about enhanced rock weathering efforts—where rocks are ground up and spread across fields. By distributing rock dust across large areas, it increases the amount of contact between rain and rock, which enhances carbon removal from the atmosphere. Wen says the team’s model can help answer questions about the evolution of natural conditions in different regions—an important step needed to implement enhanced rock weathering more effectively.

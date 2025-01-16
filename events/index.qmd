@@ -1,0 +1,19 @@
+---
+title: "News & Events"
+subtitle: "Latest news and events from the GRID DB community"
+listing: 
+  sort: "date desc"
+  type: default
+  categories: numbered
+  max-description-length: 175
+  image-placeholder: /assets/artworks/grid-db-logo.png
+  image-height: 200px
+  sort-ui: true
+  filter-ui: true
+  fields: [image, title, author, categories, date, word-count, reading-time]
+  page-size: 5
+  feed: true
+page-layout: full
+title-block-banner: true
+sidebar: false
+---

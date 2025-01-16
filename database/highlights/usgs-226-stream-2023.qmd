@@ -1,0 +1,19 @@
+---
+title: "Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites"
+description: |
+  a compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites
+date: "May 15, 2023"
+categories: [River, Hydrogeochemistry, Surface Water, U.S.]
+image: usgs-226-stream-2023.png
+page-layout: full
+toc: true
+freeze: auto
+title-block-banner: true
+sidebar: false
+---
+
+![](usgs-226-stream-2023.png)
+
+
+This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water quality data from 226 USGS river monitoring sites across the U.S. [Click this link](https://doi.org/10.1016/j.scitotenv.2023.164138){target="_blank"} to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this [data DOI](https://doi.org/10.5281/zenodo.7937820){target="_blank"}.
+

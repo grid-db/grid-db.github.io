@@ -1,0 +1,67 @@
+---
+title: "Meet the Community"
+subtitle: "Shale Network is a global collaboration involving a consortium of Energy-Water researchers and institutions."
+html-table-processing: none
+page-layout: full
+sidebar: false
+---
+
+## Management Team
+```{=html}
+<table border="0" cellpadding=10px cellspacing="0">
+  <tr valign="top">
+    <td style="width:300px"><a href="url"><img src="portraits/Tao_Wen.jpg" align="left" height="150px" width="150px"></a>
+    </td>
+    <td style="width:300px"><a href="url"><img src="portraits/Shuang_Zhang.jpg" align="left" height="150px" width="150px"></a>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <strong>
+        <a href="http://jaywen.com" target="_blank" rel="noopener noreferrer">Tao Wen</a><BR>
+        Syracuse University<BR>
+      </strong>
+    </td>
+    <td>
+      <strong>
+        <a href="https://artsci.tamu.edu/oceanography/contact/profiles/shuang-zhang.html" target="_blank" rel="noopener noreferrer">Shuang Zhang</a><BR>
+        Texas A&M University<BR>
+      </strong>
+    </td>
+  </tr>
+</table>
+```
+
+## Working Group Members
+```{=html}
+<table border="0" cellpadding=10px cellspacing="0">
+  <tr valign="top">
+    <td style="width:300px"><a href="url"><img src="portraits/Ruta_Basijokaite.jpg" align="left" height="150px" width="150px"></a>
+    </td>
+    <td style="width:300px"><a href="url"><img src="portraits/Liyang_Qin.jpg" align="left" height="150px" width="150px"></a>
+    </td>
+    <td style="width:300px"><a href="url"><img src="portraits/Zanchenling_Wang.jpg" align="left" height="150px" width="150px"></a>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <strong>
+        Ruta Basijokaite<BR>
+        Syracuse University<BR>
+      </strong>
+    </td>
+    <td>
+      <strong>
+        Liyang Qin<BR>
+        Syracuse University<BR>
+      </strong>
+    </td>
+    <td>
+      <strong>
+        Zanchenling Wang<BR>
+        Syracuse University<BR>
+      </strong>
+    </td>
+  </tr>
+</table>
+```

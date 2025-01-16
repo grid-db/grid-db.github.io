@@ -1,0 +1,92 @@
+---
+title: "Global RIver-lanD (GRID) Database"
+subtitle: "A Network of Earth Surface Processes Researchers"
+page-layout: full
+sidebar: false
+toc: false
+title-block-banner: true
+
+listing:
+  - id: events
+    contents: 
+    - "/events/*.qmd"
+    - "!events/index.qmd"
+    sort: "date desc"
+    type: grid
+    grid-item-border: true
+    grid-item-align: left
+    max-description-length: 175
+    date-format: medium
+    categories: false
+    image-placeholder: /assets/artworks/grid-db-logo.png
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    max-items: 3
+    feed: false
+
+  - id: data-highlights
+    contents: 
+    - "database/highlights/*.qmd"
+    sort: "date desc"
+    type: grid
+    grid-item-border: true
+    grid-item-align: left
+    max-description-length: 175
+    date-format: medium
+    categories: false
+    image-placeholder: /assets/artworks/grid-db-logo.png
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    max-items: 3
+    feed: false
+
+---
+
+## [Status of the Global RIver-lanD (GRID) Database](database/data-overview.qmd){target=_blank}
+```{=html}
+<table cellpadding=10px cellspacing="0">
+  <tr valign="center" style="font-size:24px; font-weight:bold">
+    <td style="width:200px">
+      Sites
+    </td>
+    <td style="width:200px">
+      Data Values
+    </td>
+    <td style="width:200px">
+      Data Providers
+    </td>
+  </tr>
+  <tr valign="center" style="font-size:24px; font-weight:bold">
+    <td style="width:200px">
+      62,025
+    </td>
+    <td style="width:200px">
+      2,109,467
+    </td>
+    <td style="width:200px">
+      515
+    </td>
+  </tr>
+  <tr valign="center" style="font-weight:bold">
+    <td style="width:200px">
+    </td>
+    <td style="width:200px">
+      As of 12/10/2024
+    </td>
+    <td style="width:200px">
+    </td>
+  </tr>
+</table>
+```
+
+## [News & Events](events/index.qmd)
+
+::: {#events}
+:::
+
+## [Dataset Highlights](database/data-highlights.qmd)
+
+::: {#data-highlights}
+:::

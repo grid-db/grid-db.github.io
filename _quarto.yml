@@ -1,0 +1,94 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+  render: 
+    - "*.qmd"
+    - "*.ipynb"
+    - "!_template.qmd"
+    - "!_template.ipynb"
+
+execute: 
+  freeze: auto
+
+editor:
+  render-on-save: true
+
+website:
+  title: "Global RIver-lanD (GRID) Database"
+  page-navigation: false
+  site-url: "https://grid-db.github.io"
+  repo-url: "https://github.com/grid-db/grid-db.github.io"
+  favicon: "assets/artworks/grid-db-logo.png"
+  twitter-card: true
+  search: 
+    location: navbar
+    type: overlay
+
+  # Add tracking id to track website traffic via umami
+  #body-header: |
+  #  <script defer src="https://cloud.umami.is/script.js" data-website-id="2d3e7ce9-8540-4a5f-9325-53a4ed774bed"></script>
+
+  navbar:
+    search: true
+    title: false
+    logo: "assets/artworks/grid-db-logo.png"
+    logo-alt: "Global RIver-lanD (GRID) Database"
+    right:
+      - href: index.qmd
+        text: Home
+      - sidebar:about
+      - href: get-involved.qmd
+        text: Get Involved
+      - sidebar:data
+      - href: education/index.qmd
+        text: Education
+      - href: events/index.qmd
+        text: News & Events
+      - href: people/people.qmd
+        text: People
+
+  sidebar: 
+    - id: about
+      title: About
+      style: docked
+      collapse-level: 2
+      contents:
+        - about/overview.qmd
+        - about/history.qmd
+
+    - id: data
+      title: Data
+      style: docked
+      collapse-level: 2
+      contents: 
+        - database/data-overview.qmd
+        - database/data-access.qmd
+        - database/contribute-data.qmd
+        - database/data-use-and-embargo-policy.qmd
+        - database/data-highlights.qmd
+
+  page-footer: 
+    center: © 2025  &middot; Built with {{< fa heart title="a heart" >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/){target=_blank}
+    right:
+      - icon: github
+        href: https://github.com/grid-db/grid-db.github.io
+        target: _blank
+
+
+format:
+  html:
+    theme: 
+      light: [simplex, assets/sass/theme-light-custom.scss]
+      dark: [simplex, assets/sass/theme-dark-custom.scss]
+    toc: true
+    toc-expand: 1
+    link-external-newwindow: true
+    smooth-scroll: true
+    title-block-banner: true
+    code-line-numbers: true
+    css: assets/css/styles.css
+
+
+
