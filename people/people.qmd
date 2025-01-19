@@ -6,16 +6,26 @@ page-layout: full
 sidebar: false
 ---
 
+The Global RIver-lanD (GRID) Database began as a collaborative project between researchers at Syracuse University, Texas A&M University, and Yale University. The team has continued to grow, now including members from diverse institutions and countries.
+
 ## Management Team
 ```{=html}
 <table border="0" cellpadding=10px cellspacing="0">
   <tr valign="top">
+    <td style="width:300px"><a href="url"><img src="portraits/Giuseppe_Amatulli.jpeg" align="left" height="150px" width="150px"></a>
+    </td>
     <td style="width:300px"><a href="url"><img src="portraits/Tao_Wen.jpg" align="left" height="150px" width="150px"></a>
     </td>
     <td style="width:300px"><a href="url"><img src="portraits/Shuang_Zhang.jpg" align="left" height="150px" width="150px"></a>
     </td>
   </tr>
   <tr valign="top">
+    <td>
+      <strong>
+        <a href="https://environment.yale.edu/directory/faculty/giuseppe-amatulli" target="_blank" rel="noopener noreferrer">Giuseppe Amatulli</a><BR>
+        Yale University<BR>
+      </strong>
+    </td>
     <td>
       <strong>
         <a href="http://jaywen.com" target="_blank" rel="noopener noreferrer">Tao Wen</a><BR>
@@ -40,7 +50,7 @@ sidebar: false
     </td>
     <td style="width:300px"><a href="url"><img src="portraits/Liyang_Qin.jpg" align="left" height="150px" width="150px"></a>
     </td>
-    <td style="width:300px"><a href="url"><img src="portraits/Zanchenling_Wang.jpg" align="left" height="150px" width="150px"></a>
+    <td style="width:300px"><a href="url"><img src="portraits/Cynthia_Sun.jpg" align="left" height="150px" width="150px"></a>
     </td>
   </tr>
   <tr valign="top">
@@ -56,6 +66,18 @@ sidebar: false
         Syracuse University<BR>
       </strong>
     </td>
+    <td>
+      <strong>
+        Cynthia Sun<BR>
+        Texas A&M University<BR>
+      </strong>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td style="width:300px"><a href="url"><img src="portraits/Zanchenling_Wang.jpg" align="left" height="150px" width="150px"></a>
+    </td>
+  </tr>
+  <tr valign="top">
     <td>
       <strong>
         Zanchenling Wang<BR>

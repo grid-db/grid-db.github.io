@@ -52,28 +52,28 @@ listing:
       Sites
     </td>
     <td style="width:200px">
-      Data Values
+      Watershed Properties
     </td>
     <td style="width:200px">
-      Data Providers
+      Data Sources
     </td>
   </tr>
   <tr valign="center" style="font-size:24px; font-weight:bold">
     <td style="width:200px">
-      62,025
+      To be updated
     </td>
     <td style="width:200px">
-      2,109,467
+      To be updated
     </td>
     <td style="width:200px">
-      515
+      To be updated
     </td>
   </tr>
   <tr valign="center" style="font-weight:bold">
     <td style="width:200px">
     </td>
     <td style="width:200px">
-      As of 12/10/2024
+      As of 01/01/2025
     </td>
     <td style="width:200px">
     </td>

@@ -6,84 +6,46 @@ toc: false
 title-block-banner: true
 ---
 
-## Example Analytes
+## Example Watershed Attributes
 
-This is a **_partial list_** of analytes that are included in ShaleNetwork Database. Not all sites provide data for all analytes.
+This is a **_partial list_** of watershed attributes that are included in Global RIver-lanD (GRID) Database.
 
-**Common water quality measurements:**
+| **Feature name**        | **Unit**                        | **Category**   |
+| ----------------------- | ------------------------------- | -------------- |
+| Runoff                  | mm per month                    | hydrology      |
+| Soil moisture           | m<sup>3</sup> per m<sup>3</sup> | hydrology      |
+| Temperature             | Celsius                         | climate        |
+| Precipitation           | mm per month                    | climate        |
+| Watershed area          | km<sup>2</sup>                  | geomorphology  |
+| Erosion rate            | mm per year                     | geomorphology  |
+| Elevation               | meter                           | geomorphology  |
+| Slope                   | degree                          | geomorphology  |
+| Aspect                  | degree                          | geomorphology  |
+| Soil organic carbon     | g per kg                        | soil chemistry |
+| Soil pH                 | pH unit                         | soil chemistry |
+| Evaporite               | percentage                      | geology        |
+| Carbonate sediment      | percentage                      | geology        |
+| Siliciclastic sediment  | percentage                      | geology        |
+| Pyroclastic sediment    | percentage                      | geology        |
+| Mixed sediment          | percentage                      | geology        |
+| Unconsolidated sediment | percentage                      | geology        |
+| Igneous basic           | percentage                      | geology        |
+| Igneous intermediate    | percentage                      | geology        |
+| Igneous acid            | percentage                      | geology        |
+| Metamorphic             | percentage                      | geology        |
+| Impervious surface area | percentage                      | land use       |
+| Population density      | \# per km<sup>2</sup>           | land use       |
+| Cultivated vegetation   | percentage                      | land use       |
+| Urban                   | percentage                      | land use       |
+| Trees                   | percentage                      | land cover     |
+| Shrubs                  | percentage                      | land cover     |
+| Herbaceous vegetation   | percentage                      | land cover     |
+| Flooded vegetation      | percentage                      | land cover     |
+| Snow ice                | percentage                      | land cover     |
+| Barren                  | percentage                      | land cover     |
+| Water                   | percentage                      | land cover     |
 
--   pH
--   Na
--   K
--   Mg
--   Ca
--   Sulfate
--   Chloride
--   Bromide
--   NH4
--   Nitrate
--   Nitrite
--   Total N
--   Acidity
--   Alkalinity
--   BOD
--   COD
--   Hardness
--   TDS
-
-**Specific conductance, TSS Trace elements:**
-
--   Al
--   As
--   Ba
--   Be
--   B
--   Cd
--   Cr
--   Co
--   Cu
--   Fe
--   Pb
--   Li
--   Mg
--   Mn
--   Hg
--   Mo
--   Ni
--   Pb
--   Se
--   Ag
--   Sr
--   Th
--   U
--   Zn
-
-**Naturally occurring radioactive material measurements:**
-
--   Gross alpha
--   Gross beta
--   Ra-226
--   Ra-228
-
-**Organic constituents:**
-
--   Acetophenone
--   Benzene
--   Bis(2-ethylhexyl) phthalate
--   Ethylbenzene
--   Ethylene glycol
--   Methanol
--   Methylene blue active substances
--   Napthalene
--   Oil and grease
--   Phenolics
--   Toluene
--   Xylenes
 
 ## Data Access
 
-There are multiple ways to access the data included in the Shale Network Database:
-
--   CUAHSI HydroClient website: [https://data.cuahsi.org/](https://data.cuahsi.org/){target="_blank"}
--   Individual datasets are published and interpreted in peer-reviewed articles. These datasets can be accessed via the data DOI that is included in the corresponding article. These datasets are all hosted on the [Penn State DataCommons](https://www.datacommons.psu.edu/){target="_blank"} and/or [CUAHSI HydroShare](https://www.hydroshare.org/){target="_blank"}.
--   Following each major data upload, the Shale Network team will harvest the entire database and publish a snapshot on CUAHSI HydroShare. To request access, you may email [Dr. Tao Wen](mailto:twen08@syr.edu).
+This section is under construction. Stay tuned. If you would like to submit a database or begin working with us, please consider reaching out to the [Mangement Team](/people/people.qmd)

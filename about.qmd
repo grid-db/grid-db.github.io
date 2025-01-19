@@ -1,0 +1,32 @@
+---
+title: "GRID Database Overview"
+subtitle: "A Network of Earth Surface Processes Researchers"
+page-layout: full
+sidebar: false
+toc: false
+title-block-banner: true
+---
+
+## Why GRID Database
+
+The GRID database is essential for addressing critical challenges in Earth surface research. Rivers are vital for sustaining human society and ecosystems, acting as natural conduits that connect land and oceans. However, accurate and comprehensive data on river discharge, hydrogeochemistry, and watershed properties remain scattered or unavailable globally. This hinders our ability to understand and mitigate issues such as water scarcity, climate change impacts, biodiversity loss, and hydrological extremes. The GRID database will fill this gap by integrating high-resolution, multi-disciplinary data on global rivers and watersheds, enabling scientists and decision-makers to develop effective solutions for water management, disaster mitigation, and environmental preservation.
+
+However, the GRID project is much more than just a database—it is an integrated system comprising a database, a software ecosystem, and a thriving community.
+
+## Our Mission
+
+Our mission is to:
+
+-   **Develop an Integrated Database**: Build the Global RIver-lanD (GRID) database to seamlessly integrate high-resolution data on river discharge, hydrogeochemistry, and watershed properties worldwide.
+-   **Leverage Advanced Technologies**: Utilize state-of-the-art machine learning techniques to provide accurate and comprehensive insights into river systems and Earth surface processes.
+-   **Enhance Accessibility**: Ensure the GRID database is openly accessible through a user-friendly, web-based platform, adhering to open data and open science standards.
+-   **Support Multidisciplinary Research**: Empower researchers across geochemistry, hydrology, climate science, and environmental sciences with a robust, interdisciplinary data resource.
+-   **Address Global Challenges**: Enable data-driven solutions for pressing global issues, including water scarcity, climate resilience, flood risk reduction, and biodiversity conservation.
+-   **Promote Collaboration and Education**: Foster global scientific collaboration and support education initiatives by providing tools, resources, and training for a diverse community of users.
+
+## Our Vision
+
+We envision a world where high-quality, integrated river and watershed data are accessible to everyone, driving transformative solutions to global water and environmental challenges. The GRID database will serve as a cornerstone for interdisciplinary Earth science research, enabling breakthroughs in understanding river systems and their role in the Earth’s biogeochemical cycles. By providing an enduring and openly accessible platform, the GRID project seeks to empower a diverse global community of researchers, educators, and decision-makers in creating a sustainable and resilient future for our planet.
+
+
+

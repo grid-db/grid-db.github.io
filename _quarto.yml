@@ -38,7 +38,8 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - sidebar:about
+      - href: about.qmd
+        text: About  
       - href: get-involved.qmd
         text: Get Involved
       - sidebar:data
@@ -50,14 +51,6 @@ website:
         text: People
 
   sidebar: 
-    - id: about
-      title: About
-      style: docked
-      collapse-level: 2
-      contents:
-        - about/overview.qmd
-        - about/history.qmd
-
     - id: data
       title: Data
       style: docked

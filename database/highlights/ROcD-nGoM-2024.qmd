@@ -1,0 +1,19 @@
+---
+title: "Long-Term River-Ocean Analyses in the Northern Gulf of Mexico"
+description: |
+  a compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico
+date: "November 17, 2023"
+categories: [River, Hydrogeochemistry, Surface Water, Ocean, Gulf of Mexico]
+image: ROcD-nGoM-2024.png
+page-layout: full
+toc: true
+freeze: auto
+title-block-banner: true
+sidebar: false
+---
+
+![](ROcD-nGoM-2024.png)
+
+
+This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water and ocean data in the northern Gulf of Mexico [Click this link](https://doi.org/10.1038/s41597-024-04338-1){target="_blank"} to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this [data DOI](https://doi.org/10.5281/zenodo.10152141){target="_blank"}.
+
