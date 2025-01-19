@@ -27,8 +27,8 @@ website:
     type: overlay
 
   # Add tracking id to track website traffic via umami
-  #body-header: |
-  #  <script defer src="https://cloud.umami.is/script.js" data-website-id="2d3e7ce9-8540-4a5f-9325-53a4ed774bed"></script>
+  body-header: |
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
 
   navbar:
     search: true
