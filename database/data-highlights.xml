@@ -10,7 +10,31 @@
 <atom:link href="https://grid-db.github.io/database/data-highlights.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Mon, 15 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 Nov 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Long-Term River-Ocean Analyses in the Northern Gulf of Mexico</title>
+  <link>https://grid-db.github.io/database/highlights/ROcD-nGoM-2024.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://grid-db.github.io/database/highlights/ROcD-nGoM-2024.png" class="img-fluid"></p>
+<p>This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water and ocean data in the northern Gulf of Mexico <a href="https://doi.org/10.1038/s41597-024-04338-1" target="_blank">Click this link</a> to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this <a href="https://doi.org/10.5281/zenodo.10152141" target="_blank">data DOI</a>.</p>
+
+
+
+ ]]></description>
+  <category>River</category>
+  <category>Hydrogeochemistry</category>
+  <category>Surface Water</category>
+  <category>Ocean</category>
+  <category>Gulf of Mexico</category>
+  <guid>https://grid-db.github.io/database/highlights/ROcD-nGoM-2024.html</guid>
+  <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://grid-db.github.io/database/highlights/ROcD-nGoM-2024.png" medium="image" type="image/png" height="71" width="144"/>
+</item>
 <item>
   <title>Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites</title>
   <link>https://grid-db.github.io/database/highlights/usgs-226-stream-2023.html</link>

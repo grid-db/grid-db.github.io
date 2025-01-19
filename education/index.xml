@@ -10,7 +10,7 @@
 <atom:link href="https://grid-db.github.io/education/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Thu, 16 Jan 2025 21:47:57 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Jan 2025 03:23:59 GMT</lastBuildDate>
 <item>
   <title>Environmental Issues Related to Brine Disposal from Hydrocarbon Development</title>
   <link>https://grid-db.github.io/education/env-brine.html</link>
@@ -47,7 +47,7 @@
   <category>Earth and Environmental Sciences</category>
   <category>CUAHSI</category>
   <guid>https://grid-db.github.io/education/env-brine.html</guid>
-  <pubDate>Thu, 16 Jan 2025 21:47:57 GMT</pubDate>
+  <pubDate>Sun, 19 Jan 2025 03:23:59 GMT</pubDate>
   <media:content url="https://grid-db.github.io/education/water-hydrocarbon.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -81,7 +81,7 @@
   <category>Earth and Environmental Sciences</category>
   <category>CUAHSI</category>
   <guid>https://grid-db.github.io/education/env-methane.html</guid>
-  <pubDate>Thu, 16 Jan 2025 21:47:57 GMT</pubDate>
+  <pubDate>Sun, 19 Jan 2025 03:23:59 GMT</pubDate>
   <media:content url="https://grid-db.github.io/education/stream-methane.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -125,7 +125,7 @@
   <category>Data Sciences</category>
   <category>CUAHSI</category>
   <guid>https://grid-db.github.io/education/hydrolearn-ds-ees.html</guid>
-  <pubDate>Thu, 16 Jan 2025 21:47:57 GMT</pubDate>
+  <pubDate>Sun, 19 Jan 2025 03:23:59 GMT</pubDate>
   <media:content url="https://grid-db.github.io/education/hydrolearn-ds-ees.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 </channel>
