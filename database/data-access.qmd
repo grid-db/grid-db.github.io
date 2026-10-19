@@ -1,4 +1,5 @@
 ---
+description: "Find public GRID data and code releases, persistent identifiers, and release-specific documentation."
 title: "Data Access"
 page-layout: full
 sidebar: false
@@ -6,46 +7,55 @@ toc: false
 title-block-banner: true
 ---
 
-## Example Watershed Attributes
+## Download public releases
 
-This is a **_partial list_** of watershed attributes that are included in Global RIver-lanD (GRID) Database.
+Use the repository record for the version, files, license, and citation associated with each release. The links below provide access to published GRID project outputs.
 
-| **Feature name**        | **Unit**                        | **Category**   |
-| ----------------------- | ------------------------------- | -------------- |
-| Runoff                  | mm per month                    | hydrology      |
-| Soil moisture           | m<sup>3</sup> per m<sup>3</sup> | hydrology      |
-| Temperature             | Celsius                         | climate        |
-| Precipitation           | mm per month                    | climate        |
-| Watershed area          | km<sup>2</sup>                  | geomorphology  |
-| Erosion rate            | mm per year                     | geomorphology  |
-| Elevation               | meter                           | geomorphology  |
-| Slope                   | degree                          | geomorphology  |
-| Aspect                  | degree                          | geomorphology  |
-| Soil organic carbon     | g per kg                        | soil chemistry |
-| Soil pH                 | pH unit                         | soil chemistry |
-| Evaporite               | percentage                      | geology        |
-| Carbonate sediment      | percentage                      | geology        |
-| Siliciclastic sediment  | percentage                      | geology        |
-| Pyroclastic sediment    | percentage                      | geology        |
-| Mixed sediment          | percentage                      | geology        |
-| Unconsolidated sediment | percentage                      | geology        |
-| Igneous basic           | percentage                      | geology        |
-| Igneous intermediate    | percentage                      | geology        |
-| Igneous acid            | percentage                      | geology        |
-| Metamorphic             | percentage                      | geology        |
-| Impervious surface area | percentage                      | land use       |
-| Population density      | \# per km<sup>2</sup>           | land use       |
-| Cultivated vegetation   | percentage                      | land use       |
-| Urban                   | percentage                      | land use       |
-| Trees                   | percentage                      | land cover     |
-| Shrubs                  | percentage                      | land cover     |
-| Herbaceous vegetation   | percentage                      | land cover     |
-| Flooded vegetation      | percentage                      | land cover     |
-| Snow ice                | percentage                      | land cover     |
-| Barren                  | percentage                      | land cover     |
-| Water                   | percentage                      | land cover     |
+| Product | Access | Release date | Download |
+|---|---|---|---|
+| U.S. river salinization and alkalinization: 226 sites | [Data and code on Zenodo](https://doi.org/10.5281/zenodo.7937820) · [Details](highlights/usgs-226-stream-2023.qmd) | May 15, 2023 | ZIP, approximately 56 MB |
+| ROcD-nGoM: northern Gulf of Mexico river–ocean database | [Data on Zenodo](https://doi.org/10.5281/zenodo.10152141) · [Details](highlights/ROcD-nGoM-2024.qmd) | November 17, 2023 | ZIP, approximately 2.3 GB |
+| River weathering data and machine-learning workflows | [Data and code on Zenodo](https://doi.org/10.5281/zenodo.21846324) · [Details](highlights/weathering-ml-2026.qmd) | August 8, 2026 | ZIP, approximately 26.8 MB |
 
+These releases represent selected outputs, not a download of the full GRID inventory. For other holdings or a specific data need, contact the [project team](/people/people.qmd) with the variables, region, time period, and intended use. See [Coverage](coverage.qmd), [Methods](methods.qmd), and [Data Use](data-use-and-embargo-policy.qmd) before combining products.
 
-## Data Access
+## Examples of watershed attributes
 
-This section is under construction. Stay tuned. If you would like to submit a database or begin working with us, please consider reaching out to the [Mangement Team](/people/people.qmd)
+The table illustrates the kinds of environmental attributes relevant to GRID research. It is not a complete dictionary of the **{{< var inventory.watershed-properties >}} watershed properties** in the current inventory or a guarantee of availability at each site. Units and aggregation periods can differ by source and release; use the definitions accompanying your selected dataset.
+
+| Attribute example | Example unit | Category |
+|---|---|---|
+| Runoff | mm per month | Hydrology |
+| Soil moisture | m³ per m³ | Hydrology |
+| Temperature | °C | Climate |
+| Precipitation | mm per month | Climate |
+| Watershed area | km² | Geomorphology |
+| Erosion rate | mm per year | Geomorphology |
+| Elevation | m | Geomorphology |
+| Slope | degrees | Geomorphology |
+| Aspect | degrees | Geomorphology |
+| Soil organic carbon | g per kg | Soil chemistry |
+| Soil pH | pH | Soil chemistry |
+| Evaporite | % | Geology |
+| Carbonate sediment | % | Geology |
+| Siliciclastic sediment | % | Geology |
+| Pyroclastic sediment | % | Geology |
+| Mixed sediment | % | Geology |
+| Unconsolidated sediment | % | Geology |
+| Igneous basic | % | Geology |
+| Igneous intermediate | % | Geology |
+| Igneous acid | % | Geology |
+| Metamorphic | % | Geology |
+| Impervious surface area | % | Land use |
+| Population density | people per km² | Land use |
+| Cultivated vegetation | % | Land use |
+| Urban | % | Land use |
+| Trees | % | Land cover |
+| Shrubs | % | Land cover |
+| Herbaceous vegetation | % | Land cover |
+| Flooded vegetation | % | Land cover |
+| Snow and ice | % | Land cover |
+| Barren | % | Land cover |
+| Water | % | Land cover |
+
+Percentage-based attributes require the source's spatial denominator and class definitions. Soil properties require depth information; climate and hydrology fields require their time period and aggregation method. Lithology labels above retain the example source terminology.

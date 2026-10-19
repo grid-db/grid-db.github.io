@@ -1,9 +1,9 @@
 ---
 title: "Data Science in Earth and Environmental Sciences"
-description: |
-  an online course on introducing data sciences in earth and environmental sciences
-categories: [HydroLearn, R, Python, Earth and Environmental Sciences, Data Sciences, CUAHSI]
+description: "An approximately 30-hour online course introducing R, Python, and environmental data analysis."
+categories: [Course, R, Python, Environmental data science]
 image: hydrolearn-ds-ees.png
+image-alt: "Illustration of a robotic hand and a human hand reaching toward a globe, with network patterns and leaves."
 page-layout: full
 toc: true
 freeze: auto
@@ -11,21 +11,22 @@ title-block-banner: false
 sidebar: false
 ---
 
-## Course description
+## About the course
 
-This course, [Data Science in Earth and Environmental Sciences](https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about){target=_blank}, is designed to introduce learners to the basics of R and Python programming as well as the application of emerging data analytics and machine learning methods in the Earth and Environmental Sciences. This course is offered through the [HydroLearn](https://www.hydrolearn.org){target=_blank} platform, in partnership with [CUAHSI HydroShare](https://www.hydroshare.org){target=_blank}
+Learn introductory R and Python programming through Earth and environmental science applications. The course connects coding practice to data analysis and machine learning, including examples involving wildfire and groundwater quality.
 
-This course is designed to serve a broad mix of learners whose coding expertise ranges from beginner to expert level and whose geoscience-related research interests. At the end of this course, you should be able to describe and implement the steps involved in:
+- **Audience:** Learners with geoscience interests and varied programming experience; the host lists no prerequisites.
+- **Estimated time:** Approximately 30 hours.
+- **Tools:** An internet-connected computer, R/RStudio, Python/Jupyter Notebook, and a CUAHSI HydroShare account.
+- **Course authors listed by the host:** Tao Wen, Christina Bandaragoda, and Lucas Harris.
+- **Host:** HydroLearn.
 
-1. reviewing and modifying others' codes in R and/or Python
-2. writing codes in R and/or Python
-3. developing and implementing a data science workflow for a data-driven project
-4. designing a data science project by conceptualizing a domain science problem
+Activities build toward designing a scientific question, writing and adapting code, and developing a reproducible data-analysis workflow. Consult HydroLearn for course access and enrollment information.
 
-This will be accomplished through activities within each section. Results from each activity will be recorded in specified results templates. The results templates for each activity can be found at the beginning of each activity. The results templates are organized such that results from one activity can easily be used in successive activities.
+[Open the course on HydroLearn](https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about){.btn .btn-primary}
 
-![This image was created with the assistance of DALL·E](hydrolearn-ds-ees.png){width=70%}
+## Citation
 
-## When is this taught?
+The host recommends: Bandaragoda, C., and Wen, T. (2020). *Data Science in Earth and Environmental Sciences*. [HydroLearn](https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about).
 
-This course is completely online and self-paced. You can take the course on the [HydroLearn](https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about){target=_blank} platform anytime you want.
+![Illustration created with the assistance of DALL·E.](hydrolearn-ds-ees.png){fig-alt="Illustration of a robotic hand and a human hand reaching toward a globe, with network patterns and leaves." width=70%}

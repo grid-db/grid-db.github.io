@@ -1,6 +1,7 @@
 ---
-title: "Dataset Highlights"
-subtitle: "We believe in open education and open science" 
+description: "Explore GRID datasets and research outputs with their documented scope, methods, and repository links."
+title: "Data and Code Highlights"
+subtitle: "Released GRID project outputs for reuse and discovery"
 listing:
   contents:
     - highlights/*.qmd
@@ -14,8 +15,11 @@ listing:
   categories: numbered
   sort-ui: false
   filter-ui: false
-  table-hover: true
 page-layout: full
 title-block-banner: true
 sidebar: false
 ---
+
+Explore released datasets and analysis code associated with GRID. Each highlight describes a product's scope, creators, access route, and citation. Dates shown are repository release dates; related articles may have different publication dates.
+
+Start with [Data Access](data-access.qmd) for direct downloads, [Coverage](coverage.qmd) for the relationship to the wider inventory, or [Contribute Data](contribute-data.qmd) to discuss a new contribution.

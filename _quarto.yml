@@ -1,13 +1,12 @@
 project:
   type: website
   output-dir: _site
-  resources:
-    - CNAME
   render: 
     - "*.qmd"
     - "*.ipynb"
     - "!_template.qmd"
     - "!_template.ipynb"
+    - "!_review/**"
 
 execute: 
   freeze: auto
@@ -17,6 +16,7 @@ editor:
 
 website:
   title: "Global RIver-lanD (GRID) Database"
+  description: "River hydrogeochemistry, watershed context, open research outputs, and teaching resources from the GRID project."
   page-navigation: false
   site-url: "https://grid-db.github.io"
   repo-url: "https://github.com/grid-db/grid-db.github.io"
@@ -38,8 +38,12 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About  
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About GRID
+          - href: development.qmd
+            text: Development Roadmap
       - href: get-involved.qmd
         text: Get Involved
       - sidebar:data
@@ -57,13 +61,15 @@ website:
       collapse-level: 2
       contents: 
         - database/data-overview.qmd
+        - database/coverage.qmd
+        - database/methods.qmd
         - database/data-access.qmd
         - database/contribute-data.qmd
         - database/data-use-and-embargo-policy.qmd
         - database/data-highlights.qmd
 
   page-footer: 
-    center: © 2025  &middot; Built with {{< fa heart title="a heart" >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/){target=_blank}
+    center: © 2025–2026  &middot; Built with {{< fa heart title="a heart" >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/){target=_blank}
     right:
       - icon: github
         href: https://github.com/grid-db/grid-db.github.io

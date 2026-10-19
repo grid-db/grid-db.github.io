@@ -248,3 +248,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Local approval drafts and source verification notes
+/_review/

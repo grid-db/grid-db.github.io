@@ -1,0 +1,44 @@
+---
+title: "Can River Chemistry Reveal Catchment Lithology?"
+description: "A guided, 40–45-minute PyTorch module by Tao Wen comparing linear and neural-network classifiers using river chemistry."
+categories: [Learning module, Python, Deep learning, Hydrogeochemistry]
+image: /assets/artworks/grid-db-logo.png
+image-alt: "GRID project logo"
+page-layout: full
+toc: true
+freeze: auto
+title-block-banner: false
+sidebar: false
+---
+
+## About the module
+
+Developed by Tao Wen for the IAMG 2026 short course, this guided exercise uses river chemistry to distinguish carbonate-dominated catchments from those dominated by crystalline silicate rocks. Learners compare a linear classifier with a small neural network in PyTorch.
+
+- **Audience:** Geoscientists with basic Python skills; no prior PyTorch, deep-learning, or hydrogeochemistry experience required.
+- **Estimated time:** 40–45 minutes.
+- **Tools:** Google Colab on a free CPU runtime; no GPU or manual data upload required. Local Jupyter instructions are also available.
+- **Developer:** Tao Wen, Syracuse University.
+- **Teaching data:** A curated GLORICH subset with nine chemistry inputs for 2,986 stations.
+
+[Open the guided notebook in Colab](https://colab.research.google.com/github/jaywt/iamg-2026-dl-geochemistry/blob/main/notebooks/glorich_lithology_pytorch.ipynb){.btn .btn-primary}
+
+[View the module repository](https://github.com/jaywt/iamg-2026-dl-geochemistry) · [Read the instructor guide](https://github.com/jaywt/iamg-2026-dl-geochemistry/blob/main/INSTRUCTOR_GUIDE.md)
+
+## Learning goals
+
+- Define predictors and target classes from a geoscience question.
+- Split data before fitting transformations, then train and compare models.
+- Evaluate class imbalance and interpret classification metrics.
+- Experiment with activation functions and discuss limits of geographic transfer.
+
+A random station split tests performance in similar sampled settings. It does not establish transfer to unfamiliar regions or prove that lithology alone controls river chemistry.
+
+## Attribution and reuse
+
+The [repository citation](https://github.com/jaywt/iamg-2026-dl-geochemistry/blob/main/CITATION.cff) credits Tao Wen and identifies version 1.0.0, released July 11, 2026. Cite the module and its source dataset when reusing the materials:
+
+- Wen, T. (2026). *Can River Chemistry Reveal Catchment Lithology?* (Version 1.0.0) [Software]. [GitHub](https://github.com/jaywt/iamg-2026-dl-geochemistry).
+- Hartmann, J., Lauerwald, R., and Moosdorf, N. (2019). *GLORICH — Global river chemistry database* [Dataset]. [PANGAEA](https://doi.org/10.1594/PANGAEA.902360).
+
+Original code, notebooks, and documentation are MIT-licensed unless otherwise stated. GLORICH-derived data have separate CC BY-NC-SA 4.0 terms and remain subject to the repository’s data-release conditions. Review the [current license and data-use notice](https://github.com/jaywt/iamg-2026-dl-geochemistry/blob/main/LICENSE) before redistribution or fee-supported teaching.

@@ -1,4 +1,5 @@
 ---
+description: "Find release-specific GRID licenses, citation guidance, and contacts for permissions and release timing."
 title: "Data Use and Embargo Policy"
 page-layout: full
 sidebar: false
@@ -6,4 +7,20 @@ toc: false
 title-block-banner: true
 ---
 
-This page is under construction. Stay tuned.
+## Use the terms for your selected release
+
+Public GRID project outputs are distributed through their linked repository records. Review the license, version, documentation, and any source-specific conditions for the release you use. A license attached to one product does not establish terms for every GRID holding or for separately obtained inputs.
+
+The three releases currently linked on [Data Access](data-access.qmd) are listed as **CC BY 4.0** in their Zenodo records. Check the selected record and included documentation before reuse.
+
+## Citation and attribution
+
+Cite the dataset or software release using its persistent identifier and the creators credited in its repository record. Cite associated articles and upstream sources as appropriate to the material and methods used. Dataset creators and article authors may differ; each highlight page provides links to both records.
+
+Retain the release identifier and note transformations or filtering in your methods so that others can identify the version and processing used in your analysis.
+
+## Contributions and embargo requests
+
+A comprehensive GRID contribution and embargo policy is under review. No project-wide embargo duration or access arrangement is established by this page. Contact the [project team](/people/people.qmd) before transferring unpublished or restricted material to discuss permissions, handling, and release timing.
+
+For a proposed contribution, use the [contribution checklist](contribute-data.qmd). For a suspected error or unclear reuse condition, send the team the release identifier and relevant field or record details.

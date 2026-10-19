@@ -1,10 +1,11 @@
 ---
-title: "Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites"
-description: |
-  a compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites
-date: "May 15, 2023"
+title: "U.S. River Salinization and Alkalinization: Data from 226 Sites"
+description: "Sodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States."
+date: "2023-05-15"
+date-title: "Dataset release"
 categories: [River, Hydrogeochemistry, Surface Water, U.S.]
 image: usgs-226-stream-2023.png
+image-alt: "Map of the coterminous United States with study monitoring sites shown as red points and USGS regions shaded in six colors."
 page-layout: full
 toc: true
 freeze: auto
@@ -12,8 +13,29 @@ title-block-banner: true
 sidebar: false
 ---
 
-![](usgs-226-stream-2023.png)
+![Study monitoring sites across the coterminous United States, with USGS regions shown by color.](usgs-226-stream-2023.png){fig-alt="Map of the coterminous United States with monitoring sites shown as red points and USGS regions shaded in six colors."}
 
+This GRID project output compiles dissolved sodium and alkalinity data with 32 watershed properties for 226 river monitoring sites across the coterminous United States. The accompanying study uses these data to model monthly-aggregated sodium and alkalinity fluxes and examine their relationships with human and natural watershed characteristics.
 
-This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water quality data from 226 USGS river monitoring sites across the U.S. [Click this link](https://doi.org/10.1016/j.scitotenv.2023.164138){target="_blank"} to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this [data DOI](https://doi.org/10.5281/zenodo.7937820){target="_blank"}.
+## Access and scope
 
+[Download data and code on Zenodo](https://doi.org/10.5281/zenodo.7937820).
+
+| Release detail | Information |
+|---|---|
+| Repository creators | Tao Wen and Beibei E |
+| Dataset release | May 15, 2023 |
+| Version | 1.0 |
+| Release DOI | [10.5281/zenodo.7937820](https://doi.org/10.5281/zenodo.7937820) |
+| Files | `Codes_and_Datasets.zip`, approximately 56 MB |
+| Repository license | CC BY 4.0 |
+
+The 226-site scope and 32-property feature set describe this study, not the current GRID-wide inventory. Consult the repository files and article for observation coverage, processing choices, and model evaluation.
+
+## Citation and associated article
+
+**Data and code:** Wen, T., and E, B. (2023). *Datasets and codes for the peer review article “Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach”* (Version 1.0). Zenodo. [https://doi.org/10.5281/zenodo.7937820](https://doi.org/10.5281/zenodo.7937820).
+
+**Article:** E, B., Zhang, S., Driscoll, C. T., and Wen, T. (2023). *Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach*. Science of the Total Environment, 889, 164138. [Read the article](https://doi.org/10.1016/j.scitotenv.2023.164138).
+
+[Explore other releases](../data-highlights.qmd) · [Data-use guidance](../data-use-and-embargo-policy.qmd)

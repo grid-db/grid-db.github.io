@@ -1,89 +1,120 @@
 ---
+description: "Profiles of the GRID core proposal team, advisory members, and working group."
 title: "Meet the Community"
-subtitle: "A Network of Earth Surface Processes Researchers"
-html-table-processing: none
+subtitle: "People behind GRID and its proposed next phase"
 page-layout: full
 sidebar: false
 ---
 
-The Global RIver-lanD (GRID) Database began as a collaborative project between researchers at Syracuse University, Texas A&M University, and Yale University. The team has continued to grow, now including members from diverse institutions and countries.
+The Global RIver-lanD (GRID) Database began as a collaboration among researchers at Syracuse University, Texas A&M University, and Yale University. Tao Wen and Shuang Zhang continue on the GRID management team. The proposed GRID-SI project brings together a broader team to develop reusable hydrogeochemical datasets and software workflows.
 
-## Management Team
+## Core Proposal Team
+
+These researchers form the core team for the proposed GRID-SI project.
+
 ```{=html}
-<table border="0" cellpadding=10px cellspacing="0">
-  <tr valign="top">
-    <td style="width:300px"><a href="url"><img src="portraits/Giuseppe_Amatulli.jpeg" align="left" height="150px" width="150px"></a>
-    </td>
-    <td style="width:300px"><a href="url"><img src="portraits/Tao_Wen.jpg" align="left" height="150px" width="150px"></a>
-    </td>
-    <td style="width:300px"><a href="url"><img src="portraits/Shuang_Zhang.jpg" align="left" height="150px" width="150px"></a>
-    </td>
-  </tr>
-  <tr valign="top">
-    <td>
-      <strong>
-        <a href="https://environment.yale.edu/directory/faculty/giuseppe-amatulli" target="_blank" rel="noopener noreferrer">Giuseppe Amatulli</a><BR>
-        Yale University<BR>
-      </strong>
-    </td>
-    <td>
-      <strong>
-        <a href="http://jaywen.com" target="_blank" rel="noopener noreferrer">Tao Wen</a><BR>
-        Syracuse University<BR>
-      </strong>
-    </td>
-    <td>
-      <strong>
-        <a href="https://artsci.tamu.edu/oceanography/contact/profiles/shuang-zhang.html" target="_blank" rel="noopener noreferrer">Shuang Zhang</a><BR>
-        Texas A&M University<BR>
-      </strong>
-    </td>
-  </tr>
-</table>
+<div class="people-grid people-grid-four">
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Tao_Wen_2026.png" style="object-position: 50% 20%;" alt="Portrait of Tao Wen" width="240" height="240" loading="lazy">
+  <h3>Tao Wen</h3>
+  <p class="person-affiliation">Syracuse University</p>
+  <p class="person-expertise">Hydrogeochemistry, carbon–sulfur cycling, and environmental data science.</p>
+  <a class="person-link" href="https://jaywen.com/" aria-label="Profile of Tao Wen">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Shuang_Zhang.jpg" alt="Portrait of Shuang Zhang" width="240" height="240" loading="lazy">
+  <h3>Shuang Zhang</h3>
+  <p class="person-affiliation">Texas A&amp;M University</p>
+  <p class="person-expertise">Carbon-cycle science, weathering, and geochemical modeling.</p>
+  <a class="person-link" href="https://artsci.tamu.edu/oceanography/contact/profiles/shuang-zhang.html" aria-label="Profile of Shuang Zhang">Profile</a>
+</article>
+</div>
+```
+
+## Advisory Board for the Proposed GRID-SI Project
+
+The following researchers have agreed to advise the proposed project. Their expertise spans hydrogeochemistry, Earth-surface processes, and scientific data systems.
+
+```{=html}
+<div class="people-grid">
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Susan_Brantley.jpg" alt="Portrait of Susan L. Brantley" width="240" height="240" loading="lazy">
+  <h3>Susan L. Brantley</h3>
+  <p class="person-affiliation">Penn State University</p>
+  <p class="person-expertise">Critical-zone science, weathering, and water–rock interactions.</p>
+  <a class="person-link" href="https://brantley.psu.edu/" aria-label="Profile of Susan L. Brantley">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Charles_Driscoll.jpg" style="object-position: 0% 50%;" alt="Portrait of Charles T. Driscoll, Jr." width="240" height="240" loading="lazy">
+  <h3>Charles T. Driscoll, Jr.</h3>
+  <p class="person-affiliation">Syracuse University</p>
+  <p class="person-expertise">Environmental chemistry, ecosystem biogeochemistry, and water-quality modeling.</p>
+  <a class="person-link" href="https://ctdrisco.expressions.syr.edu/biographic-information/" aria-label="Profile of Charles T. Driscoll, Jr.">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Daniel_Ibarra.jpg" style="object-position: 50% 0%;" alt="Portrait of Daniel E. Ibarra" width="240" height="240" loading="lazy">
+  <h3>Daniel E. Ibarra</h3>
+  <p class="person-affiliation">Brown University</p>
+  <p class="person-expertise">River biogeochemistry, coupled water–carbon cycles, and enhanced weathering.</p>
+  <a class="person-link" href="https://vivo.brown.edu/display/dibarra" aria-label="Profile of Daniel E. Ibarra">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Nicole_Fernandez_Franzan.jpg" style="object-position: 50% 15%;" alt="Portrait of Nicole Fernandez-Franzan" width="240" height="240" loading="lazy">
+  <h3>Nicole Fernandez-Franzan</h3>
+  <p class="person-affiliation">ETH Zurich</p>
+  <p class="person-expertise">Low-temperature geochemistry, water–rock interactions, and carbon storage.</p>
+  <a class="person-link" href="https://eaps.ethz.ch/en/people/profile.nicole-fernandez-franzan.html" aria-label="Profile of Nicole Fernandez-Franzan">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Andrew_Zaffos.webp" alt="Portrait of Andrew Zaffos" width="240" height="240" loading="lazy">
+  <h3>Andrew Zaffos</h3>
+  <p class="person-affiliation">Arizona Geological Survey, University of Arizona</p>
+  <p class="person-expertise">Geoscience database architecture, software infrastructure, and large-scale data systems.</p>
+  <a class="person-link" href="https://azgs.arizona.edu/person/andrew-zaffos-phd" aria-label="Profile of Andrew Zaffos">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Marshall_Ma.webp" alt="Portrait of Xiaogang (Marshall) Ma" width="240" height="240" loading="lazy">
+  <h3>Xiaogang (Marshall) Ma</h3>
+  <p class="person-affiliation">University of Idaho</p>
+  <p class="person-expertise">Semantic interoperability, knowledge graphs, and data provenance.</p>
+  <a class="person-link" href="https://www.uidaho.edu/people/max" aria-label="Profile of Xiaogang (Marshall) Ma">Profile</a>
+</article>
+</div>
 ```
 
 ## Working Group Members
+
 ```{=html}
-<table border="0" cellpadding=10px cellspacing="0">
-  <tr valign="top">
-    <td style="width:300px"><a href="url"><img src="portraits/Ruta_Basijokaite.jpg" align="left" height="150px" width="150px"></a>
-    </td>
-    <td style="width:300px"><a href="url"><img src="portraits/Liyang_Qin.jpg" align="left" height="150px" width="150px"></a>
-    </td>
-    <td style="width:300px"><a href="url"><img src="portraits/Cynthia_Sun.jpg" align="left" height="150px" width="150px"></a>
-    </td>
-  </tr>
-  <tr valign="top">
-    <td>
-      <strong>
-        Ruta Basijokaite<BR>
-        Syracuse University<BR>
-      </strong>
-    </td>
-    <td>
-      <strong>
-        Liyang Qin<BR>
-        Syracuse University<BR>
-      </strong>
-    </td>
-    <td>
-      <strong>
-        Cynthia Sun<BR>
-        Texas A&M University<BR>
-      </strong>
-    </td>
-  </tr>
-  <tr valign="top">
-    <td style="width:300px"><a href="url"><img src="portraits/Zanchenling_Wang.jpg" align="left" height="150px" width="150px"></a>
-    </td>
-  </tr>
-  <tr valign="top">
-    <td>
-      <strong>
-        Zanchenling Wang<BR>
-        Syracuse University<BR>
-      </strong>
-    </td>
-  </tr>
-</table>
+<div class="people-grid people-grid-four">
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Xiumei_Ma.jpg" alt="Portrait of Xiumei Ma" width="240" height="240" loading="lazy">
+  <h3>Xiumei Ma</h3>
+  <p class="person-affiliation">Syracuse University</p>
+  <p class="person-expertise">Postdoctoral Scholar</p>
+  <a class="person-link" href="https://artsandsciences.syracuse.edu/people/research-associates/xiumei-ma/" aria-label="Profile of Xiumei Ma">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Mahnaz_Sepehrmanesh.jpg" alt="Portrait of Mahnaz Sepehrmanesh" width="240" height="240" loading="lazy">
+  <h3>Mahnaz Sepehrmanesh</h3>
+  <p class="person-affiliation">Syracuse University</p>
+  <p class="person-expertise">Postdoctoral Scholar</p>
+  <a class="person-link" href="https://www.linkedin.com/in/mahnaz-sepehrmanesh-33b102358/" aria-label="Profile of Mahnaz Sepehrmanesh">Profile</a>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Cynthia_Sun.jpg" alt="Portrait of Cynthia Sun" width="240" height="240" loading="lazy">
+  <h3>Cynthia Sun</h3>
+  <p class="person-affiliation">Texas A&amp;M University</p>
+  <p class="person-expertise">Graduate Student</p>
+</article>
+<article class="person-card">
+  <img class="person-portrait" src="portraits/Zanchenling_Wang.jpg" alt="Portrait of Zanchenling Wang" width="240" height="240" loading="lazy">
+  <h3>Zanchenling Wang</h3>
+  <p class="person-affiliation">Syracuse University</p>
+  <p class="person-expertise">Graduate Student</p>
+</article>
+</div>
 ```
+
+## Contact
+
+For questions about GRID or opportunities to contribute, contact [Tao Wen](mailto:twen08@syr.edu).

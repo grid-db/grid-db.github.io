@@ -1,0 +1,38 @@
+---
+description: "How GRID research outputs distinguish river observations, derived estimates, and model predictions."
+title: "Methods and Interpretation"
+page-layout: full
+sidebar: false
+toc: true
+title-block-banner: true
+---
+
+GRID research products combine river observations, watershed information, and analytical workflows. Methods and quality controls depend on the release. The examples below describe documented approaches in public products; consult each linked record and article for its full methods and limitations.
+
+## Observations, derived estimates, and predictions
+
+- **Observations** are measurements reported by a source monitoring program, with its sampling methods, units, and quality information.
+- **Derived estimates** are calculated from observations, for example through temporal aggregation, discharge weighting, or geochemical inverse modeling.
+- **Model predictions** estimate values using fitted relationships and environmental inputs. Their interpretation depends on the training data, validation design, and prediction domain.
+
+Keep these categories distinct when combining products or reporting results. Spatial and temporal aggregation can affect the questions a dataset can answer.
+
+## Documented product workflows
+
+### U.S. river salinization and alkalinization
+
+The [226-site release](highlights/usgs-226-stream-2023.qmd) combines sodium and alkalinity data with 32 watershed properties. The associated study uses machine learning to predict monthly-aggregated sodium and alkalinity fluxes and examine their relationships with human and natural watershed characteristics. Consult the [article](https://doi.org/10.1016/j.scitotenv.2023.164138) and [data and code](https://doi.org/10.5281/zenodo.7937820) for site selection, processing, and model evaluation.
+
+### Northern Gulf of Mexico river–ocean database
+
+[ROcD-nGoM](highlights/ROcD-nGoM-2024.qmd) brings together river chemistry and discharge with coastal ocean and satellite data. Its river products distinguish observations from daily concentrations and fluxes estimated using the USGS WRTDS model. The [repository record](https://doi.org/10.5281/zenodo.10152141) describes outlier flags and cleaned monthly, seasonal, and annual aggregates. See the [data descriptor](https://doi.org/10.1038/s41597-024-04338-1) for the harmonization approach.
+
+### River weathering and machine learning
+
+The [weathering data and code release](highlights/weathering-ml-2026.qmd) documents an R workflow linking USGS chemistry, InveR geochemical inverse modeling, watershed predictors, and XGBoost. It includes derived analysis tables and code for model training, SHAP interpretation, spatial prediction, and uncertainty analysis. The archived README describes nested cross-validation and bootstrap uncertainty estimation. These are methods documented for this study, rather than a single validation protocol for all GRID products.
+
+## Responsible interpretation and reuse
+
+Read the data definitions and methods before selecting fields or combining products. Check units, missing values, source identifiers, aggregation periods, and whether a value is measured or estimated. Model relationships and SHAP summaries describe patterns in fitted models; they do not by themselves establish causation. Uncertainty intervals should be interpreted in light of the sources of uncertainty included in the analysis.
+
+Cite the release used and its associated methods sources. [Data-use guidance](data-use-and-embargo-policy.qmd) explains how to find release-specific terms. Contact the [project team](/people/people.qmd) about provenance, a suspected error, or a proposed new use.

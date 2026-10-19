@@ -1,0 +1,38 @@
+---
+title: "GRID-SI Development Roadmap"
+description: "Proposed improvements to GRID chemistry documentation, catchment links, reusable software, benchmarks, and community participation."
+sidebar: false
+toc: true
+---
+
+**Status: proposed development, October 19, 2026.** GRID-SI builds on GRID-DB and its [existing research outputs](database/data-highlights.qmd). The activities below depend on project support; they are not announcements of an NSF award, operational services, or open funding opportunities.
+
+## Scientific purpose
+
+The proposed work asks how weathering pathways and human inputs control river alkalinity, sulfate, and salinity, and when resolving those contributions changes the inferred carbon consequences of weathering. An initial North American reference release would connect river observations to reviewed catchments and their hydrologic and landscape context. Existing global holdings would support a selected test of portability beyond North America.
+
+## Data documentation and quality
+
+Planned work includes harmonizing measurements, recovering missing metadata from source documentation, and retaining original values and analytical qualifications. Documentation would distinguish observed, converted, imputed, and modeled values and record source information and processing decisions.
+
+## Station and catchment links
+
+The project proposes testing vision-language-assisted matching of sampling locations to river reaches against conventional methods. Hydrologic checks and expert review would assess candidate matches, with unresolved alternatives and their uncertainty retained.
+
+## Reusable workflows and scientific evaluation
+
+Proposed Python packages would connect station matching and watershed-property calculation with inverse modeling and machine-learning prediction. Tested notebooks would demonstrate analysis and visualization. Selected LLM skills would call the same code modules with reviewable inputs and saved settings.
+
+Evaluation would compare starting and enhanced records, including source attribution and prediction in catchments withheld from model development. Planned benchmarks would document partitions, baselines, evaluation scripts, and limitations together.
+
+## Contributions and participation
+
+A versioned resource catalog is proposed to connect data and code distributed across established repositories. Catalog discovery and acceptance into a scientifically reviewed GRID release would be separate decisions. Data owners would retain control over private-data transfers and publication.
+
+The proposal includes five two-day hackathons and six pilot awards, with opportunities for early-career researchers to develop datasets, workflow modules, and analysis notebooks. No applications are open through this page. Dates, eligibility, and award terms would be announced if the program proceeds. Public notebooks and Waterlines discussions are also proposed to support teaching and science communication.
+
+## People and progress
+
+The [core proposal team and advisory members](people/people.qmd) bring complementary expertise in river chemistry, geoscience data, and software. Future progress updates would link completed outputs and their release documentation. Current releases remain available through [Data Access](database/data-access.qmd).
+
+To discuss a research need or possible contribution, [contact the project](get-involved.qmd).

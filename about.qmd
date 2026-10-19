@@ -1,32 +1,34 @@
 ---
-title: "GRID Database Overview"
-subtitle: "A Network of Earth Surface Processes Researchers"
+title: "About GRID"
+description: "Why GRID connects river chemistry and watershed information, what is available now, and how the project supports catchment science."
 page-layout: full
 sidebar: false
-toc: false
-title-block-banner: true
+toc: true
 ---
 
-## Why GRID Database
+## Why connect rivers and watersheds?
 
-The GRID database is essential for addressing critical challenges in Earth surface research. Rivers are vital for sustaining human society and ecosystems, acting as natural conduits that connect land and oceans. However, accurate and comprehensive data on river discharge, hydrogeochemistry, and watershed properties remain scattered or unavailable globally. This hinders our ability to understand and mitigate issues such as water scarcity, climate change impacts, biodiversity loss, and hydrological extremes. The GRID database will fill this gap by integrating high-resolution, multi-disciplinary data on global rivers and watersheds, enabling scientists and decision-makers to develop effective solutions for water management, disaster mitigation, and environmental preservation.
+A river sample reflects water moving through a landscape. Interpreting its chemistry requires information about the contributing watershed: its geology, climate, soils, land cover, and human activities. Those observations and contextual data often reside in different sources, with different units, methods, and coverage.
 
-However, the GRID project is much more than just a database—it is an integrated system comprising a database, a software ecosystem, and a thriving community.
+The Global RIver-lanD (GRID) project brings river hydrogeochemical observations and watershed information together to support catchment science. **GRID-DB** refers to the database; GRID also includes research outputs, analysis code, and teaching resources.
 
-## Our Mission
+## What is available now
 
-Our mission is to:
+- A [dated inventory and coverage summary](database/coverage.qmd) describing the scope of GRID's assembled holdings.
+- [Released datasets and code](database/data-access.qmd) for specific river and river–ocean studies, with persistent repository links.
+- [Teaching resources](education/index.qmd) for investigating water quality and working with environmental data.
+- A [research community](people/people.qmd) spanning hydrogeochemistry, watershed science, and computational methods.
 
--   **Develop an Integrated Database**: Build the Global RIver-lanD (GRID) database to seamlessly integrate high-resolution data on river discharge, hydrogeochemistry, and watershed properties worldwide.
--   **Leverage Advanced Technologies**: Utilize state-of-the-art machine learning techniques to provide accurate and comprehensive insights into river systems and Earth surface processes.
--   **Enhance Accessibility**: Ensure the GRID database is openly accessible through a user-friendly, web-based platform, adhering to open data and open science standards.
--   **Support Multidisciplinary Research**: Empower researchers across geochemistry, hydrology, climate science, and environmental sciences with a robust, interdisciplinary data resource.
--   **Address Global Challenges**: Enable data-driven solutions for pressing global issues, including water scarcity, climate resilience, flood risk reduction, and biodiversity conservation.
--   **Promote Collaboration and Education**: Foster global scientific collaboration and support education initiatives by providing tools, resources, and training for a diverse community of users.
+Each release has its own geographic coverage, variables, methods, and reuse conditions. The inventory totals are not a claim that every observation is available in a single public download.
 
-## Our Vision
+## Scientific questions
 
-We envision a world where high-quality, integrated river and watershed data are accessible to everyone, driving transformative solutions to global water and environmental challenges. The GRID database will serve as a cornerstone for interdisciplinary Earth science research, enabling breakthroughs in understanding river systems and their role in the Earth’s biogeochemical cycles. By providing an enduring and openly accessible platform, the GRID project seeks to empower a diverse global community of researchers, educators, and decision-makers in creating a sustainable and resilient future for our planet.
+GRID supports research on how weathering and human activities shape river chemistry. Questions include how different mineral sources and reactions contribute to alkalinity, sulfate, and salinity; how watershed context helps explain their spatial variation; and how source attribution affects interpretations of weathering-related carbon uptake or release.
 
+Published outputs provide examples of these approaches. [Methods and interpretation guidance](database/methods.qmd) explain why observations, derived quantities, and predictions must be distinguished.
 
+## The next stage
 
+**GRID-SI** is the proposed development program for better-documented chemistry, reviewed station–catchment links, and reusable computational workflows. Its initial target is a North American reference release, with a bounded test of workflow portability beyond North America. These are development plans, not a claim of an awarded project or completed services.
+
+[Explore the roadmap](development.qmd) · [Get involved](get-involved.qmd)

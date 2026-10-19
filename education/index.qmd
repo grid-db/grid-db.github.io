@@ -1,19 +1,22 @@
 ---
+description: "Teaching activities, modules, and courses on water chemistry, environmental observations, R, Python, and machine learning."
 title: "Education"
-subtitle: "We believe in open education and open science" 
+subtitle: "Teaching resources for water chemistry and environmental data science"
 listing:
-  feed: true
-  sort: "date desc"
+  contents: "*.qmd"
+  sort: "title"
   type: grid
   grid-item-border: true
   grid-item-align: left
   max-description-length: 175
-  date-format: medium
   categories: numbered
   sort-ui: false
   filter-ui: false
-  table-hover: true
 page-layout: full
 title-block-banner: true
 sidebar: false
 ---
+
+These externally hosted resources introduce skills relevant to using river chemistry and environmental data: finding observations, evaluating possible contaminant sources, and developing data-analysis and machine-learning workflows. They are teaching resources selected for the GRID community; they are not tutorials for a specific GRID release.
+
+Each entry identifies the audience, estimated effort, tools, creators, and original host. Follow the host link for the complete activity, module, or course and its access requirements.

@@ -1,0 +1,37 @@
+---
+description: "Dated GRID inventory totals and the geographic and scientific scope of public data and code releases."
+title: "Coverage and Scope"
+page-layout: full
+sidebar: false
+toc: false
+title-block-banner: true
+---
+
+## Current project inventory
+
+**Inventory date: {{< var inventory.date >}}**
+
+| Inventory measure | Project-wide total |
+|---|---:|
+| Sites | {{< var inventory.sites >}} |
+| Hydrogeochemical variables | {{< var inventory.variables >}} |
+| Watershed properties | {{< var inventory.watershed-properties >}} |
+| Sources of watershed properties | {{< var inventory.property-sources >}} |
+
+These totals describe the GRID project inventory. They do not indicate that every variable is available at every site, that sampling is continuous, or that all holdings have been publicly released. Geographic coverage, observation periods, units, and available attributes depend on the source and product.
+
+## Scope of public releases
+
+| Release | Geographic scope | What the release supports |
+|---|---|---|
+| [U.S. river salinization and alkalinization](highlights/usgs-226-stream-2023.qmd) | 226 monitoring sites in the coterminous United States | Sodium, alkalinity, 32 watershed properties, and associated analysis code |
+| [ROcD-nGoM river–ocean database](highlights/ROcD-nGoM-2024.qmd) | 54 rivers, streams, and bayous entering the northern Gulf of Mexico, plus ocean data | River chemistry and discharge, 17 ocean parameters, and observed and derived data products |
+| [River weathering data and machine-learning workflows](highlights/weathering-ml-2026.qmd) | Contiguous United States | Derived geochemical flux tables, watershed predictors, and R code for inverse modeling and machine-learning analysis |
+
+These products have different selection criteria and processing histories. Their site and variable counts describe individual releases and should not be added together to estimate the GRID inventory.
+
+## Choosing data for a research question
+
+Check the selected release for the variables, locations, sampling period, units, and processing level needed for your analysis. A watershed property may represent a spatial or temporal aggregate, while a river measurement represents a particular sampling location and time. A fine-resolution environmental input does not establish the resolution or accuracy of a derived river product.
+
+Use [Data Access](data-access.qmd) for repository links and [Methods](methods.qmd) for product-specific distinctions. Contact the [project team](/people/people.qmd) about coverage beyond the released products.

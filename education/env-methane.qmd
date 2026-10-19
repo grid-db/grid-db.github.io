@@ -1,9 +1,9 @@
 ---
-title: "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania"
-description: |
-  an online course on investigating methane content in Pennsylvanian streams
-categories: [SERC, Earth and Environmental Sciences, CUAHSI]
+title: "Investigating Potential Methane Sources in Pennsylvania Streams"
+description: "A two-hour teaching activity exploring possible methane sources using water chemistry and oil and gas records."
+categories: [Teaching activity, Hydrology, Water quality]
 image: stream-methane.png
+image-alt: "Conceptual illustration combining a stream, oil and gas equipment, sample containers, and a magnifying glass."
 page-layout: full
 toc: true
 freeze: auto
@@ -11,14 +11,22 @@ title-block-banner: false
 sidebar: false
 ---
 
-## Course description
+## About the activity
 
-This course, [Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania](https://serc.carleton.edu/hydromodules/units/143615.html){target=_blank}, is to guide students through the initial stages of a hypothetical water supply complaint investigation for 3 scenarios where methane has been detected in surface water in PA. This activity uses data accessible through the CUAHSI database (Shale Network (2015)) at three stream locations, and introduces three different potential sources of the observed in-stream methane. The data were collected by personnel from Penn State, the U.S. Geological Survey, and volunteers. This course is offered through the [SERC](https://serc.carleton.edu){target=_blank} platform, in partnership with [CUAHSI HydroClient](https://data.cuahsi.org){target=_blank}
+Investigate three hypothetical water-supply complaints involving methane in Pennsylvania surface waters. Students use Shale Network observations and nearby well records to consider multiple possible methane sources. Detecting methane alone does not establish a leaking oil or gas well.
 
-In this course, students will first investigate a low methane concentration measured in Southwest PA in Washington County. Students will find the analyses for samples in this area in HydroClient, then you will look up nearby well locations and records using the PA Oil and Gas Mapping Tool and the Exploration and Development Web Information Network (EDWIN), respectively, to begin to assess whether any of the streams may be contaminated by gas or oil wells. Students will also learn something about possible methane sources.
+- **Audience:** Intermediate undergraduate hydrology students.
+- **Estimated time:** 2 hours.
+- **Tools:** HydroClient, the Pennsylvania DEP Oil and Gas Mapping Tool, and EDWIN well records.
+- **Creators:** Liza Brazil, Susan L. Brantley, Jennifer Z. Williams, Seth Pelepko, Stew Beattie, Kyle Homman, and Andrew Nyblade.
+- **Host:** Science Education Resource Center at Carleton College (SERC).
 
-![This image was created with the assistance of DALL·E](stream-methane.png){width=70%}
+The cases cover Chartiers Creek, Black Moshannon Lake, and Sugar Run. Instructions guide students through finding observations, examining nearby wells, and considering alternative explanations.
 
-## When is this taught?
+[Open the activity and instructions on SERC](https://serc.carleton.edu/hydromodules/units/143615.html){.btn .btn-primary}
 
-This course is completely online and self-paced. You can take the course on the [SERC](https://serc.carleton.edu/hydromodules/units/143615.html){target=_blank} platform anytime you want.
+## Source
+
+Brazil, L., and coauthors. [*Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania*](https://serc.carleton.edu/hydromodules/units/143615.html). See the host page for the original materials and attribution.
+
+![Conceptual illustration created with the assistance of DALL·E.](stream-methane.png){fig-alt="Conceptual illustration combining a stream, oil and gas equipment, sample containers, and a magnifying glass." width=70%}

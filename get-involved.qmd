@@ -1,11 +1,31 @@
 ---
 title: "Get Involved"
+description: "Contribute river data, discuss a GRID research collaboration, or use teaching resources."
 page-layout: full
 sidebar: false
 toc: false
-title-block-banner: true
 ---
 
-We are excited about the diverse watershed attributes included in the harmonized Global RIver-lanD (GRID) Database and are delighted by your interest in participating. We warmly welcome anyone passionate about and eager to investigate questions related to watershed sciences within a collaborative group setting to join the project.
+GRID welcomes researchers, educators, and data contributors interested in river chemistry and watershed science.
 
-If you would like to contribute new data to the GRID database and/or propose collaborative projects to work with us, please consider reaching out to the [Mangement Team](people/people.qmd)
+## Contribute a dataset
+
+Start with a short description of the observations, location and time coverage, available metadata, and ownership or reuse conditions. Include a repository link if the data are already public. For unpublished data, discuss permissions and release timing before transferring files.
+
+[Read the contribution guidance](database/contribute-data.qmd)
+
+## Propose research
+
+Describe the scientific question, the relevant GRID release or data needs, and the contribution you would like to make. Links to related work or analysis code help the team assess a possible collaboration.
+
+[Meet the team](people/people.qmd) · [Read the development roadmap](development.qmd)
+
+## Teach with GRID resources
+
+Explore activities on water quality and environmental data science. Tell us which resource you used, your teaching context, and any difficulties or improvements you would like to share.
+
+[Explore teaching resources](education/index.qmd)
+
+## Contact
+
+Email [Tao Wen](mailto:twen08@syr.edu) with a subject identifying your interest: data contribution, research collaboration, or teaching. Please send a brief inquiry first so that any data transfer can follow the appropriate permissions and arrangements.

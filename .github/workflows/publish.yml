@@ -1,12 +1,19 @@
+name: Quarto Publish
+
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches:
+      - main
 
-name: Quarto Publish
+# Let an active publish finish; keep only the latest pending update.
+concurrency:
+  group: quarto-publish-gh-pages
+  cancel-in-progress: false
 
 jobs:
   build-deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,8 +21,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
+      - name: Set up tested Quarto version
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.5.49'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2

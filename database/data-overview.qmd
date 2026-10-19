@@ -1,22 +1,28 @@
 ---
+description: "An introduction to GRID river observations, watershed context, released outputs, and proposed development."
 title: "Database Overview"
-subtitle: "Start here to explore how to find, download, and contribute data."
 page-layout: full
 sidebar: false
 toc: false
 title-block-banner: true
 ---
 
-The Global RIver-lanD (GRID) database represents a groundbreaking initiative to revolutionize how we understand and utilize river systems for Earth surface research. GRID integrates high-resolution data on river hydrogeochemistry, watershed properties, and other derived data products into a cohesive, web-accessible resource. By harnessing cutting-edge machine learning technologies and compiling data from diverse disciplines like hydrology, geology, climatology, and geography, the database aims to provide unparalleled insights into the dynamics of river systems worldwide. GRID is not just a database; it’s a step toward a deeper understanding of the Earth’s interconnected systems. [Join us](/get-involved.qmd) as we map the future of river and watershed research for a sustainable planet.
+The Global RIver-lanD (GRID) project brings together river hydrogeochemistry, watershed properties, and derived research products to support Earth-surface science. Linking river observations with environmental context helps researchers investigate weathering, elemental transport, water quality, and human influences on river systems.
 
-## A Unified Global Vision
+## GRID at a glance
 
-GRID consolidates a wide array of datasets from over 30,000 global river stations and integrates environmental predictors such as elevation, climate, land cover, and lithology. By employing advanced computational techniques, GRID provides seamless, high-resolution maps at spatial resolutions as fine as 90 meters and temporal scales ranging from daily to monthly. This comprehensive approach enables researchers to study not only large river systems but also smaller, often overlooked waterways that play critical roles in regional hydrology and ecosystems.
+As of **{{< var inventory.date >}}**, the project inventory includes **{{< var inventory.sites >}} sites**, **{{< var inventory.variables >}} hydrogeochemical variables**, and **{{< var inventory.watershed-properties >}} watershed properties** drawn from **{{< var inventory.property-sources >}} property sources**.
 
-## Revolutionizing Earth Science
+These are project-wide totals. Variable availability, sampling periods, and watershed information differ among sites. The inventory includes more material than the public releases linked on this website; the totals do not imply that every record is publicly downloadable. [Explore coverage and scope](coverage.qmd).
 
-The GRID database addresses some of the most pressing challenges in Earth science, including freshwater availability, hydrological extremes, and the role of rivers in biogeochemical cycles. By predicting river discharge, elemental fluxes, and watershed dynamics with unprecedented accuracy, GRID empowers scientists, policymakers, and environmentalists to make informed decisions. Whether it’s assessing flood risks, ensuring water security, or understanding the impacts of climate change, GRID is poised to become a cornerstone for research and planning.
+## From observations to reusable research products
 
-## Open Access for a Global Community
+GRID outputs connect compiled observations and watershed information with derived datasets and analysis code. Released examples address river salinization and alkalinization, river–ocean connections, and rock-weathering fluxes. They show how integrated data can support geochemical modeling and AI-enabled discovery.
 
-Emphasizing open science principles, GRID will be accessible to the global research community through an intuitive, web-based GIS platform. Users can explore, visualize, and download data layers, facilitating collaboration and innovation across disciplines. By providing detailed metadata, robust cyberinfrastructure, and user-friendly tools, GRID ensures long-term usability and relevance for researchers, educators, and decision-makers worldwide.
+[Browse data and code highlights](data-highlights.qmd) for each product's scope, methods, creators, license, and persistent identifier. [Read about methods and interpretation](methods.qmd) to distinguish observations, derived estimates, and model predictions.
+
+## Access and participation
+
+Published releases are available through their repository records. Start with [Data Access](data-access.qmd) to download them. For access to other GRID holdings or collaboration on a specific research question, contact the [project team](/people/people.qmd).
+
+We welcome contributions of river observations and associated metadata. [Contribute data](contribute-data.qmd) to discuss scope, provenance, reuse permissions, and release timing with the team.

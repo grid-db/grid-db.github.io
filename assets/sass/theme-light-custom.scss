@@ -15,9 +15,9 @@ $dark-orange:   #d74100;
 
 // Base document colors
 $navbar-bg:         $light-cream;
-$navbar-hl:         $su-orange;
+$navbar-hl:         #a64000;
 $footer-bg:         $light-cream;
-$link-color:        $su-orange;
+$link-color:        #a64000;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
@@ -132,8 +132,8 @@ h2 {
 
 .btn {
   color: white;
-  background-color: $su-orange;
-  border-color: $dark-orange;
+  background-color: #a64000;
+  border-color: #a64000;
 }
 
 .btn:hover {     

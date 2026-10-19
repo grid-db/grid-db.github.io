@@ -1,0 +1,18 @@
+---
+image: /assets/artworks/grid-db-logo.png
+image-alt: "GRID project logo"
+title: "River weathering data and machine-learning workflows released"
+date: "2026-08-08"
+description: "Xiying Sun’s weathering-ml-project manuscript release is available through a persistent Zenodo record."
+categories: [Research Updates, Software]
+---
+
+Xiying Sun’s *weathering-ml-project* manuscript release was archived on Zenodo on **August 8, 2026**. The record links to the project’s **v1.0** GitHub tag and provides a persistent identifier for citing that research software release.
+
+The GRID research output brings together derived data and code for river-weathering analysis. It is not a new version of the complete GRID database. The date on this news entry is the archive’s publication date.
+
+- [View the research highlight](/database/highlights/weathering-ml-2026.qmd)
+- [Open the Zenodo release](https://doi.org/10.5281/zenodo.21846324)
+- [Browse the archived version’s source code](https://github.com/XiyingSun/weathering-ml-project/tree/v1.0)
+
+**Release citation:** Sun, X. (2026). *XiyingSun/weathering-ml-project: Initial release for manuscript (Zenodo)*. Zenodo. [doi:10.5281/zenodo.21846324](https://doi.org/10.5281/zenodo.21846324).

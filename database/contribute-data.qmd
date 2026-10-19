@@ -1,4 +1,5 @@
 ---
+description: "Discuss contributing river chemistry data and watershed metadata to the GRID project."
 title: "Contribute Data"
 page-layout: full
 sidebar: false
@@ -6,4 +7,22 @@ toc: false
 title-block-banner: true
 ---
 
-We are actively inputting data into the Global RIver-lanD (GRID) Database. We have input published data, new data, online data, and unpublished data. We seek datasets from community groups, researchers, government agencies, industry, and river commissions. If you would like to submit a database or begin working with us, please consider reaching out to the [Mangement Team](/people/people.qmd)
+We welcome river hydrogeochemical observations and associated watershed information from researchers, government agencies, community organizations, industry, and river commissions.
+
+## Start a contribution discussion
+
+Contact the [project team](/people/people.qmd) with a brief description or a link to an existing public dataset. Include the following information where available:
+
+- **Scope:** variables, locations, observation period, number of sites or records, and file formats.
+- **Provenance:** original collectors or providers, sampling and analytical methods, source identifiers, and any previous processing.
+- **Metadata:** units, detection limits, quality flags, missing-value codes, coordinates and coordinate reference system, and watershed identifiers.
+- **Rights and credit:** data owner, existing license or use restrictions, preferred citation, and contributor contact.
+- **Release timing:** whether the data are already public and any requested embargo or other access conditions.
+
+These details help the team assess scientific fit, documentation, and the work needed to integrate the contribution. A published repository record or a small, shareable example is a useful starting point.
+
+## Unpublished or restricted data
+
+Contact the team before transferring unpublished, confidential, sensitive, or third-party restricted material so that handling, permissions, and any proposed release timing can be discussed. A comprehensive contribution and embargo policy is under review; this page does not establish an embargo duration or promise access restrictions.
+
+For released products, consult the [data-use guidance](data-use-and-embargo-policy.qmd) and the terms in each repository record.
