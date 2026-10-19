@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="An introduction to GRID river observations, watershed context, released outputs, and proposed development.">
 
 <title>Database Overview – Global RIver-lanD (GRID) Database</title>
 <style>
@@ -36,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -75,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 <meta name="twitter:title" content="Database Overview – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="Start here to explore how to find, download, and contribute data.">
+<meta name="twitter:description" content="An introduction to GRID river observations, watershed context, released outputs, and proposed development.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -100,10 +101,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -116,6 +128,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-access.html">
@@ -131,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -160,8 +180,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
       <h1 class="title">Database Overview</h1>
-            <p class="subtitle lead">Start here to explore how to find, download, and contribute data.</p>
-                      </div>
+                  <div>
+        <div class="description">
+          An introduction to GRID river observations, watershed context, released outputs, and proposed development.
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -184,18 +208,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script><p>The Global RIver-lanD (GRID) database represents a groundbreaking initiative to revolutionize how we understand and utilize river systems for Earth surface research. GRID integrates high-resolution data on river hydrogeochemistry, watershed properties, and other derived data products into a cohesive, web-accessible resource. By harnessing cutting-edge machine learning technologies and compiling data from diverse disciplines like hydrology, geology, climatology, and geography, the database aims to provide unparalleled insights into the dynamics of river systems worldwide. GRID is not just a database; it’s a step toward a deeper understanding of the Earth’s interconnected systems. <a href="../get-involved.html">Join us</a> as we map the future of river and watershed research for a sustainable planet.</p>
-<section id="a-unified-global-vision" class="level2">
-<h2 class="anchored" data-anchor-id="a-unified-global-vision">A Unified Global Vision</h2>
-<p>GRID consolidates a wide array of datasets from over 30,000 global river stations and integrates environmental predictors such as elevation, climate, land cover, and lithology. By employing advanced computational techniques, GRID provides seamless, high-resolution maps at spatial resolutions as fine as 90 meters and temporal scales ranging from daily to monthly. This comprehensive approach enables researchers to study not only large river systems but also smaller, often overlooked waterways that play critical roles in regional hydrology and ecosystems.</p>
+<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script><p>The Global RIver-lanD (GRID) project brings together river hydrogeochemistry, watershed properties, and derived research products to support Earth-surface science. Linking river observations with environmental context helps researchers investigate weathering, elemental transport, water quality, and human influences on river systems.</p>
+<section id="grid-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="grid-at-a-glance">GRID at a glance</h2>
+<p>As of <strong>October 19, 2026</strong>, the project inventory includes <strong>154,577 sites</strong>, <strong>91 hydrogeochemical variables</strong>, and <strong>139 watershed properties</strong> drawn from <strong>19 property sources</strong>.</p>
+<p>These are project-wide totals. Variable availability, sampling periods, and watershed information differ among sites. The inventory includes more material than the public releases linked on this website; the totals do not imply that every record is publicly downloadable. <a href="../database/coverage.html">Explore coverage and scope</a>.</p>
 </section>
-<section id="revolutionizing-earth-science" class="level2">
-<h2 class="anchored" data-anchor-id="revolutionizing-earth-science">Revolutionizing Earth Science</h2>
-<p>The GRID database addresses some of the most pressing challenges in Earth science, including freshwater availability, hydrological extremes, and the role of rivers in biogeochemical cycles. By predicting river discharge, elemental fluxes, and watershed dynamics with unprecedented accuracy, GRID empowers scientists, policymakers, and environmentalists to make informed decisions. Whether it’s assessing flood risks, ensuring water security, or understanding the impacts of climate change, GRID is poised to become a cornerstone for research and planning.</p>
+<section id="from-observations-to-reusable-research-products" class="level2">
+<h2 class="anchored" data-anchor-id="from-observations-to-reusable-research-products">From observations to reusable research products</h2>
+<p>GRID outputs connect compiled observations and watershed information with derived datasets and analysis code. Released examples address river salinization and alkalinization, river–ocean connections, and rock-weathering fluxes. They show how integrated data can support geochemical modeling and AI-enabled discovery.</p>
+<p><a href="../database/data-highlights.html">Browse data and code highlights</a> for each product’s scope, methods, creators, license, and persistent identifier. <a href="../database/methods.html">Read about methods and interpretation</a> to distinguish observations, derived estimates, and model predictions.</p>
 </section>
-<section id="open-access-for-a-global-community" class="level2">
-<h2 class="anchored" data-anchor-id="open-access-for-a-global-community">Open Access for a Global Community</h2>
-<p>Emphasizing open science principles, GRID will be accessible to the global research community through an intuitive, web-based GIS platform. Users can explore, visualize, and download data layers, facilitating collaboration and innovation across disciplines. By providing detailed metadata, robust cyberinfrastructure, and user-friendly tools, GRID ensures long-term usability and relevance for researchers, educators, and decision-makers worldwide.</p>
+<section id="access-and-participation" class="level2">
+<h2 class="anchored" data-anchor-id="access-and-participation">Access and participation</h2>
+<p>Published releases are available through their repository records. Start with <a href="../database/data-access.html">Data Access</a> to download them. For access to other GRID holdings or collaboration on a specific research question, contact the <a href="../people/people.html">project team</a>.</p>
+<p>We welcome contributions of river observations and associated metadata. <a href="../database/contribute-data.html">Contribute data</a> to discuss scope, provenance, reuse permissions, and release timing with the team.</p>
 
 
 </section>
@@ -427,6 +454,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -542,6 +571,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -774,7 +804,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

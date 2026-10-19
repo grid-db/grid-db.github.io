@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-17">
-<meta name="description" content="a compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico">
+<meta name="description" content="River chemistry and discharge for 54 waterways entering the northern Gulf of Mexico, combined with 17 chemical and physical ocean parameters.">
 
-<title>Long-Term River-Ocean Analyses in the Northern Gulf of Mexico – Global RIver-lanD (GRID) Database</title>
+<title>ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico – Global RIver-lanD (GRID) Database</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,12 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -76,11 +76,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../assets/css/styles.css">
-<meta name="twitter:title" content="Long-Term River-Ocean Analyses in the Northern Gulf of Mexico – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="a compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico">
+<meta name="twitter:title" content="ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico – Global RIver-lanD (GRID) Database">
+<meta name="twitter:description" content="River chemistry and discharge for 54 waterways entering the northern Gulf of Mexico, combined with 17 chemical and physical ocean parameters.">
 <meta name="twitter:image" content="https://grid-db.github.io/database/highlights/ROcD-nGoM-2024.png">
 <meta name="twitter:image-height" content="1004">
 <meta name="twitter:image-width" content="2042">
+<meta name="twitter:image:alt" content="Map of river monitoring sites around the northern Gulf of Mexico, with western sites in blue, northern sites in green, and eastern sites in pink.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -105,10 +106,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -121,6 +133,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../database/data-access.html">
@@ -136,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -163,11 +183,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Long-Term River-Ocean Analyses in the Northern Gulf of Mexico</h1>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico</h1>
                   <div>
         <div class="description">
-          <p>a compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico</p>
+          River chemistry and discharge for 54 waterways entering the northern Gulf of Mexico, combined with 17 chemical and physical ocean parameters.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -181,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta column-page-left">
 
       
       <div>
@@ -198,20 +218,74 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#access-and-scope" id="toc-access-and-scope" class="nav-link active" data-scroll-target="#access-and-scope">Access and scope</a></li>
+  <li><a href="#citation-and-associated-article" id="toc-citation-and-associated-article" class="nav-link" data-scroll-target="#citation-and-associated-article">Citation and associated article</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
+<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ROcD-nGoM-2024.png" class="img-fluid figure-img" alt="Map of river monitoring sites from Texas to Florida around the northern Gulf of Mexico, grouped into western sites in blue, northern sites in green, and eastern sites in pink."></p>
+<figcaption>River monitoring sites around the northern Gulf of Mexico, grouped into western, northern, and eastern locations.</figcaption>
+</figure>
+</div>
+<p>This GRID project output connects river and ocean information for the northern Gulf of Mexico. It includes river chemistry and discharge for 54 rivers, streams, and bayous, together with 17 chemical and physical ocean parameters from the Gulf of Mexico Coastal Ocean Observing System and MODIS and SeaWiFS satellite sensors.</p>
+<p>The release distinguishes river observations from daily concentrations and fluxes estimated using the USGS WRTDS model. It provides data with outlier flags and cleaned monthly, seasonal, and annual aggregates. Consult the documentation for the sampling coverage and processing applied to each parameter.</p>
+<section id="access-and-scope" class="level2">
+<h2 class="anchored" data-anchor-id="access-and-scope">Access and scope</h2>
+<p><a href="https://doi.org/10.5281/zenodo.10152141">Download the dataset on Zenodo</a>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Release detail</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repository creators</td>
+<td>Bailey Armos and Shuang Zhang</td>
+</tr>
+<tr class="even">
+<td>Dataset release</td>
+<td>November 17, 2023</td>
+</tr>
+<tr class="odd">
+<td>Release DOI</td>
+<td><a href="https://doi.org/10.5281/zenodo.10152141">10.5281/zenodo.10152141</a></td>
+</tr>
+<tr class="even">
+<td>Files</td>
+<td><code>ROcD-nGoM.zip</code>, approximately 2.3 GB; includes the river-processing R script</td>
+</tr>
+<tr class="odd">
+<td>Repository license</td>
+<td>CC BY 4.0</td>
+</tr>
+</tbody>
+</table>
+<p>This is a regional product with defined source coverage, rather than an archive of all analyses conducted in the Gulf of Mexico. The repository release predates the associated article.</p>
+</section>
+<section id="citation-and-associated-article" class="level2">
+<h2 class="anchored" data-anchor-id="citation-and-associated-article">Citation and associated article</h2>
+<p><strong>Dataset:</strong> Armos, B., and Zhang, S. (2023). <em>ROcD-nGoM: A River-Ocean Coupled Database for the Northern Gulf of Mexico</em>. Zenodo. <a href="https://doi.org/10.5281/zenodo.10152141">https://doi.org/10.5281/zenodo.10152141</a>.</p>
+<p><strong>Article:</strong> Armos, B., Zhang, S., Wen, T., Walker, E., and Daripa, P. (2024). <em>A harmonized river-ocean coupled database for the northern Gulf of Mexico</em>. Scientific Data. Published December 30, 2024. <a href="https://doi.org/10.1038/s41597-024-04338-1">Read the data descriptor</a>.</p>
+<p><a href="../../database/data-highlights.html">Explore other releases</a> · <a href="../../database/data-use-and-embargo-policy.html">Data-use guidance</a></p>
 
-<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script><p><img src="ROcD-nGoM-2024.png" class="img-fluid"></p>
-<p>This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water and ocean data in the northern Gulf of Mexico <a href="https://doi.org/10.1038/s41597-024-04338-1" target="_blank">Click this link</a> to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this <a href="https://doi.org/10.5281/zenodo.10152141" target="_blank">data DOI</a>.</p>
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -440,6 +514,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -555,6 +631,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -787,7 +864,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

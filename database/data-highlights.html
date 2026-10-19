@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Explore GRID datasets and research outputs with their documented scope, methods, and repository links.">
 
-<title>Dataset Highlights – Global RIver-lanD (GRID) Database</title>
+<title>Data and Code Highlights – Global RIver-lanD (GRID) Database</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,12 +39,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -134,12 +135,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../assets/css/styles.css">
-<link rel="alternate" type="application/rss+xml" title="Global RIver-lanD (GRID) Database" href="data-highlights.xml" data-external="1"><meta name="twitter:title" content="Dataset Highlights – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="We believe in open education and open science">
-<meta name="twitter:image" content="https://grid-db.github.io/database/highlights/ROcD-nGoM-2024.png">
-<meta name="twitter:image-height" content="1004">
-<meta name="twitter:image-width" content="2042">
-<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="Global RIver-lanD (GRID) Database" href="data-highlights.xml" data-external="1"><meta name="twitter:title" content="Data and Code Highlights – Global RIver-lanD (GRID) Database">
+<meta name="twitter:description" content="Explore GRID datasets and research outputs with their documented scope, methods, and repository links.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -163,10 +161,21 @@ window.Quarto = {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -179,6 +188,14 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-access.html">
@@ -194,7 +211,7 @@ window.Quarto = {
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -222,9 +239,14 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Dataset Highlights</h1>
-            <p class="subtitle lead">We believe in open education and open science</p>
-                      </div>
+      <h1 class="title">Data and Code Highlights</h1>
+            <p class="subtitle lead">Released GRID project outputs for reuse and discovery</p>
+                  <div>
+        <div class="description">
+          Explore GRID datasets and research outputs with their documented scope, methods, and repository links.
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -241,7 +263,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3VsZiUyMG9mJTIwTWV4aWNv">Gulf of Mexico <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHlkcm9nZW9jaGVtaXN0cnk=">Hydrogeochemistry <span class="quarto-category-count">(2)</span></div><div class="category" data-category="T2NlYW4=">Ocean <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Uml2ZXI=">River <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3VyZmFjZSUyMFdhdGVy">Surface Water <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VS5TLg==">U.S. <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Gulf of Mexico">Gulf of Mexico <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hydrogeochemistry">Hydrogeochemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ocean">Ocean <span class="quarto-category-count">(1)</span></div><div class="category" data-category="River">River <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Surface Water">Surface Water <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U.S.">U.S. <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Weathering">Weathering <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -249,41 +271,85 @@ window.Quarto = {
 
 
 
+<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script><p>Explore released datasets and analysis code associated with GRID. Each highlight describes a product’s scope, creators, access route, and citation. Dates shown are repository release dates; related articles may have different publication dates.</p>
+<p>Start with <a href="../database/data-access.html">Data Access</a> for direct downloads, <a href="../database/coverage.html">Coverage</a> for the relationship to the wider inventory, or <a href="../database/contribute-data.html">Contribute Data</a> to discuss a new contribution.</p>
 
 
-<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
+
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Uml2ZXIlMkNIeWRyb2dlb2NoZW1pc3RyeSUyQ1N1cmZhY2UlMjBXYXRlciUyQ09jZWFuJTJDR3VsZiUyMG9mJTIwTWV4aWNv" data-listing-date-sort="1700179200000" data-listing-file-modified-sort="1737258003790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
-<a href="../database/highlights/ROcD-nGoM-2024.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="River,Hydrogeochemistry,Weathering,Machine Learning,U.S." data-listing-date-sort="1786147200000" data-listing-file-modified-sort="1792431682618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
+<a href="../database/highlights/weathering-ml-2026.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../database/highlights/ROcD-nGoM-2024.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../assets/artworks/grid-db-logo.png" class="thumbnail-image card-img" style="height: 150px;" alt="GRID project logo">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Long-Term River-Ocean Analyses in the Northern Gulf of Mexico
+River Weathering Data and Machine-Learning Workflows
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Uml2ZXI='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('River'); return false;">
 River
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('SHlkcm9nZW9jaGVtaXN0cnk='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Hydrogeochemistry'); return false;">
 Hydrogeochemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('U3VyZmFjZSUyMFdhdGVy'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Weathering'); return false;">
+Weathering
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U.S.'); return false;">
+U.S.
+</div>
+</div>
+<div class="card-text listing-description">
+Derived geochemical data, watershed predictors, and R code linking inverse modeling with machine learning to study rock-weathering fluxes.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Aug 8, 2026
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="River,Hydrogeochemistry,Surface Water,Ocean,Gulf of Mexico" data-listing-date-sort="1700179200000" data-listing-file-modified-sort="1792431682614" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+<a href="../database/highlights/ROcD-nGoM-2024.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../database/highlights/ROcD-nGoM-2024.png" class="thumbnail-image card-img" style="height: 150px;" alt="Map of river monitoring sites around the northern Gulf of Mexico, with western sites in blue, northern sites in green, and eastern sites in pink.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('River'); return false;">
+River
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hydrogeochemistry'); return false;">
+Hydrogeochemistry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Surface Water'); return false;">
 Surface Water
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('T2NlYW4='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Ocean'); return false;">
 Ocean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R3VsZiUyMG9mJTIwTWV4aWNv'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Gulf of Mexico'); return false;">
 Gulf of Mexico
 </div>
 </div>
 <div class="card-text listing-description">
-<p>a compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico</p>
+River chemistry and discharge for 54 waterways entering the northern Gulf of Mexico, combined with 17 chemical and physical ocean parameters.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -297,32 +363,32 @@ Nov 17, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Uml2ZXIlMkNIeWRyb2dlb2NoZW1pc3RyeSUyQ1N1cmZhY2UlMjBXYXRlciUyQ1UuUy4=" data-listing-date-sort="1684108800000" data-listing-file-modified-sort="1737258003793" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<div class="g-col-1" data-index="2" data-categories="River,Hydrogeochemistry,Surface Water,U.S." data-listing-date-sort="1684108800000" data-listing-file-modified-sort="1792431682618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
 <a href="../database/highlights/usgs-226-stream-2023.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../database/highlights/usgs-226-stream-2023.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../database/highlights/usgs-226-stream-2023.png" class="thumbnail-image card-img" style="height: 150px;" alt="Map of the coterminous United States with study monitoring sites shown as red points and USGS regions shaded in six colors.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites
+U.S. River Salinization and Alkalinization: Data from 226 Sites
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Uml2ZXI='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('River'); return false;">
 River
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('SHlkcm9nZW9jaGVtaXN0cnk='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Hydrogeochemistry'); return false;">
 Hydrogeochemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('U3VyZmFjZSUyMFdhdGVy'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Surface Water'); return false;">
 Surface Water
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('VS5TLg=='); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('U.S.'); return false;">
 U.S.
 </div>
 </div>
 <div class="card-text listing-description">
-<p>a compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites</p>
+Sodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -567,6 +633,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -682,6 +750,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -914,7 +983,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

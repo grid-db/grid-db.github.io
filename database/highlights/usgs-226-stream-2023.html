@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-05-15">
-<meta name="description" content="a compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites">
+<meta name="description" content="Sodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States.">
 
-<title>Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites – Global RIver-lanD (GRID) Database</title>
+<title>U.S. River Salinization and Alkalinization: Data from 226 Sites – Global RIver-lanD (GRID) Database</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,12 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -76,11 +76,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../assets/css/styles.css">
-<meta name="twitter:title" content="Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="a compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites">
+<meta name="twitter:title" content="U.S. River Salinization and Alkalinization: Data from 226 Sites – Global RIver-lanD (GRID) Database">
+<meta name="twitter:description" content="Sodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States.">
 <meta name="twitter:image" content="https://grid-db.github.io/database/highlights/usgs-226-stream-2023.png">
 <meta name="twitter:image-height" content="1826">
 <meta name="twitter:image-width" content="3376">
+<meta name="twitter:image:alt" content="Map of the coterminous United States with study monitoring sites shown as red points and USGS regions shaded in six colors.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -105,10 +106,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -121,6 +133,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../database/data-access.html">
@@ -136,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -163,11 +183,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites</h1>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">U.S. River Salinization and Alkalinization: Data from 226 Sites</h1>
                   <div>
         <div class="description">
-          <p>a compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites</p>
+          Sodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -180,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta column-page-left">
 
       
       <div>
@@ -197,20 +217,77 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#access-and-scope" id="toc-access-and-scope" class="nav-link active" data-scroll-target="#access-and-scope">Access and scope</a></li>
+  <li><a href="#citation-and-associated-article" id="toc-citation-and-associated-article" class="nav-link" data-scroll-target="#citation-and-associated-article">Citation and associated article</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
+<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="usgs-226-stream-2023.png" class="img-fluid figure-img" alt="Map of the coterminous United States with monitoring sites shown as red points and USGS regions shaded in six colors."></p>
+<figcaption>Study monitoring sites across the coterminous United States, with USGS regions shown by color.</figcaption>
+</figure>
+</div>
+<p>This GRID project output compiles dissolved sodium and alkalinity data with 32 watershed properties for 226 river monitoring sites across the coterminous United States. The accompanying study uses these data to model monthly-aggregated sodium and alkalinity fluxes and examine their relationships with human and natural watershed characteristics.</p>
+<section id="access-and-scope" class="level2">
+<h2 class="anchored" data-anchor-id="access-and-scope">Access and scope</h2>
+<p><a href="https://doi.org/10.5281/zenodo.7937820">Download data and code on Zenodo</a>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Release detail</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repository creators</td>
+<td>Tao Wen and Beibei E</td>
+</tr>
+<tr class="even">
+<td>Dataset release</td>
+<td>May 15, 2023</td>
+</tr>
+<tr class="odd">
+<td>Version</td>
+<td>1.0</td>
+</tr>
+<tr class="even">
+<td>Release DOI</td>
+<td><a href="https://doi.org/10.5281/zenodo.7937820">10.5281/zenodo.7937820</a></td>
+</tr>
+<tr class="odd">
+<td>Files</td>
+<td><code>Codes_and_Datasets.zip</code>, approximately 56 MB</td>
+</tr>
+<tr class="even">
+<td>Repository license</td>
+<td>CC BY 4.0</td>
+</tr>
+</tbody>
+</table>
+<p>The 226-site scope and 32-property feature set describe this study, not the current GRID-wide inventory. Consult the repository files and article for observation coverage, processing choices, and model evaluation.</p>
+</section>
+<section id="citation-and-associated-article" class="level2">
+<h2 class="anchored" data-anchor-id="citation-and-associated-article">Citation and associated article</h2>
+<p><strong>Data and code:</strong> Wen, T., and E, B. (2023). <em>Datasets and codes for the peer review article “Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach”</em> (Version 1.0). Zenodo. <a href="https://doi.org/10.5281/zenodo.7937820">https://doi.org/10.5281/zenodo.7937820</a>.</p>
+<p><strong>Article:</strong> E, B., Zhang, S., Driscoll, C. T., and Wen, T. (2023). <em>Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach</em>. Science of the Total Environment, 889, 164138. <a href="https://doi.org/10.1016/j.scitotenv.2023.164138">Read the article</a>.</p>
+<p><a href="../../database/data-highlights.html">Explore other releases</a> · <a href="../../database/data-use-and-embargo-policy.html">Data-use guidance</a></p>
 
-<script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script><p><img src="usgs-226-stream-2023.png" class="img-fluid"></p>
-<p>This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water quality data from 226 USGS river monitoring sites across the U.S. <a href="https://doi.org/10.1016/j.scitotenv.2023.164138" target="_blank">Click this link</a> to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this <a href="https://doi.org/10.5281/zenodo.7937820" target="_blank">data DOI</a>.</p>
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -439,6 +516,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -554,6 +633,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -786,7 +866,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

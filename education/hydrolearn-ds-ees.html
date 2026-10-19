@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="an online course on introducing data sciences in earth and environmental sciences">
+<meta name="description" content="An approximately 30-hour online course introducing R, Python, and environmental data analysis.">
 
 <title>Data Science in Earth and Environmental Sciences – Global RIver-lanD (GRID) Database</title>
 <style>
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -76,10 +76,11 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 <meta name="twitter:title" content="Data Science in Earth and Environmental Sciences – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="an online course on introducing data sciences in earth and environmental sciences">
+<meta name="twitter:description" content="An approximately 30-hour online course introducing R, Python, and environmental data analysis.">
 <meta name="twitter:image" content="https://grid-db.github.io/education/hydrolearn-ds-ees.png">
 <meta name="twitter:image-height" content="535">
 <meta name="twitter:image-width" content="1200">
+<meta name="twitter:image:alt" content="Illustration of a robotic hand and a human hand reaching toward a globe, with network patterns and leaves.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -104,10 +105,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -120,6 +132,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-access.html">
@@ -135,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -168,8 +188,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#when-is-this-taught" id="toc-when-is-this-taught" class="nav-link" data-scroll-target="#when-is-this-taught">When is this taught?</a></li>
+  <li><a href="#about-the-course" id="toc-about-the-course" class="nav-link active" data-scroll-target="#about-the-course">About the course</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
     </div>
@@ -180,18 +200,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Data Science in Earth and Environmental Sciences</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">HydroLearn</div>
+    <div class="quarto-category">Course</div>
     <div class="quarto-category">R</div>
     <div class="quarto-category">Python</div>
-    <div class="quarto-category">Earth and Environmental Sciences</div>
-    <div class="quarto-category">Data Sciences</div>
-    <div class="quarto-category">CUAHSI</div>
+    <div class="quarto-category">Environmental data science</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>an online course on introducing data sciences in earth and environmental sciences</p>
+    An approximately 30-hour online course introducing R, Python, and environmental data analysis.
   </div>
 </div>
 
@@ -208,27 +226,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course description</h2>
-<p>This course, <a href="https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about" target="_blank">Data Science in Earth and Environmental Sciences</a>, is designed to introduce learners to the basics of R and Python programming as well as the application of emerging data analytics and machine learning methods in the Earth and Environmental Sciences. This course is offered through the <a href="https://www.hydrolearn.org" target="_blank">HydroLearn</a> platform, in partnership with <a href="https://www.hydroshare.org" target="_blank">CUAHSI HydroShare</a></p>
-<p>This course is designed to serve a broad mix of learners whose coding expertise ranges from beginner to expert level and whose geoscience-related research interests. At the end of this course, you should be able to describe and implement the steps involved in:</p>
-<ol type="1">
-<li>reviewing and modifying others’ codes in R and/or Python</li>
-<li>writing codes in R and/or Python</li>
-<li>developing and implementing a data science workflow for a data-driven project</li>
-<li>designing a data science project by conceptualizing a domain science problem</li>
-</ol>
-<p>This will be accomplished through activities within each section. Results from each activity will be recorded in specified results templates. The results templates for each activity can be found at the beginning of each activity. The results templates are organized such that results from one activity can easily be used in successive activities.</p>
+<section id="about-the-course" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-course">About the course</h2>
+<p>Learn introductory R and Python programming through Earth and environmental science applications. The course connects coding practice to data analysis and machine learning, including examples involving wildfire and groundwater quality.</p>
+<ul>
+<li><strong>Audience:</strong> Learners with geoscience interests and varied programming experience; the host lists no prerequisites.</li>
+<li><strong>Estimated time:</strong> Approximately 30 hours.</li>
+<li><strong>Tools:</strong> An internet-connected computer, R/RStudio, Python/Jupyter Notebook, and a CUAHSI HydroShare account.</li>
+<li><strong>Course authors listed by the host:</strong> Tao Wen, Christina Bandaragoda, and Lucas Harris.</li>
+<li><strong>Host:</strong> HydroLearn.</li>
+</ul>
+<p>Activities build toward designing a scientific question, writing and adapting code, and developing a reproducible data-analysis workflow. Consult HydroLearn for course access and enrollment information.</p>
+<p><a href="https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about" class="btn btn-primary">Open the course on HydroLearn</a></p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p>The host recommends: Bandaragoda, C., and Wen, T. (2020). <em>Data Science in Earth and Environmental Sciences</em>. <a href="https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about">HydroLearn</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="hydrolearn-ds-ees.png" class="img-fluid figure-img" style="width:70.0%"></p>
-<figcaption>This image was created with the assistance of DALL·E</figcaption>
+<p><img src="hydrolearn-ds-ees.png" class="img-fluid figure-img" style="width:70.0%" alt="Illustration of a robotic hand and a human hand reaching toward a globe, with network patterns and leaves."></p>
+<figcaption>Illustration created with the assistance of DALL·E.</figcaption>
 </figure>
 </div>
-</section>
-<section id="when-is-this-taught" class="level2">
-<h2 class="anchored" data-anchor-id="when-is-this-taught">When is this taught?</h2>
-<p>This course is completely online and self-paced. You can take the course on the <a href="https://edx.hydrolearn.org/courses/course-v1:SyracuseUniversity+EAR601+2020_Fall/about" target="_blank">HydroLearn</a> platform anytime you want.</p>
 
 
 </section>
@@ -460,6 +479,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -575,6 +596,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -807,7 +829,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

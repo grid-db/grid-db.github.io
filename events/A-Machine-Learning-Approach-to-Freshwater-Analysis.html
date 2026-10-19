@@ -2,11 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-06-06">
+<meta name="dcterms.date" content="2023-06-12">
+<meta name="description" content="Research on sodium and alkalinity across 226 U.S. river-monitoring sites, reported by Syracuse University.">
 
 <title>A Machine Learning Approach to Freshwater Analysis – Global RIver-lanD (GRID) Database</title>
 <style>
@@ -37,12 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -76,8 +77,9 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 <meta name="twitter:title" content="A Machine Learning Approach to Freshwater Analysis – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Research on sodium and alkalinity across 226 U.S. river-monitoring sites, reported by Syracuse University.">
 <meta name="twitter:image" content="https://grid-db.github.io/events/A-Machine-Learning-Approach-to-Freshwater-Analysis/image.jpg">
+<meta name="twitter:image:alt" content="Mills River flowing over rocks through woodland in Pisgah National Forest, North Carolina.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -102,10 +104,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -118,6 +131,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-access.html">
@@ -133,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -162,7 +183,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">A Machine Learning Approach to Freshwater Analysis</h1>
-                                <div class="quarto-categories">
+                  <div>
+        <div class="description">
+          Research on sodium and alkalinity across 226 U.S. river-monitoring sites, reported by Syracuse University.
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">News</div>
                 <div class="quarto-category">Publication</div>
                 <div class="quarto-category">Research Updates</div>
@@ -173,17 +199,11 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Dan Bernardi </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 6, 2023</p>
+        <p class="date">June 12, 2023</p>
       </div>
     </div>
     
@@ -199,8 +219,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#whats-driving-salinization-and-alkalinization" id="toc-whats-driving-salinization-and-alkalinization" class="nav-link active" data-scroll-target="#whats-driving-salinization-and-alkalinization">What’s Driving Salinization and Alkalinization?</a></li>
-  <li><a href="#critical-to-the-carbon-cycle" id="toc-critical-to-the-carbon-cycle" class="nav-link" data-scroll-target="#critical-to-the-carbon-cycle">Critical to the Carbon Cycle</a></li>
+  <li><a href="#research-paper" id="toc-research-paper" class="nav-link active" data-scroll-target="#research-paper">Research paper</a></li>
   </ul>
 </nav>
     </div>
@@ -211,27 +230,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
-<p><img src="A-Machine-Learning-Approach-to-Freshwater-Analysis/image.jpg" class="img-fluid"></p>
-<p>From protecting biodiversity to ensuring the safety of drinking water, the biochemical makeup of rivers and streams around the United States is critical for human and environmental welfare. Studies have found that human activity and urbanization are driving salinization (increased salt content) of freshwater sources across the country. In excess, salinity can make water undrinkable, increase the cost of treating water, and harm freshwater fish and wildlife.</p>
-<p>Along with the rise in salinity has also been an increase in alkalinity over time, and past research suggests that salinization may enhance alkalinization. But unlike excess salinity, alkalinization can have a positive impact on the environment due to its ability to neutralize water acidity and absorb carbon dioxide in the Earth’s atmosphere—a key component to combating climate change. Understanding the processes at play that affect salinity and alkalinity have important environmental and health implications.</p>
-<p>A team of researchers from Syracuse University and Texas A&amp;M University have applied a machine learning model to explore where and to what extent human activities are contributing to the hydrogeochemical changes, such as increases in salinity and alkalinity in U.S. rivers.</p>
-<p>The group used data from 226 river monitoring sites across the U.S. and built two machine-learning models to predict monthly salinity and alkalinity levels at each site. These sites were selected because long-term continuous water quality measurements have been recorded for at least 30 years.</p>
-<p>From urban to rural settings, the model explored a diverse range of watersheds, which are areas where all flowing surface water converges to a single point, such as a river or lake. It evaluated 32 watershed factors ranging from hydrology, climate, geology, soil chemistry, land use and land cover to pinpoint the factors contributing to rising salinity and alkalinity. The team’s models determined human activities as major contributors to the salinity of U.S. rivers, while rising alkalinity was mainly attributed more to natural processes than human activities.</p>
-<p>The team, which included Syracuse University researchers Tao Wen, assistant professor in the College of Arts and Sciences’ Department of Earth and Environmental Sciences (EES), Beibei E, a graduate student in EES, Charles T. Driscoll, University Professor of Environmental Systems and Distinguished Professor in the College of Engineering and Computer Science, and Texas A&amp;M assistant professor Shuang Zhang, recently had their findings published in the journal Science of the Total Environment.</p>
-<section id="whats-driving-salinization-and-alkalinization" class="level3">
-<h3 class="anchored" data-anchor-id="whats-driving-salinization-and-alkalinization">What’s Driving Salinization and Alkalinization?</h3>
-<p>The results from the group’s sodium prediction model, which detected human activities such as the application of road salt as major contributions to the salinity of U.S. rivers, were consistent with previous studies. This model specifically revealed population density and impervious surface percentage (artificial surfaces such as roads) as the two most important contributors to higher salt content in U.S. rivers.</p>
-<p>According to Wen, the accuracy of the salinity model provided an important proof of concept for the research team.</p>
-<p>“In regard to causes of salinity in rivers, the results from our machine learning model matched those of previous studies which focused on field observation, lab work and statistical analysis,” says Wen. “This proved that our approach was working.”</p>
-<p>With the salinity results confirming the accuracy of the team’s model, they then turned their attention to alkalinity. Their model identified natural processes as predominantly contributing to variation in river alkalinity, a contrast to previous research that identified human activities as the main contributor to alkalinization (Kaushal et al., 2018). They found that local climatic and hydrogeological conditions including runoff, sediment, soil pH and moisture, were features most affecting river alkalinity.</p>
-</section>
-<section id="critical-to-the-carbon-cycle" class="level3">
-<h3 class="anchored" data-anchor-id="critical-to-the-carbon-cycle">Critical to the Carbon Cycle</h3>
-<p>Their findings have important environmental and climate implications as alkalinity in rivers forms a vital link in the carbon cycle. Consider the movement of carbon during a rainstorm. When it rains, carbon dioxide from the atmosphere combines with water to form carbonic acid. When the carbonic acid reaches the ground and comes into contact with certain rocks, it triggers a chemical reaction that extracts gaseous carbon dioxide from the atmosphere and transports it to the ocean via land water systems like lakes and rivers.</p>
-<p>Known as rock weathering, this natural process continuously erodes away rocks and sequesters atmospheric CO2 over millions of years. It is also a key regulator of greenhouse gases that contribute to global warming.</p>
-<p>“Rock weathering is the primary source of alkalinity in natural waters and is one of the main ways to bring down carbon dioxide in air,” says Wen. Think of it as a feedback loop: when there is too much carbon dioxide in the atmosphere, temperatures increase leading to enhanced rock weathering. With more rock being dissolved into watersheds due to enhanced rock weathering, alkalinity rises and in turn, brings down carbon dioxide.</p>
-<p>“Alkalinity is a critical component of the carbon cycle,” says Wen. “While we found that natural processes are the primary drivers of alkalinization, these natural factors can still be changed by humans. We can alter the alkalinity level in rivers by changing the natural parameters, so we need to invest more to restore the natural conditions of watersheds and tackle global warming and climate changes to deal with alkalinization in U.S. rivers.”</p>
-<p>The results from the team’s study can help inform future research about enhanced rock weathering efforts—where rocks are ground up and spread across fields. By distributing rock dust across large areas, it increases the amount of contact between rain and rock, which enhances carbon removal from the atmosphere. Wen says the team’s model can help answer questions about the evolution of natural conditions in different regions—an important step needed to implement enhanced rock weathering more effectively.</p>
+<p>This summary refers to <a href="https://artsandsciences.syracuse.edu/news-all/news-2023/a-machine-learning-approach-to-freshwater-analysis/">Dan Bernardi’s Syracuse University article, published June 12, 2023</a>.</p>
+<p>Researchers from Syracuse University and Texas A&amp;M University used observations from 226 U.S. river-monitoring sites and 32 watershed characteristics to model monthly sodium and alkalinity. The work examined how human activity and environmental conditions relate to river chemistry.</p>
+<p>Population density and impervious surfaces were important predictors in the sodium model. Climatic and hydrogeological variables were important in the alkalinity model. These predictive associations help frame further investigation; feature importance alone does not demonstrate a causal pathway or quantify net carbon removal.</p>
+<section id="research-paper" class="level2">
+<h2 class="anchored" data-anchor-id="research-paper">Research paper</h2>
+<p>E, B., Zhang, S., Driscoll, C. T., and Wen, T. (2023). <em>Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach</em>. <strong>Science of the Total Environment</strong>. <a href="https://doi.org/10.1016/j.scitotenv.2023.164138">Read the paper</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="A-Machine-Learning-Approach-to-Freshwater-Analysis/image.jpg" class="img-fluid figure-img" alt="Mills River flowing over rocks through woodland in Pisgah National Forest, North Carolina."></p>
+<figcaption>Mills River, Pisgah National Forest, North Carolina. Image source: the Syracuse University article linked above.</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -463,6 +473,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -578,6 +590,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -810,7 +823,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

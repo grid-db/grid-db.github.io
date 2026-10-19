@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.49">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="an online course on investigating environmental impact of oil and gas production on water quality">
+<meta name="description" content="A 2–3 hour teaching activity using public data to investigate brine disposal, stream chemistry, and seismicity.">
 
-<title>Environmental Issues Related to Brine Disposal from Hydrocarbon Development – Global RIver-lanD (GRID) Database</title>
+<title>Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania – Global RIver-lanD (GRID) Database</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4be92579487656b34607b88f13379849.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-55c16e70a1dd2b51b7e26ef8dbfda7b8.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-20daf975eb9cae47459fa283ecddc85e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e093346dea525d6bc9147437775bb317.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -75,11 +75,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../assets/css/styles.css">
-<meta name="twitter:title" content="Environmental Issues Related to Brine Disposal from Hydrocarbon Development – Global RIver-lanD (GRID) Database">
-<meta name="twitter:description" content="an online course on investigating environmental impact of oil and gas production on water quality">
+<meta name="twitter:title" content="Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania – Global RIver-lanD (GRID) Database">
+<meta name="twitter:description" content="A 2–3 hour teaching activity using public data to investigate brine disposal, stream chemistry, and seismicity.">
 <meta name="twitter:image" content="https://grid-db.github.io/education/water-hydrocarbon.png">
 <meta name="twitter:image-height" content="366">
 <meta name="twitter:image-width" content="640">
+<meta name="twitter:image:alt" content="Conceptual illustration of oil production beside a river, with aquatic life and a cutaway of the ground.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -104,10 +105,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about.html">
+ <span class="dropdown-text">About GRID</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../development.html">
+ <span class="dropdown-text">Development Roadmap</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../get-involved.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -120,6 +132,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../database/data-overview.html">
  <span class="dropdown-text">Database Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/coverage.html">
+ <span class="dropdown-text">Coverage and Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../database/methods.html">
+ <span class="dropdown-text">Methods and Interpretation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-access.html">
@@ -135,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../database/data-highlights.html">
- <span class="dropdown-text">Dataset Highlights</span></a>
+ <span class="dropdown-text">Data and Code Highlights</span></a>
   </li>  
     </ul>
   </li>
@@ -168,8 +188,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#when-is-this-taught" id="toc-when-is-this-taught" class="nav-link" data-scroll-target="#when-is-this-taught">When is this taught?</a></li>
+  <li><a href="#about-the-activity" id="toc-about-the-activity" class="nav-link active" data-scroll-target="#about-the-activity">About the activity</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
     </div>
@@ -178,17 +198,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Environmental Issues Related to Brine Disposal from Hydrocarbon Development</h1>
+<h1 class="title">Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">SERC</div>
-    <div class="quarto-category">Earth and Environmental Sciences</div>
-    <div class="quarto-category">CUAHSI</div>
+    <div class="quarto-category">Teaching activity</div>
+    <div class="quarto-category">Hydrology</div>
+    <div class="quarto-category">Water quality</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>an online course on investigating environmental impact of oil and gas production on water quality</p>
+    A 2–3 hour teaching activity using public data to investigate brine disposal, stream chemistry, and seismicity.
   </div>
 </div>
 
@@ -205,25 +225,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <script defer="" src="https://cloud.umami.is/script.js" data-website-id="9749f614-5da0-4a9c-9952-d69f9aaefdcd"></script>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course description</h2>
-<p>This course, <a href="https://serc.carleton.edu/hydromodules/units/191769.html" target="_blank">Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania</a>, is designed to teach how to use online datasets to investigate the stream water chemistry upstream and downstream to brine water disposal site at multiple locations in Pennsylvania watersheds. This course is offered through the <a href="https://serc.carleton.edu" target="_blank">SERC</a> platform, in partnership with <a href="https://data.cuahsi.org" target="_blank">CUAHSI HydroClient</a></p>
-<p>In this course, learners will explore three aspects of oil and gas development-related production waters:</p>
-<ol type="1">
-<li>why the waters cannot be discharged directly into rivers;</li>
-<li>how disposal can be sometimes associated with earthquakes;</li>
-<li>how Pennsylvania tries to find ways to dispose of brines safely. We use different online services to find publicly available data.</li>
-</ol>
+<section id="about-the-activity" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-activity">About the activity</h2>
+<p>Explore how brine disposal from oil and gas production can affect water quality and how investigators evaluate possible links between disposal and seismic events. Learners compare stream chemistry upstream and downstream of disposal sites in the Allegheny River system and examine disposal practices in Pennsylvania.</p>
+<ul>
+<li><strong>Audience:</strong> Intermediate undergraduate hydrology students.</li>
+<li><strong>Estimated time:</strong> 2–3 hours.</li>
+<li><strong>Tools:</strong> HydroClient, the Pennsylvania DEP Oil and Gas Mapping Tool, and Google Earth.</li>
+<li><strong>Creator:</strong> Tao Wen.</li>
+<li><strong>Host:</strong> Science Education Resource Center at Carleton College (SERC).</li>
+</ul>
+<p>The activity combines public-data searches, interpretation, and questions for students. It provides teaching materials that can be worked through online.</p>
+<p><a href="https://serc.carleton.edu/hydromodules/units/191769.html" class="btn btn-primary">Open the activity and instructions on SERC</a></p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p>Wen, T. (2017). <em>Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania</em>. <a href="https://doi.org/10.67165/cbzks996">Teaching activity and citation</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="water-hydrocarbon.png" class="img-fluid figure-img" style="width:70.0%"></p>
-<figcaption>This image was created with the assistance of DALL·E</figcaption>
+<p><img src="water-hydrocarbon.png" class="img-fluid figure-img" style="width:70.0%" alt="Conceptual illustration of oil production beside a river, with aquatic life and a cutaway of the ground."></p>
+<figcaption>Conceptual illustration created with the assistance of DALL·E.</figcaption>
 </figure>
 </div>
-</section>
-<section id="when-is-this-taught" class="level2">
-<h2 class="anchored" data-anchor-id="when-is-this-taught">When is this taught?</h2>
-<p>This course is completely online and self-paced. You can take the course on the <a href="https://serc.carleton.edu/hydromodules/units/191769.html" target="_blank">SERC</a> platform anytime you want.</p>
 
 
 </section>
@@ -455,6 +478,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -570,6 +595,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -802,7 +828,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025–2026 · Built with <i class="fa-solid fa-heart" title="a heart" aria-label="heart"></i> and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

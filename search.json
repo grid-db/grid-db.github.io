@@ -4,123 +4,341 @@
     "href": "people/people.html",
     "title": "Meet the Community",
     "section": "",
-    "text": "The Global RIver-lanD (GRID) Database began as a collaborative project between researchers at Syracuse University, Texas A&M University, and Yale University. The team has continued to grow, now including members from diverse institutions and countries."
+    "text": "The Global RIver-lanD (GRID) Database began as a collaboration among researchers at Syracuse University, Texas A&M University, and Yale University. Tao Wen and Shuang Zhang continue on the GRID management team. The proposed GRID-SI project brings together a broader team to develop reusable hydrogeochemical datasets and software workflows."
   },
   {
-    "objectID": "people/people.html#management-team",
-    "href": "people/people.html#management-team",
+    "objectID": "people/people.html#core-proposal-team",
+    "href": "people/people.html#core-proposal-team",
     "title": "Meet the Community",
-    "section": "Management Team",
-    "text": "Management Team\n\n  \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n        Giuseppe Amatulli\n        Yale University\n      \n    \n    \n      \n        Tao Wen\n        Syracuse University\n      \n    \n    \n      \n        Shuang Zhang\n        Texas A&M University"
+    "section": "Core Proposal Team",
+    "text": "Core Proposal Team\nThese researchers form the core team for the proposed GRID-SI project.\n\n\n  \n  Tao Wen\n  Syracuse University\n  Hydrogeochemistry, carbon–sulfur cycling, and environmental data science.\n  Profile\n\n\n  \n  Shuang Zhang\n  Texas A&M University\n  Carbon-cycle science, weathering, and geochemical modeling.\n  Profile"
+  },
+  {
+    "objectID": "people/people.html#advisory-board-for-the-proposed-grid-si-project",
+    "href": "people/people.html#advisory-board-for-the-proposed-grid-si-project",
+    "title": "Meet the Community",
+    "section": "Advisory Board for the Proposed GRID-SI Project",
+    "text": "Advisory Board for the Proposed GRID-SI Project\nThe following researchers have agreed to advise the proposed project. Their expertise spans hydrogeochemistry, Earth-surface processes, and scientific data systems.\n\n\n  \n  Susan L. Brantley\n  Penn State University\n  Critical-zone science, weathering, and water–rock interactions.\n  Profile\n\n\n  \n  Charles T. Driscoll, Jr.\n  Syracuse University\n  Environmental chemistry, ecosystem biogeochemistry, and water-quality modeling.\n  Profile\n\n\n  \n  Daniel E. Ibarra\n  Brown University\n  River biogeochemistry, coupled water–carbon cycles, and enhanced weathering.\n  Profile\n\n\n  \n  Nicole Fernandez-Franzan\n  ETH Zurich\n  Low-temperature geochemistry, water–rock interactions, and carbon storage.\n  Profile\n\n\n  \n  Andrew Zaffos\n  Arizona Geological Survey, University of Arizona\n  Geoscience database architecture, software infrastructure, and large-scale data systems.\n  Profile\n\n\n  \n  Xiaogang (Marshall) Ma\n  University of Idaho\n  Semantic interoperability, knowledge graphs, and data provenance.\n  Profile"
   },
   {
     "objectID": "people/people.html#working-group-members",
     "href": "people/people.html#working-group-members",
     "title": "Meet the Community",
     "section": "Working Group Members",
-    "text": "Working Group Members\n\n  \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      \n        Ruta Basijokaite\n        Syracuse University\n      \n    \n    \n      \n        Liyang Qin\n        Syracuse University\n      \n    \n    \n      \n        Cynthia Sun\n        Texas A&M University\n      \n    \n  \n  \n    \n    \n  \n  \n    \n      \n        Zanchenling Wang\n        Syracuse University"
+    "text": "Working Group Members\n\n\n  \n  Xiumei Ma\n  Syracuse University\n  Postdoctoral Scholar\n  Profile\n\n\n  \n  Mahnaz Sepehrmanesh\n  Syracuse University\n  Postdoctoral Scholar\n  Profile\n\n\n  \n  Cynthia Sun\n  Texas A&M University\n  Graduate Student\n\n\n  \n  Zanchenling Wang\n  Syracuse University\n  Graduate Student"
+  },
+  {
+    "objectID": "people/people.html#contact",
+    "href": "people/people.html#contact",
+    "title": "Meet the Community",
+    "section": "Contact",
+    "text": "Contact\nFor questions about GRID or opportunities to contribute, contact Tao Wen."
   },
   {
     "objectID": "get-involved.html",
     "href": "get-involved.html",
     "title": "Get Involved",
     "section": "",
-    "text": "We are excited about the diverse watershed attributes included in the harmonized Global RIver-lanD (GRID) Database and are delighted by your interest in participating. We warmly welcome anyone passionate about and eager to investigate questions related to watershed sciences within a collaborative group setting to join the project.\nIf you would like to contribute new data to the GRID database and/or propose collaborative projects to work with us, please consider reaching out to the Mangement Team"
+    "text": "GRID welcomes researchers, educators, and data contributors interested in river chemistry and watershed science."
   },
   {
-    "objectID": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
-    "href": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
-    "title": "A Machine Learning Approach to Freshwater Analysis",
+    "objectID": "get-involved.html#contribute-a-dataset",
+    "href": "get-involved.html#contribute-a-dataset",
+    "title": "Get Involved",
+    "section": "Contribute a dataset",
+    "text": "Contribute a dataset\nStart with a short description of the observations, location and time coverage, available metadata, and ownership or reuse conditions. Include a repository link if the data are already public. For unpublished data, discuss permissions and release timing before transferring files.\nRead the contribution guidance"
+  },
+  {
+    "objectID": "get-involved.html#propose-research",
+    "href": "get-involved.html#propose-research",
+    "title": "Get Involved",
+    "section": "Propose research",
+    "text": "Propose research\nDescribe the scientific question, the relevant GRID release or data needs, and the contribution you would like to make. Links to related work or analysis code help the team assess a possible collaboration.\nMeet the team · Read the development roadmap"
+  },
+  {
+    "objectID": "get-involved.html#teach-with-grid-resources",
+    "href": "get-involved.html#teach-with-grid-resources",
+    "title": "Get Involved",
+    "section": "Teach with GRID resources",
+    "text": "Teach with GRID resources\nExplore activities on water quality and environmental data science. Tell us which resource you used, your teaching context, and any difficulties or improvements you would like to share.\nExplore teaching resources"
+  },
+  {
+    "objectID": "get-involved.html#contact",
+    "href": "get-involved.html#contact",
+    "title": "Get Involved",
+    "section": "Contact",
+    "text": "Contact\nEmail Tao Wen with a subject identifying your interest: data contribution, research collaboration, or teaching. Please send a brief inquiry first so that any data transfer can follow the appropriate permissions and arrangements."
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "News & Events",
     "section": "",
-    "text": "From protecting biodiversity to ensuring the safety of drinking water, the biochemical makeup of rivers and streams around the United States is critical for human and environmental welfare. Studies have found that human activity and urbanization are driving salinization (increased salt content) of freshwater sources across the country. In excess, salinity can make water undrinkable, increase the cost of treating water, and harm freshwater fish and wildlife.\nAlong with the rise in salinity has also been an increase in alkalinity over time, and past research suggests that salinization may enhance alkalinization. But unlike excess salinity, alkalinization can have a positive impact on the environment due to its ability to neutralize water acidity and absorb carbon dioxide in the Earth’s atmosphere—a key component to combating climate change. Understanding the processes at play that affect salinity and alkalinity have important environmental and health implications.\nA team of researchers from Syracuse University and Texas A&M University have applied a machine learning model to explore where and to what extent human activities are contributing to the hydrogeochemical changes, such as increases in salinity and alkalinity in U.S. rivers.\nThe group used data from 226 river monitoring sites across the U.S. and built two machine-learning models to predict monthly salinity and alkalinity levels at each site. These sites were selected because long-term continuous water quality measurements have been recorded for at least 30 years.\nFrom urban to rural settings, the model explored a diverse range of watersheds, which are areas where all flowing surface water converges to a single point, such as a river or lake. It evaluated 32 watershed factors ranging from hydrology, climate, geology, soil chemistry, land use and land cover to pinpoint the factors contributing to rising salinity and alkalinity. The team’s models determined human activities as major contributors to the salinity of U.S. rivers, while rising alkalinity was mainly attributed more to natural processes than human activities.\nThe team, which included Syracuse University researchers Tao Wen, assistant professor in the College of Arts and Sciences’ Department of Earth and Environmental Sciences (EES), Beibei E, a graduate student in EES, Charles T. Driscoll, University Professor of Environmental Systems and Distinguished Professor in the College of Engineering and Computer Science, and Texas A&M assistant professor Shuang Zhang, recently had their findings published in the journal Science of the Total Environment.\n\nWhat’s Driving Salinization and Alkalinization?\nThe results from the group’s sodium prediction model, which detected human activities such as the application of road salt as major contributions to the salinity of U.S. rivers, were consistent with previous studies. This model specifically revealed population density and impervious surface percentage (artificial surfaces such as roads) as the two most important contributors to higher salt content in U.S. rivers.\nAccording to Wen, the accuracy of the salinity model provided an important proof of concept for the research team.\n“In regard to causes of salinity in rivers, the results from our machine learning model matched those of previous studies which focused on field observation, lab work and statistical analysis,” says Wen. “This proved that our approach was working.”\nWith the salinity results confirming the accuracy of the team’s model, they then turned their attention to alkalinity. Their model identified natural processes as predominantly contributing to variation in river alkalinity, a contrast to previous research that identified human activities as the main contributor to alkalinization (Kaushal et al., 2018). They found that local climatic and hydrogeological conditions including runoff, sediment, soil pH and moisture, were features most affecting river alkalinity.\n\n\nCritical to the Carbon Cycle\nTheir findings have important environmental and climate implications as alkalinity in rivers forms a vital link in the carbon cycle. Consider the movement of carbon during a rainstorm. When it rains, carbon dioxide from the atmosphere combines with water to form carbonic acid. When the carbonic acid reaches the ground and comes into contact with certain rocks, it triggers a chemical reaction that extracts gaseous carbon dioxide from the atmosphere and transports it to the ocean via land water systems like lakes and rivers.\nKnown as rock weathering, this natural process continuously erodes away rocks and sequesters atmospheric CO2 over millions of years. It is also a key regulator of greenhouse gases that contribute to global warming.\n“Rock weathering is the primary source of alkalinity in natural waters and is one of the main ways to bring down carbon dioxide in air,” says Wen. Think of it as a feedback loop: when there is too much carbon dioxide in the atmosphere, temperatures increase leading to enhanced rock weathering. With more rock being dissolved into watersheds due to enhanced rock weathering, alkalinity rises and in turn, brings down carbon dioxide.\n“Alkalinity is a critical component of the carbon cycle,” says Wen. “While we found that natural processes are the primary drivers of alkalinization, these natural factors can still be changed by humans. We can alter the alkalinity level in rivers by changing the natural parameters, so we need to invest more to restore the natural conditions of watersheds and tackle global warming and climate changes to deal with alkalinization in U.S. rivers.”\nThe results from the team’s study can help inform future research about enhanced rock weathering efforts—where rocks are ground up and spread across fields. By distributing rock dust across large areas, it increases the amount of contact between rain and rock, which enhances carbon removal from the atmosphere. Wen says the team’s model can help answer questions about the evolution of natural conditions in different regions—an important step needed to implement enhanced rock weathering more effectively."
+    "text": "Updates about GRID-related research, teaching, and community activities. Each entry identifies its original publication or release date and links to supporting sources.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRiver weathering data and machine-learning workflows released\n\n\n\n\n\n\nResearch Updates\n\n\nSoftware\n\n\n\n\n\n\nAug 8, 2026\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nA Machine Learning Approach to Freshwater Analysis\n\n\n\n\n\n\nNews\n\n\nPublication\n\n\nResearch Updates\n\n\n\n\n\n\nJun 12, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "education/index.html",
+    "href": "education/index.html",
+    "title": "Education",
+    "section": "",
+    "text": "These externally hosted resources introduce skills relevant to using river chemistry and environmental data: finding observations, evaluating possible contaminant sources, and developing data-analysis and machine-learning workflows. They are teaching resources selected for the GRID community; they are not tutorials for a specific GRID release.\nEach entry identifies the audience, estimated effort, tools, creators, and original host. Follow the host link for the complete activity, module, or course and its access requirements.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan River Chemistry Reveal Catchment Lithology?\n\n\n\nLearning module\n\n\nPython\n\n\nDeep learning\n\n\nHydrogeochemistry\n\n\n\nA guided, 40–45-minute PyTorch module by Tao Wen comparing linear and neural-network classifiers using river chemistry.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science in Earth and Environmental Sciences\n\n\n\nCourse\n\n\nR\n\n\nPython\n\n\nEnvironmental data science\n\n\n\nAn approximately 30-hour online course introducing R, Python, and environmental data analysis.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania\n\n\n\nTeaching activity\n\n\nHydrology\n\n\nWater quality\n\n\n\nA 2–3 hour teaching activity using public data to investigate brine disposal, stream chemistry, and seismicity.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating Potential Methane Sources in Pennsylvania Streams\n\n\n\nTeaching activity\n\n\nHydrology\n\n\nWater quality\n\n\n\nA two-hour teaching activity exploring possible methane sources using water chemistry and oil and gas records.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "education/hydrolearn-ds-ees.html",
     "href": "education/hydrolearn-ds-ees.html",
     "title": "Data Science in Earth and Environmental Sciences",
     "section": "",
-    "text": "This course, Data Science in Earth and Environmental Sciences, is designed to introduce learners to the basics of R and Python programming as well as the application of emerging data analytics and machine learning methods in the Earth and Environmental Sciences. This course is offered through the HydroLearn platform, in partnership with CUAHSI HydroShare\nThis course is designed to serve a broad mix of learners whose coding expertise ranges from beginner to expert level and whose geoscience-related research interests. At the end of this course, you should be able to describe and implement the steps involved in:\n\nreviewing and modifying others’ codes in R and/or Python\nwriting codes in R and/or Python\ndeveloping and implementing a data science workflow for a data-driven project\ndesigning a data science project by conceptualizing a domain science problem\n\nThis will be accomplished through activities within each section. Results from each activity will be recorded in specified results templates. The results templates for each activity can be found at the beginning of each activity. The results templates are organized such that results from one activity can easily be used in successive activities.\n\n\n\nThis image was created with the assistance of DALL·E"
+    "text": "Learn introductory R and Python programming through Earth and environmental science applications. The course connects coding practice to data analysis and machine learning, including examples involving wildfire and groundwater quality.\n\nAudience: Learners with geoscience interests and varied programming experience; the host lists no prerequisites.\nEstimated time: Approximately 30 hours.\nTools: An internet-connected computer, R/RStudio, Python/Jupyter Notebook, and a CUAHSI HydroShare account.\nCourse authors listed by the host: Tao Wen, Christina Bandaragoda, and Lucas Harris.\nHost: HydroLearn.\n\nActivities build toward designing a scientific question, writing and adapting code, and developing a reproducible data-analysis workflow. Consult HydroLearn for course access and enrollment information.\nOpen the course on HydroLearn"
   },
   {
-    "objectID": "education/hydrolearn-ds-ees.html#course-description",
-    "href": "education/hydrolearn-ds-ees.html#course-description",
+    "objectID": "education/hydrolearn-ds-ees.html#about-the-course",
+    "href": "education/hydrolearn-ds-ees.html#about-the-course",
     "title": "Data Science in Earth and Environmental Sciences",
     "section": "",
-    "text": "This course, Data Science in Earth and Environmental Sciences, is designed to introduce learners to the basics of R and Python programming as well as the application of emerging data analytics and machine learning methods in the Earth and Environmental Sciences. This course is offered through the HydroLearn platform, in partnership with CUAHSI HydroShare\nThis course is designed to serve a broad mix of learners whose coding expertise ranges from beginner to expert level and whose geoscience-related research interests. At the end of this course, you should be able to describe and implement the steps involved in:\n\nreviewing and modifying others’ codes in R and/or Python\nwriting codes in R and/or Python\ndeveloping and implementing a data science workflow for a data-driven project\ndesigning a data science project by conceptualizing a domain science problem\n\nThis will be accomplished through activities within each section. Results from each activity will be recorded in specified results templates. The results templates for each activity can be found at the beginning of each activity. The results templates are organized such that results from one activity can easily be used in successive activities.\n\n\n\nThis image was created with the assistance of DALL·E"
+    "text": "Learn introductory R and Python programming through Earth and environmental science applications. The course connects coding practice to data analysis and machine learning, including examples involving wildfire and groundwater quality.\n\nAudience: Learners with geoscience interests and varied programming experience; the host lists no prerequisites.\nEstimated time: Approximately 30 hours.\nTools: An internet-connected computer, R/RStudio, Python/Jupyter Notebook, and a CUAHSI HydroShare account.\nCourse authors listed by the host: Tao Wen, Christina Bandaragoda, and Lucas Harris.\nHost: HydroLearn.\n\nActivities build toward designing a scientific question, writing and adapting code, and developing a reproducible data-analysis workflow. Consult HydroLearn for course access and enrollment information.\nOpen the course on HydroLearn"
   },
   {
-    "objectID": "education/hydrolearn-ds-ees.html#when-is-this-taught",
-    "href": "education/hydrolearn-ds-ees.html#when-is-this-taught",
+    "objectID": "education/hydrolearn-ds-ees.html#citation",
+    "href": "education/hydrolearn-ds-ees.html#citation",
     "title": "Data Science in Earth and Environmental Sciences",
-    "section": "When is this taught?",
-    "text": "When is this taught?\nThis course is completely online and self-paced. You can take the course on the HydroLearn platform anytime you want."
+    "section": "Citation",
+    "text": "Citation\nThe host recommends: Bandaragoda, C., and Wen, T. (2020). Data Science in Earth and Environmental Sciences. HydroLearn.\n\n\n\nIllustration created with the assistance of DALL·E."
   },
   {
     "objectID": "education/env-brine.html",
     "href": "education/env-brine.html",
-    "title": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development",
+    "title": "Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania",
     "section": "",
-    "text": "This course, Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania, is designed to teach how to use online datasets to investigate the stream water chemistry upstream and downstream to brine water disposal site at multiple locations in Pennsylvania watersheds. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, learners will explore three aspects of oil and gas development-related production waters:\n\nwhy the waters cannot be discharged directly into rivers;\nhow disposal can be sometimes associated with earthquakes;\nhow Pennsylvania tries to find ways to dispose of brines safely. We use different online services to find publicly available data.\n\n\n\n\nThis image was created with the assistance of DALL·E"
+    "text": "Explore how brine disposal from oil and gas production can affect water quality and how investigators evaluate possible links between disposal and seismic events. Learners compare stream chemistry upstream and downstream of disposal sites in the Allegheny River system and examine disposal practices in Pennsylvania.\n\nAudience: Intermediate undergraduate hydrology students.\nEstimated time: 2–3 hours.\nTools: HydroClient, the Pennsylvania DEP Oil and Gas Mapping Tool, and Google Earth.\nCreator: Tao Wen.\nHost: Science Education Resource Center at Carleton College (SERC).\n\nThe activity combines public-data searches, interpretation, and questions for students. It provides teaching materials that can be worked through online.\nOpen the activity and instructions on SERC"
   },
   {
-    "objectID": "education/env-brine.html#course-description",
-    "href": "education/env-brine.html#course-description",
-    "title": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development",
+    "objectID": "education/env-brine.html#about-the-activity",
+    "href": "education/env-brine.html#about-the-activity",
+    "title": "Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania",
     "section": "",
-    "text": "This course, Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania, is designed to teach how to use online datasets to investigate the stream water chemistry upstream and downstream to brine water disposal site at multiple locations in Pennsylvania watersheds. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, learners will explore three aspects of oil and gas development-related production waters:\n\nwhy the waters cannot be discharged directly into rivers;\nhow disposal can be sometimes associated with earthquakes;\nhow Pennsylvania tries to find ways to dispose of brines safely. We use different online services to find publicly available data.\n\n\n\n\nThis image was created with the assistance of DALL·E"
+    "text": "Explore how brine disposal from oil and gas production can affect water quality and how investigators evaluate possible links between disposal and seismic events. Learners compare stream chemistry upstream and downstream of disposal sites in the Allegheny River system and examine disposal practices in Pennsylvania.\n\nAudience: Intermediate undergraduate hydrology students.\nEstimated time: 2–3 hours.\nTools: HydroClient, the Pennsylvania DEP Oil and Gas Mapping Tool, and Google Earth.\nCreator: Tao Wen.\nHost: Science Education Resource Center at Carleton College (SERC).\n\nThe activity combines public-data searches, interpretation, and questions for students. It provides teaching materials that can be worked through online.\nOpen the activity and instructions on SERC"
   },
   {
-    "objectID": "education/env-brine.html#when-is-this-taught",
-    "href": "education/env-brine.html#when-is-this-taught",
-    "title": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development",
-    "section": "When is this taught?",
-    "text": "When is this taught?\nThis course is completely online and self-paced. You can take the course on the SERC platform anytime you want."
+    "objectID": "education/env-brine.html#citation",
+    "href": "education/env-brine.html#citation",
+    "title": "Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania",
+    "section": "Citation",
+    "text": "Citation\nWen, T. (2017). Environmental Issues Related to Brine Disposal from Oil and Gas Development in Pennsylvania. Teaching activity and citation.\n\n\n\nConceptual illustration created with the assistance of DALL·E."
   },
   {
-    "objectID": "database/highlights/ROcD-nGoM-2024.html",
-    "href": "database/highlights/ROcD-nGoM-2024.html",
-    "title": "Long-Term River-Ocean Analyses in the Northern Gulf of Mexico",
+    "objectID": "database/methods.html",
+    "href": "database/methods.html",
+    "title": "Methods and Interpretation",
     "section": "",
-    "text": "This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water and ocean data in the northern Gulf of Mexico Click this link to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this data DOI."
-  },
-  {
-    "objectID": "database/data-overview.html",
-    "href": "database/data-overview.html",
-    "title": "Database Overview",
-    "section": "",
-    "text": "The Global RIver-lanD (GRID) database represents a groundbreaking initiative to revolutionize how we understand and utilize river systems for Earth surface research. GRID integrates high-resolution data on river hydrogeochemistry, watershed properties, and other derived data products into a cohesive, web-accessible resource. By harnessing cutting-edge machine learning technologies and compiling data from diverse disciplines like hydrology, geology, climatology, and geography, the database aims to provide unparalleled insights into the dynamics of river systems worldwide. GRID is not just a database; it’s a step toward a deeper understanding of the Earth’s interconnected systems. Join us as we map the future of river and watershed research for a sustainable planet.",
+    "text": "GRID research products combine river observations, watershed information, and analytical workflows. Methods and quality controls depend on the release. The examples below describe documented approaches in public products; consult each linked record and article for its full methods and limitations.",
     "crumbs": [
-      "Database Overview"
+      "Methods and Interpretation"
     ]
   },
   {
-    "objectID": "database/data-overview.html#a-unified-global-vision",
-    "href": "database/data-overview.html#a-unified-global-vision",
-    "title": "Database Overview",
-    "section": "A Unified Global Vision",
-    "text": "A Unified Global Vision\nGRID consolidates a wide array of datasets from over 30,000 global river stations and integrates environmental predictors such as elevation, climate, land cover, and lithology. By employing advanced computational techniques, GRID provides seamless, high-resolution maps at spatial resolutions as fine as 90 meters and temporal scales ranging from daily to monthly. This comprehensive approach enables researchers to study not only large river systems but also smaller, often overlooked waterways that play critical roles in regional hydrology and ecosystems.",
+    "objectID": "database/methods.html#observations-derived-estimates-and-predictions",
+    "href": "database/methods.html#observations-derived-estimates-and-predictions",
+    "title": "Methods and Interpretation",
+    "section": "Observations, derived estimates, and predictions",
+    "text": "Observations, derived estimates, and predictions\n\nObservations are measurements reported by a source monitoring program, with its sampling methods, units, and quality information.\nDerived estimates are calculated from observations, for example through temporal aggregation, discharge weighting, or geochemical inverse modeling.\nModel predictions estimate values using fitted relationships and environmental inputs. Their interpretation depends on the training data, validation design, and prediction domain.\n\nKeep these categories distinct when combining products or reporting results. Spatial and temporal aggregation can affect the questions a dataset can answer.",
     "crumbs": [
-      "Database Overview"
+      "Methods and Interpretation"
     ]
   },
   {
-    "objectID": "database/data-overview.html#revolutionizing-earth-science",
-    "href": "database/data-overview.html#revolutionizing-earth-science",
-    "title": "Database Overview",
-    "section": "Revolutionizing Earth Science",
-    "text": "Revolutionizing Earth Science\nThe GRID database addresses some of the most pressing challenges in Earth science, including freshwater availability, hydrological extremes, and the role of rivers in biogeochemical cycles. By predicting river discharge, elemental fluxes, and watershed dynamics with unprecedented accuracy, GRID empowers scientists, policymakers, and environmentalists to make informed decisions. Whether it’s assessing flood risks, ensuring water security, or understanding the impacts of climate change, GRID is poised to become a cornerstone for research and planning.",
+    "objectID": "database/methods.html#documented-product-workflows",
+    "href": "database/methods.html#documented-product-workflows",
+    "title": "Methods and Interpretation",
+    "section": "Documented product workflows",
+    "text": "Documented product workflows\n\nU.S. river salinization and alkalinization\nThe 226-site release combines sodium and alkalinity data with 32 watershed properties. The associated study uses machine learning to predict monthly-aggregated sodium and alkalinity fluxes and examine their relationships with human and natural watershed characteristics. Consult the article and data and code for site selection, processing, and model evaluation.\n\n\nNorthern Gulf of Mexico river–ocean database\nROcD-nGoM brings together river chemistry and discharge with coastal ocean and satellite data. Its river products distinguish observations from daily concentrations and fluxes estimated using the USGS WRTDS model. The repository record describes outlier flags and cleaned monthly, seasonal, and annual aggregates. See the data descriptor for the harmonization approach.\n\n\nRiver weathering and machine learning\nThe weathering data and code release documents an R workflow linking USGS chemistry, InveR geochemical inverse modeling, watershed predictors, and XGBoost. It includes derived analysis tables and code for model training, SHAP interpretation, spatial prediction, and uncertainty analysis. The archived README describes nested cross-validation and bootstrap uncertainty estimation. These are methods documented for this study, rather than a single validation protocol for all GRID products.",
     "crumbs": [
-      "Database Overview"
+      "Methods and Interpretation"
     ]
   },
   {
-    "objectID": "database/data-overview.html#open-access-for-a-global-community",
-    "href": "database/data-overview.html#open-access-for-a-global-community",
-    "title": "Database Overview",
-    "section": "Open Access for a Global Community",
-    "text": "Open Access for a Global Community\nEmphasizing open science principles, GRID will be accessible to the global research community through an intuitive, web-based GIS platform. Users can explore, visualize, and download data layers, facilitating collaboration and innovation across disciplines. By providing detailed metadata, robust cyberinfrastructure, and user-friendly tools, GRID ensures long-term usability and relevance for researchers, educators, and decision-makers worldwide.",
+    "objectID": "database/methods.html#responsible-interpretation-and-reuse",
+    "href": "database/methods.html#responsible-interpretation-and-reuse",
+    "title": "Methods and Interpretation",
+    "section": "Responsible interpretation and reuse",
+    "text": "Responsible interpretation and reuse\nRead the data definitions and methods before selecting fields or combining products. Check units, missing values, source identifiers, aggregation periods, and whether a value is measured or estimated. Model relationships and SHAP summaries describe patterns in fitted models; they do not by themselves establish causation. Uncertainty intervals should be interpreted in light of the sources of uncertainty included in the analysis.\nCite the release used and its associated methods sources. Data-use guidance explains how to find release-specific terms. Contact the project team about provenance, a suspected error, or a proposed new use.",
     "crumbs": [
-      "Database Overview"
+      "Methods and Interpretation"
+    ]
+  },
+  {
+    "objectID": "database/highlights/usgs-226-stream-2023.html",
+    "href": "database/highlights/usgs-226-stream-2023.html",
+    "title": "U.S. River Salinization and Alkalinization: Data from 226 Sites",
+    "section": "",
+    "text": "Study monitoring sites across the coterminous United States, with USGS regions shown by color.\nThis GRID project output compiles dissolved sodium and alkalinity data with 32 watershed properties for 226 river monitoring sites across the coterminous United States. The accompanying study uses these data to model monthly-aggregated sodium and alkalinity fluxes and examine their relationships with human and natural watershed characteristics."
+  },
+  {
+    "objectID": "database/highlights/usgs-226-stream-2023.html#access-and-scope",
+    "href": "database/highlights/usgs-226-stream-2023.html#access-and-scope",
+    "title": "U.S. River Salinization and Alkalinization: Data from 226 Sites",
+    "section": "Access and scope",
+    "text": "Access and scope\nDownload data and code on Zenodo.\n\n\n\nRelease detail\nInformation\n\n\n\n\nRepository creators\nTao Wen and Beibei E\n\n\nDataset release\nMay 15, 2023\n\n\nVersion\n1.0\n\n\nRelease DOI\n10.5281/zenodo.7937820\n\n\nFiles\nCodes_and_Datasets.zip, approximately 56 MB\n\n\nRepository license\nCC BY 4.0\n\n\n\nThe 226-site scope and 32-property feature set describe this study, not the current GRID-wide inventory. Consult the repository files and article for observation coverage, processing choices, and model evaluation."
+  },
+  {
+    "objectID": "database/highlights/usgs-226-stream-2023.html#citation-and-associated-article",
+    "href": "database/highlights/usgs-226-stream-2023.html#citation-and-associated-article",
+    "title": "U.S. River Salinization and Alkalinization: Data from 226 Sites",
+    "section": "Citation and associated article",
+    "text": "Citation and associated article\nData and code: Wen, T., and E, B. (2023). Datasets and codes for the peer review article “Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach” (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.7937820.\nArticle: E, B., Zhang, S., Driscoll, C. T., and Wen, T. (2023). Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach. Science of the Total Environment, 889, 164138. Read the article.\nExplore other releases · Data-use guidance"
+  },
+  {
+    "objectID": "database/data-use-and-embargo-policy.html",
+    "href": "database/data-use-and-embargo-policy.html",
+    "title": "Data Use and Embargo Policy",
+    "section": "",
+    "text": "Public GRID project outputs are distributed through their linked repository records. Review the license, version, documentation, and any source-specific conditions for the release you use. A license attached to one product does not establish terms for every GRID holding or for separately obtained inputs.\nThe three releases currently linked on Data Access are listed as CC BY 4.0 in their Zenodo records. Check the selected record and included documentation before reuse.",
+    "crumbs": [
+      "Data Use and Embargo Policy"
+    ]
+  },
+  {
+    "objectID": "database/data-use-and-embargo-policy.html#use-the-terms-for-your-selected-release",
+    "href": "database/data-use-and-embargo-policy.html#use-the-terms-for-your-selected-release",
+    "title": "Data Use and Embargo Policy",
+    "section": "",
+    "text": "Public GRID project outputs are distributed through their linked repository records. Review the license, version, documentation, and any source-specific conditions for the release you use. A license attached to one product does not establish terms for every GRID holding or for separately obtained inputs.\nThe three releases currently linked on Data Access are listed as CC BY 4.0 in their Zenodo records. Check the selected record and included documentation before reuse.",
+    "crumbs": [
+      "Data Use and Embargo Policy"
+    ]
+  },
+  {
+    "objectID": "database/data-use-and-embargo-policy.html#citation-and-attribution",
+    "href": "database/data-use-and-embargo-policy.html#citation-and-attribution",
+    "title": "Data Use and Embargo Policy",
+    "section": "Citation and attribution",
+    "text": "Citation and attribution\nCite the dataset or software release using its persistent identifier and the creators credited in its repository record. Cite associated articles and upstream sources as appropriate to the material and methods used. Dataset creators and article authors may differ; each highlight page provides links to both records.\nRetain the release identifier and note transformations or filtering in your methods so that others can identify the version and processing used in your analysis.",
+    "crumbs": [
+      "Data Use and Embargo Policy"
+    ]
+  },
+  {
+    "objectID": "database/data-use-and-embargo-policy.html#contributions-and-embargo-requests",
+    "href": "database/data-use-and-embargo-policy.html#contributions-and-embargo-requests",
+    "title": "Data Use and Embargo Policy",
+    "section": "Contributions and embargo requests",
+    "text": "Contributions and embargo requests\nA comprehensive GRID contribution and embargo policy is under review. No project-wide embargo duration or access arrangement is established by this page. Contact the project team before transferring unpublished or restricted material to discuss permissions, handling, and release timing.\nFor a proposed contribution, use the contribution checklist. For a suspected error or unclear reuse condition, send the team the release identifier and relevant field or record details.",
+    "crumbs": [
+      "Data Use and Embargo Policy"
+    ]
+  },
+  {
+    "objectID": "database/data-highlights.html",
+    "href": "database/data-highlights.html",
+    "title": "Data and Code Highlights",
+    "section": "",
+    "text": "Explore released datasets and analysis code associated with GRID. Each highlight describes a product’s scope, creators, access route, and citation. Dates shown are repository release dates; related articles may have different publication dates.\nStart with Data Access for direct downloads, Coverage for the relationship to the wider inventory, or Contribute Data to discuss a new contribution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRiver Weathering Data and Machine-Learning Workflows\n\n\n\nRiver\n\n\nHydrogeochemistry\n\n\nWeathering\n\n\nMachine Learning\n\n\nU.S.\n\n\n\nDerived geochemical data, watershed predictors, and R code linking inverse modeling with machine learning to study rock-weathering fluxes.\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico\n\n\n\nRiver\n\n\nHydrogeochemistry\n\n\nSurface Water\n\n\nOcean\n\n\nGulf of Mexico\n\n\n\nRiver chemistry and discharge for 54 waterways entering the northern Gulf of Mexico, combined with 17 chemical and physical ocean parameters.\n\n\n\n\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nU.S. River Salinization and Alkalinization: Data from 226 Sites\n\n\n\nRiver\n\n\nHydrogeochemistry\n\n\nSurface Water\n\n\nU.S.\n\n\n\nSodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States.\n\n\n\n\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Data and Code Highlights"
+    ]
+  },
+  {
+    "objectID": "database/coverage.html",
+    "href": "database/coverage.html",
+    "title": "Coverage and Scope",
+    "section": "",
+    "text": "Inventory date: October 19, 2026\n\n\n\n\n\n\n\nInventory measure\nProject-wide total\n\n\n\n\nSites\n154,577\n\n\nHydrogeochemical variables\n91\n\n\nWatershed properties\n139\n\n\nSources of watershed properties\n19\n\n\n\nThese totals describe the GRID project inventory. They do not indicate that every variable is available at every site, that sampling is continuous, or that all holdings have been publicly released. Geographic coverage, observation periods, units, and available attributes depend on the source and product.",
+    "crumbs": [
+      "Coverage and Scope"
+    ]
+  },
+  {
+    "objectID": "database/coverage.html#current-project-inventory",
+    "href": "database/coverage.html#current-project-inventory",
+    "title": "Coverage and Scope",
+    "section": "",
+    "text": "Inventory date: October 19, 2026\n\n\n\n\n\n\n\nInventory measure\nProject-wide total\n\n\n\n\nSites\n154,577\n\n\nHydrogeochemical variables\n91\n\n\nWatershed properties\n139\n\n\nSources of watershed properties\n19\n\n\n\nThese totals describe the GRID project inventory. They do not indicate that every variable is available at every site, that sampling is continuous, or that all holdings have been publicly released. Geographic coverage, observation periods, units, and available attributes depend on the source and product.",
+    "crumbs": [
+      "Coverage and Scope"
+    ]
+  },
+  {
+    "objectID": "database/coverage.html#scope-of-public-releases",
+    "href": "database/coverage.html#scope-of-public-releases",
+    "title": "Coverage and Scope",
+    "section": "Scope of public releases",
+    "text": "Scope of public releases\n\n\n\nRelease\nGeographic scope\nWhat the release supports\n\n\n\n\nU.S. river salinization and alkalinization\n226 monitoring sites in the coterminous United States\nSodium, alkalinity, 32 watershed properties, and associated analysis code\n\n\nROcD-nGoM river–ocean database\n54 rivers, streams, and bayous entering the northern Gulf of Mexico, plus ocean data\nRiver chemistry and discharge, 17 ocean parameters, and observed and derived data products\n\n\nRiver weathering data and machine-learning workflows\nContiguous United States\nDerived geochemical flux tables, watershed predictors, and R code for inverse modeling and machine-learning analysis\n\n\n\nThese products have different selection criteria and processing histories. Their site and variable counts describe individual releases and should not be added together to estimate the GRID inventory.",
+    "crumbs": [
+      "Coverage and Scope"
+    ]
+  },
+  {
+    "objectID": "database/coverage.html#choosing-data-for-a-research-question",
+    "href": "database/coverage.html#choosing-data-for-a-research-question",
+    "title": "Coverage and Scope",
+    "section": "Choosing data for a research question",
+    "text": "Choosing data for a research question\nCheck the selected release for the variables, locations, sampling period, units, and processing level needed for your analysis. A watershed property may represent a spatial or temporal aggregate, while a river measurement represents a particular sampling location and time. A fine-resolution environmental input does not establish the resolution or accuracy of a derived river product.\nUse Data Access for repository links and Methods for product-specific distinctions. Contact the project team about coverage beyond the released products.",
+    "crumbs": [
+      "Coverage and Scope"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About GRID",
+    "section": "",
+    "text": "A river sample reflects water moving through a landscape. Interpreting its chemistry requires information about the contributing watershed: its geology, climate, soils, land cover, and human activities. Those observations and contextual data often reside in different sources, with different units, methods, and coverage.\nThe Global RIver-lanD (GRID) project brings river hydrogeochemical observations and watershed information together to support catchment science. GRID-DB refers to the database; GRID also includes research outputs, analysis code, and teaching resources."
+  },
+  {
+    "objectID": "about.html#why-connect-rivers-and-watersheds",
+    "href": "about.html#why-connect-rivers-and-watersheds",
+    "title": "About GRID",
+    "section": "",
+    "text": "A river sample reflects water moving through a landscape. Interpreting its chemistry requires information about the contributing watershed: its geology, climate, soils, land cover, and human activities. Those observations and contextual data often reside in different sources, with different units, methods, and coverage.\nThe Global RIver-lanD (GRID) project brings river hydrogeochemical observations and watershed information together to support catchment science. GRID-DB refers to the database; GRID also includes research outputs, analysis code, and teaching resources."
+  },
+  {
+    "objectID": "about.html#what-is-available-now",
+    "href": "about.html#what-is-available-now",
+    "title": "About GRID",
+    "section": "What is available now",
+    "text": "What is available now\n\nA dated inventory and coverage summary describing the scope of GRID’s assembled holdings.\nReleased datasets and code for specific river and river–ocean studies, with persistent repository links.\nTeaching resources for investigating water quality and working with environmental data.\nA research community spanning hydrogeochemistry, watershed science, and computational methods.\n\nEach release has its own geographic coverage, variables, methods, and reuse conditions. The inventory totals are not a claim that every observation is available in a single public download."
+  },
+  {
+    "objectID": "about.html#scientific-questions",
+    "href": "about.html#scientific-questions",
+    "title": "About GRID",
+    "section": "Scientific questions",
+    "text": "Scientific questions\nGRID supports research on how weathering and human activities shape river chemistry. Questions include how different mineral sources and reactions contribute to alkalinity, sulfate, and salinity; how watershed context helps explain their spatial variation; and how source attribution affects interpretations of weathering-related carbon uptake or release.\nPublished outputs provide examples of these approaches. Methods and interpretation guidance explain why observations, derived quantities, and predictions must be distinguished."
+  },
+  {
+    "objectID": "about.html#the-next-stage",
+    "href": "about.html#the-next-stage",
+    "title": "About GRID",
+    "section": "The next stage",
+    "text": "The next stage\nGRID-SI is the proposed development program for better-documented chemistry, reviewed station–catchment links, and reusable computational workflows. Its initial target is a North American reference release, with a bounded test of workflow portability beyond North America. These are development plans, not a claim of an awarded project or completed services.\nExplore the roadmap · Get involved"
+  },
+  {
+    "objectID": "database/contribute-data.html",
+    "href": "database/contribute-data.html",
+    "title": "Contribute Data",
+    "section": "",
+    "text": "We welcome river hydrogeochemical observations and associated watershed information from researchers, government agencies, community organizations, industry, and river commissions.",
+    "crumbs": [
+      "Contribute Data"
+    ]
+  },
+  {
+    "objectID": "database/contribute-data.html#start-a-contribution-discussion",
+    "href": "database/contribute-data.html#start-a-contribution-discussion",
+    "title": "Contribute Data",
+    "section": "Start a contribution discussion",
+    "text": "Start a contribution discussion\nContact the project team with a brief description or a link to an existing public dataset. Include the following information where available:\n\nScope: variables, locations, observation period, number of sites or records, and file formats.\nProvenance: original collectors or providers, sampling and analytical methods, source identifiers, and any previous processing.\nMetadata: units, detection limits, quality flags, missing-value codes, coordinates and coordinate reference system, and watershed identifiers.\nRights and credit: data owner, existing license or use restrictions, preferred citation, and contributor contact.\nRelease timing: whether the data are already public and any requested embargo or other access conditions.\n\nThese details help the team assess scientific fit, documentation, and the work needed to integrate the contribution. A published repository record or a small, shareable example is a useful starting point.",
+    "crumbs": [
+      "Contribute Data"
+    ]
+  },
+  {
+    "objectID": "database/contribute-data.html#unpublished-or-restricted-data",
+    "href": "database/contribute-data.html#unpublished-or-restricted-data",
+    "title": "Contribute Data",
+    "section": "Unpublished or restricted data",
+    "text": "Unpublished or restricted data\nContact the team before transferring unpublished, confidential, sensitive, or third-party restricted material so that handling, permissions, and any proposed release timing can be discussed. A comprehensive contribution and embargo policy is under review; this page does not establish an embargo duration or promise access restrictions.\nFor released products, consult the data-use guidance and the terms in each repository record.",
+    "crumbs": [
+      "Contribute Data"
     ]
   },
   {
@@ -128,157 +346,272 @@
     "href": "database/data-access.html",
     "title": "Data Access",
     "section": "",
-    "text": "This is a partial list of watershed attributes that are included in Global RIver-lanD (GRID) Database.\n\n\n\n\n\n\n\n\nFeature name\nUnit\nCategory\n\n\n\n\nRunoff\nmm per month\nhydrology\n\n\nSoil moisture\nm3 per m3\nhydrology\n\n\nTemperature\nCelsius\nclimate\n\n\nPrecipitation\nmm per month\nclimate\n\n\nWatershed area\nkm2\ngeomorphology\n\n\nErosion rate\nmm per year\ngeomorphology\n\n\nElevation\nmeter\ngeomorphology\n\n\nSlope\ndegree\ngeomorphology\n\n\nAspect\ndegree\ngeomorphology\n\n\nSoil organic carbon\ng per kg\nsoil chemistry\n\n\nSoil pH\npH unit\nsoil chemistry\n\n\nEvaporite\npercentage\ngeology\n\n\nCarbonate sediment\npercentage\ngeology\n\n\nSiliciclastic sediment\npercentage\ngeology\n\n\nPyroclastic sediment\npercentage\ngeology\n\n\nMixed sediment\npercentage\ngeology\n\n\nUnconsolidated sediment\npercentage\ngeology\n\n\nIgneous basic\npercentage\ngeology\n\n\nIgneous intermediate\npercentage\ngeology\n\n\nIgneous acid\npercentage\ngeology\n\n\nMetamorphic\npercentage\ngeology\n\n\nImpervious surface area\npercentage\nland use\n\n\nPopulation density\n# per km2\nland use\n\n\nCultivated vegetation\npercentage\nland use\n\n\nUrban\npercentage\nland use\n\n\nTrees\npercentage\nland cover\n\n\nShrubs\npercentage\nland cover\n\n\nHerbaceous vegetation\npercentage\nland cover\n\n\nFlooded vegetation\npercentage\nland cover\n\n\nSnow ice\npercentage\nland cover\n\n\nBarren\npercentage\nland cover\n\n\nWater\npercentage\nland cover",
+    "text": "Use the repository record for the version, files, license, and citation associated with each release. The links below provide access to published GRID project outputs.\n\n\n\nProduct\nAccess\nRelease date\nDownload\n\n\n\n\nU.S. river salinization and alkalinization: 226 sites\nData and code on Zenodo · Details\nMay 15, 2023\nZIP, approximately 56 MB\n\n\nROcD-nGoM: northern Gulf of Mexico river–ocean database\nData on Zenodo · Details\nNovember 17, 2023\nZIP, approximately 2.3 GB\n\n\nRiver weathering data and machine-learning workflows\nData and code on Zenodo · Details\nAugust 8, 2026\nZIP, approximately 26.8 MB\n\n\n\nThese releases represent selected outputs, not a download of the full GRID inventory. For other holdings or a specific data need, contact the project team with the variables, region, time period, and intended use. See Coverage, Methods, and Data Use before combining products.",
     "crumbs": [
       "Data Access"
     ]
   },
   {
-    "objectID": "database/data-access.html#example-watershed-attributes",
-    "href": "database/data-access.html#example-watershed-attributes",
+    "objectID": "database/data-access.html#download-public-releases",
+    "href": "database/data-access.html#download-public-releases",
     "title": "Data Access",
     "section": "",
-    "text": "This is a partial list of watershed attributes that are included in Global RIver-lanD (GRID) Database.\n\n\n\n\n\n\n\n\nFeature name\nUnit\nCategory\n\n\n\n\nRunoff\nmm per month\nhydrology\n\n\nSoil moisture\nm3 per m3\nhydrology\n\n\nTemperature\nCelsius\nclimate\n\n\nPrecipitation\nmm per month\nclimate\n\n\nWatershed area\nkm2\ngeomorphology\n\n\nErosion rate\nmm per year\ngeomorphology\n\n\nElevation\nmeter\ngeomorphology\n\n\nSlope\ndegree\ngeomorphology\n\n\nAspect\ndegree\ngeomorphology\n\n\nSoil organic carbon\ng per kg\nsoil chemistry\n\n\nSoil pH\npH unit\nsoil chemistry\n\n\nEvaporite\npercentage\ngeology\n\n\nCarbonate sediment\npercentage\ngeology\n\n\nSiliciclastic sediment\npercentage\ngeology\n\n\nPyroclastic sediment\npercentage\ngeology\n\n\nMixed sediment\npercentage\ngeology\n\n\nUnconsolidated sediment\npercentage\ngeology\n\n\nIgneous basic\npercentage\ngeology\n\n\nIgneous intermediate\npercentage\ngeology\n\n\nIgneous acid\npercentage\ngeology\n\n\nMetamorphic\npercentage\ngeology\n\n\nImpervious surface area\npercentage\nland use\n\n\nPopulation density\n# per km2\nland use\n\n\nCultivated vegetation\npercentage\nland use\n\n\nUrban\npercentage\nland use\n\n\nTrees\npercentage\nland cover\n\n\nShrubs\npercentage\nland cover\n\n\nHerbaceous vegetation\npercentage\nland cover\n\n\nFlooded vegetation\npercentage\nland cover\n\n\nSnow ice\npercentage\nland cover\n\n\nBarren\npercentage\nland cover\n\n\nWater\npercentage\nland cover",
+    "text": "Use the repository record for the version, files, license, and citation associated with each release. The links below provide access to published GRID project outputs.\n\n\n\nProduct\nAccess\nRelease date\nDownload\n\n\n\n\nU.S. river salinization and alkalinization: 226 sites\nData and code on Zenodo · Details\nMay 15, 2023\nZIP, approximately 56 MB\n\n\nROcD-nGoM: northern Gulf of Mexico river–ocean database\nData on Zenodo · Details\nNovember 17, 2023\nZIP, approximately 2.3 GB\n\n\nRiver weathering data and machine-learning workflows\nData and code on Zenodo · Details\nAugust 8, 2026\nZIP, approximately 26.8 MB\n\n\n\nThese releases represent selected outputs, not a download of the full GRID inventory. For other holdings or a specific data need, contact the project team with the variables, region, time period, and intended use. See Coverage, Methods, and Data Use before combining products.",
     "crumbs": [
       "Data Access"
     ]
   },
   {
-    "objectID": "database/data-access.html#data-access",
-    "href": "database/data-access.html#data-access",
+    "objectID": "database/data-access.html#examples-of-watershed-attributes",
+    "href": "database/data-access.html#examples-of-watershed-attributes",
     "title": "Data Access",
-    "section": "Data Access",
-    "text": "Data Access\nThis section is under construction. Stay tuned. If you would like to submit a database or begin working with us, please consider reaching out to the Mangement Team",
+    "section": "Examples of watershed attributes",
+    "text": "Examples of watershed attributes\nThe table illustrates the kinds of environmental attributes relevant to GRID research. It is not a complete dictionary of the 139 watershed properties in the current inventory or a guarantee of availability at each site. Units and aggregation periods can differ by source and release; use the definitions accompanying your selected dataset.\n\n\n\nAttribute example\nExample unit\nCategory\n\n\n\n\nRunoff\nmm per month\nHydrology\n\n\nSoil moisture\nm³ per m³\nHydrology\n\n\nTemperature\n°C\nClimate\n\n\nPrecipitation\nmm per month\nClimate\n\n\nWatershed area\nkm²\nGeomorphology\n\n\nErosion rate\nmm per year\nGeomorphology\n\n\nElevation\nm\nGeomorphology\n\n\nSlope\ndegrees\nGeomorphology\n\n\nAspect\ndegrees\nGeomorphology\n\n\nSoil organic carbon\ng per kg\nSoil chemistry\n\n\nSoil pH\npH\nSoil chemistry\n\n\nEvaporite\n%\nGeology\n\n\nCarbonate sediment\n%\nGeology\n\n\nSiliciclastic sediment\n%\nGeology\n\n\nPyroclastic sediment\n%\nGeology\n\n\nMixed sediment\n%\nGeology\n\n\nUnconsolidated sediment\n%\nGeology\n\n\nIgneous basic\n%\nGeology\n\n\nIgneous intermediate\n%\nGeology\n\n\nIgneous acid\n%\nGeology\n\n\nMetamorphic\n%\nGeology\n\n\nImpervious surface area\n%\nLand use\n\n\nPopulation density\npeople per km²\nLand use\n\n\nCultivated vegetation\n%\nLand use\n\n\nUrban\n%\nLand use\n\n\nTrees\n%\nLand cover\n\n\nShrubs\n%\nLand cover\n\n\nHerbaceous vegetation\n%\nLand cover\n\n\nFlooded vegetation\n%\nLand cover\n\n\nSnow and ice\n%\nLand cover\n\n\nBarren\n%\nLand cover\n\n\nWater\n%\nLand cover\n\n\n\nPercentage-based attributes require the source’s spatial denominator and class definitions. Soil properties require depth information; climate and hydrology fields require their time period and aggregation method. Lithology labels above retain the example source terminology.",
     "crumbs": [
       "Data Access"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "GRID Database Overview",
+    "objectID": "database/data-overview.html",
+    "href": "database/data-overview.html",
+    "title": "Database Overview",
     "section": "",
-    "text": "The GRID database is essential for addressing critical challenges in Earth surface research. Rivers are vital for sustaining human society and ecosystems, acting as natural conduits that connect land and oceans. However, accurate and comprehensive data on river discharge, hydrogeochemistry, and watershed properties remain scattered or unavailable globally. This hinders our ability to understand and mitigate issues such as water scarcity, climate change impacts, biodiversity loss, and hydrological extremes. The GRID database will fill this gap by integrating high-resolution, multi-disciplinary data on global rivers and watersheds, enabling scientists and decision-makers to develop effective solutions for water management, disaster mitigation, and environmental preservation.\nHowever, the GRID project is much more than just a database—it is an integrated system comprising a database, a software ecosystem, and a thriving community."
-  },
-  {
-    "objectID": "about.html#why-grid-database",
-    "href": "about.html#why-grid-database",
-    "title": "GRID Database Overview",
-    "section": "",
-    "text": "The GRID database is essential for addressing critical challenges in Earth surface research. Rivers are vital for sustaining human society and ecosystems, acting as natural conduits that connect land and oceans. However, accurate and comprehensive data on river discharge, hydrogeochemistry, and watershed properties remain scattered or unavailable globally. This hinders our ability to understand and mitigate issues such as water scarcity, climate change impacts, biodiversity loss, and hydrological extremes. The GRID database will fill this gap by integrating high-resolution, multi-disciplinary data on global rivers and watersheds, enabling scientists and decision-makers to develop effective solutions for water management, disaster mitigation, and environmental preservation.\nHowever, the GRID project is much more than just a database—it is an integrated system comprising a database, a software ecosystem, and a thriving community."
-  },
-  {
-    "objectID": "about.html#our-mission",
-    "href": "about.html#our-mission",
-    "title": "GRID Database Overview",
-    "section": "Our Mission",
-    "text": "Our Mission\nOur mission is to:\n\nDevelop an Integrated Database: Build the Global RIver-lanD (GRID) database to seamlessly integrate high-resolution data on river discharge, hydrogeochemistry, and watershed properties worldwide.\nLeverage Advanced Technologies: Utilize state-of-the-art machine learning techniques to provide accurate and comprehensive insights into river systems and Earth surface processes.\nEnhance Accessibility: Ensure the GRID database is openly accessible through a user-friendly, web-based platform, adhering to open data and open science standards.\nSupport Multidisciplinary Research: Empower researchers across geochemistry, hydrology, climate science, and environmental sciences with a robust, interdisciplinary data resource.\nAddress Global Challenges: Enable data-driven solutions for pressing global issues, including water scarcity, climate resilience, flood risk reduction, and biodiversity conservation.\nPromote Collaboration and Education: Foster global scientific collaboration and support education initiatives by providing tools, resources, and training for a diverse community of users."
-  },
-  {
-    "objectID": "about.html#our-vision",
-    "href": "about.html#our-vision",
-    "title": "GRID Database Overview",
-    "section": "Our Vision",
-    "text": "Our Vision\nWe envision a world where high-quality, integrated river and watershed data are accessible to everyone, driving transformative solutions to global water and environmental challenges. The GRID database will serve as a cornerstone for interdisciplinary Earth science research, enabling breakthroughs in understanding river systems and their role in the Earth’s biogeochemical cycles. By providing an enduring and openly accessible platform, the GRID project seeks to empower a diverse global community of researchers, educators, and decision-makers in creating a sustainable and resilient future for our planet."
-  },
-  {
-    "objectID": "database/contribute-data.html",
-    "href": "database/contribute-data.html",
-    "title": "Contribute Data",
-    "section": "",
-    "text": "We are actively inputting data into the Global RIver-lanD (GRID) Database. We have input published data, new data, online data, and unpublished data. We seek datasets from community groups, researchers, government agencies, industry, and river commissions. If you would like to submit a database or begin working with us, please consider reaching out to the Mangement Team",
+    "text": "The Global RIver-lanD (GRID) project brings together river hydrogeochemistry, watershed properties, and derived research products to support Earth-surface science. Linking river observations with environmental context helps researchers investigate weathering, elemental transport, water quality, and human influences on river systems.",
     "crumbs": [
-      "Contribute Data"
+      "Database Overview"
     ]
   },
   {
-    "objectID": "database/data-highlights.html",
-    "href": "database/data-highlights.html",
-    "title": "Dataset Highlights",
-    "section": "",
-    "text": "Long-Term River-Ocean Analyses in the Northern Gulf of Mexico\n\n\n\nRiver\n\n\nHydrogeochemistry\n\n\nSurface Water\n\n\nOcean\n\n\nGulf of Mexico\n\n\n\na compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico\n\n\n\n\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLong-Term Stream Water Analyses from 226 USGS River Monitoring Sites\n\n\n\nRiver\n\n\nHydrogeochemistry\n\n\nSurface Water\n\n\nU.S.\n\n\n\na compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites\n\n\n\n\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items",
+    "objectID": "database/data-overview.html#grid-at-a-glance",
+    "href": "database/data-overview.html#grid-at-a-glance",
+    "title": "Database Overview",
+    "section": "GRID at a glance",
+    "text": "GRID at a glance\nAs of October 19, 2026, the project inventory includes 154,577 sites, 91 hydrogeochemical variables, and 139 watershed properties drawn from 19 property sources.\nThese are project-wide totals. Variable availability, sampling periods, and watershed information differ among sites. The inventory includes more material than the public releases linked on this website; the totals do not imply that every record is publicly downloadable. Explore coverage and scope.",
     "crumbs": [
-      "Dataset Highlights"
+      "Database Overview"
     ]
   },
   {
-    "objectID": "database/data-use-and-embargo-policy.html",
-    "href": "database/data-use-and-embargo-policy.html",
-    "title": "Data Use and Embargo Policy",
-    "section": "",
-    "text": "This page is under construction. Stay tuned.",
+    "objectID": "database/data-overview.html#from-observations-to-reusable-research-products",
+    "href": "database/data-overview.html#from-observations-to-reusable-research-products",
+    "title": "Database Overview",
+    "section": "From observations to reusable research products",
+    "text": "From observations to reusable research products\nGRID outputs connect compiled observations and watershed information with derived datasets and analysis code. Released examples address river salinization and alkalinization, river–ocean connections, and rock-weathering fluxes. They show how integrated data can support geochemical modeling and AI-enabled discovery.\nBrowse data and code highlights for each product’s scope, methods, creators, license, and persistent identifier. Read about methods and interpretation to distinguish observations, derived estimates, and model predictions.",
     "crumbs": [
-      "Data Use and Embargo Policy"
+      "Database Overview"
     ]
   },
   {
-    "objectID": "database/highlights/usgs-226-stream-2023.html",
-    "href": "database/highlights/usgs-226-stream-2023.html",
-    "title": "Long-Term Stream Water Analyses from 226 USGS River Monitoring Sites",
+    "objectID": "database/data-overview.html#access-and-participation",
+    "href": "database/data-overview.html#access-and-participation",
+    "title": "Database Overview",
+    "section": "Access and participation",
+    "text": "Access and participation\nPublished releases are available through their repository records. Start with Data Access to download them. For access to other GRID holdings or collaboration on a specific research question, contact the project team.\nWe welcome contributions of river observations and associated metadata. Contribute data to discuss scope, provenance, reuse permissions, and release timing with the team.",
+    "crumbs": [
+      "Database Overview"
+    ]
+  },
+  {
+    "objectID": "database/highlights/ROcD-nGoM-2024.html",
+    "href": "database/highlights/ROcD-nGoM-2024.html",
+    "title": "ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico",
     "section": "",
-    "text": "This dataset is a subset of the Global RIver-lanD (GRID) Database and includes surface water quality data from 226 USGS river monitoring sites across the U.S. Click this link to access the corresponding peer-reviewed article that interprets the dataset. In addition, the dataset can be downloaded via this data DOI."
+    "text": "River monitoring sites around the northern Gulf of Mexico, grouped into western, northern, and eastern locations.\nThis GRID project output connects river and ocean information for the northern Gulf of Mexico. It includes river chemistry and discharge for 54 rivers, streams, and bayous, together with 17 chemical and physical ocean parameters from the Gulf of Mexico Coastal Ocean Observing System and MODIS and SeaWiFS satellite sensors.\nThe release distinguishes river observations from daily concentrations and fluxes estimated using the USGS WRTDS model. It provides data with outlier flags and cleaned monthly, seasonal, and annual aggregates. Consult the documentation for the sampling coverage and processing applied to each parameter."
+  },
+  {
+    "objectID": "database/highlights/ROcD-nGoM-2024.html#access-and-scope",
+    "href": "database/highlights/ROcD-nGoM-2024.html#access-and-scope",
+    "title": "ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico",
+    "section": "Access and scope",
+    "text": "Access and scope\nDownload the dataset on Zenodo.\n\n\n\nRelease detail\nInformation\n\n\n\n\nRepository creators\nBailey Armos and Shuang Zhang\n\n\nDataset release\nNovember 17, 2023\n\n\nRelease DOI\n10.5281/zenodo.10152141\n\n\nFiles\nROcD-nGoM.zip, approximately 2.3 GB; includes the river-processing R script\n\n\nRepository license\nCC BY 4.0\n\n\n\nThis is a regional product with defined source coverage, rather than an archive of all analyses conducted in the Gulf of Mexico. The repository release predates the associated article."
+  },
+  {
+    "objectID": "database/highlights/ROcD-nGoM-2024.html#citation-and-associated-article",
+    "href": "database/highlights/ROcD-nGoM-2024.html#citation-and-associated-article",
+    "title": "ROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico",
+    "section": "Citation and associated article",
+    "text": "Citation and associated article\nDataset: Armos, B., and Zhang, S. (2023). ROcD-nGoM: A River-Ocean Coupled Database for the Northern Gulf of Mexico. Zenodo. https://doi.org/10.5281/zenodo.10152141.\nArticle: Armos, B., Zhang, S., Wen, T., Walker, E., and Daripa, P. (2024). A harmonized river-ocean coupled database for the northern Gulf of Mexico. Scientific Data. Published December 30, 2024. Read the data descriptor.\nExplore other releases · Data-use guidance"
+  },
+  {
+    "objectID": "database/highlights/weathering-ml-2026.html",
+    "href": "database/highlights/weathering-ml-2026.html",
+    "title": "River Weathering Data and Machine-Learning Workflows",
+    "section": "",
+    "text": "This GRID project output combines USGS river chemistry and watershed information to examine relationships between land cover and rock-weathering fluxes. The release includes derived data tables, watershed predictor objects, and R code linking geochemical inverse modeling with XGBoost, model interpretation, and uncertainty analysis.\nThe workflow estimates silicate- and carbonate-derived alkalinity fluxes and generates predictions across the contiguous United States. It provides an example of how compiled river observations and environmental context can support AI-enabled research."
+  },
+  {
+    "objectID": "database/highlights/weathering-ml-2026.html#access-and-contents",
+    "href": "database/highlights/weathering-ml-2026.html#access-and-contents",
+    "title": "River Weathering Data and Machine-Learning Workflows",
+    "section": "Access and contents",
+    "text": "Access and contents\nView and download the archived data and code · Explore the GitHub code repository\n\n\n\nRelease detail\nInformation\n\n\n\n\nRepository creator\nXiying Sun\n\n\nRelease date\nAugust 8, 2026\n\n\nRelease DOI\n10.5281/zenodo.21846324\n\n\nContents\nR scripts and derived CSV/RData files\n\n\nDownload\nZIP, approximately 26.8 MB\n\n\nRepository resource type\nSoftware\n\n\nRepository license\nCC BY 4.0\n\n\n\nThe archive contains geochemical flux estimates, watershed predictor objects, and merged analysis tables. Its README documents 27 study-specific watershed predictors and code for InveR modeling, nested cross-validation, SHAP interpretation, spatial prediction, and bootstrap uncertainty estimation. Follow the archived documentation for required inputs, local path configuration, R packages, and cluster-based steps.\nThe archived flux table contains 1,153 unique sites; the merged flux-and-predictor table contains 1,084. These are table-specific counts, not necessarily the sample size of each fitted model or the total number of GRID sites. The release’s derived annual and seasonal summaries should be distinguished from individual observations and from predictions generated by the modeling code."
+  },
+  {
+    "objectID": "database/highlights/weathering-ml-2026.html#reuse-and-citation",
+    "href": "database/highlights/weathering-ml-2026.html#reuse-and-citation",
+    "title": "River Weathering Data and Machine-Learning Workflows",
+    "section": "Reuse and citation",
+    "text": "Reuse and citation\nUse the release DOI to identify this archived package. The underlying study workflow is described in the manuscript titled Human modification of land cover reshapes rock weathering fluxes across the contiguous United States.\nData and code: Sun, X. (2026). XiyingSun/weathering-ml-project: Initial release for manuscript (Zenodo) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21846324.\nExplore other releases · Methods and interpretation · Data-use guidance"
+  },
+  {
+    "objectID": "development.html",
+    "href": "development.html",
+    "title": "GRID-SI Development Roadmap",
+    "section": "",
+    "text": "Status: proposed development, October 19, 2026. GRID-SI builds on GRID-DB and its existing research outputs. The activities below depend on project support; they are not announcements of an NSF award, operational services, or open funding opportunities."
+  },
+  {
+    "objectID": "development.html#scientific-purpose",
+    "href": "development.html#scientific-purpose",
+    "title": "GRID-SI Development Roadmap",
+    "section": "Scientific purpose",
+    "text": "Scientific purpose\nThe proposed work asks how weathering pathways and human inputs control river alkalinity, sulfate, and salinity, and when resolving those contributions changes the inferred carbon consequences of weathering. An initial North American reference release would connect river observations to reviewed catchments and their hydrologic and landscape context. Existing global holdings would support a selected test of portability beyond North America."
+  },
+  {
+    "objectID": "development.html#data-documentation-and-quality",
+    "href": "development.html#data-documentation-and-quality",
+    "title": "GRID-SI Development Roadmap",
+    "section": "Data documentation and quality",
+    "text": "Data documentation and quality\nPlanned work includes harmonizing measurements, recovering missing metadata from source documentation, and retaining original values and analytical qualifications. Documentation would distinguish observed, converted, imputed, and modeled values and record source information and processing decisions."
+  },
+  {
+    "objectID": "development.html#station-and-catchment-links",
+    "href": "development.html#station-and-catchment-links",
+    "title": "GRID-SI Development Roadmap",
+    "section": "Station and catchment links",
+    "text": "Station and catchment links\nThe project proposes testing vision-language-assisted matching of sampling locations to river reaches against conventional methods. Hydrologic checks and expert review would assess candidate matches, with unresolved alternatives and their uncertainty retained."
+  },
+  {
+    "objectID": "development.html#reusable-workflows-and-scientific-evaluation",
+    "href": "development.html#reusable-workflows-and-scientific-evaluation",
+    "title": "GRID-SI Development Roadmap",
+    "section": "Reusable workflows and scientific evaluation",
+    "text": "Reusable workflows and scientific evaluation\nProposed Python packages would connect station matching and watershed-property calculation with inverse modeling and machine-learning prediction. Tested notebooks would demonstrate analysis and visualization. Selected LLM skills would call the same code modules with reviewable inputs and saved settings.\nEvaluation would compare starting and enhanced records, including source attribution and prediction in catchments withheld from model development. Planned benchmarks would document partitions, baselines, evaluation scripts, and limitations together."
+  },
+  {
+    "objectID": "development.html#contributions-and-participation",
+    "href": "development.html#contributions-and-participation",
+    "title": "GRID-SI Development Roadmap",
+    "section": "Contributions and participation",
+    "text": "Contributions and participation\nA versioned resource catalog is proposed to connect data and code distributed across established repositories. Catalog discovery and acceptance into a scientifically reviewed GRID release would be separate decisions. Data owners would retain control over private-data transfers and publication.\nThe proposal includes five two-day hackathons and six pilot awards, with opportunities for early-career researchers to develop datasets, workflow modules, and analysis notebooks. No applications are open through this page. Dates, eligibility, and award terms would be announced if the program proceeds. Public notebooks and Waterlines discussions are also proposed to support teaching and science communication."
+  },
+  {
+    "objectID": "development.html#people-and-progress",
+    "href": "development.html#people-and-progress",
+    "title": "GRID-SI Development Roadmap",
+    "section": "People and progress",
+    "text": "People and progress\nThe core proposal team and advisory members bring complementary expertise in river chemistry, geoscience data, and software. Future progress updates would link completed outputs and their release documentation. Current releases remain available through Data Access.\nTo discuss a research need or possible contribution, contact the project."
   },
   {
     "objectID": "education/env-methane.html",
     "href": "education/env-methane.html",
-    "title": "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania",
+    "title": "Investigating Potential Methane Sources in Pennsylvania Streams",
     "section": "",
-    "text": "This course, Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania, is to guide students through the initial stages of a hypothetical water supply complaint investigation for 3 scenarios where methane has been detected in surface water in PA. This activity uses data accessible through the CUAHSI database (Shale Network (2015)) at three stream locations, and introduces three different potential sources of the observed in-stream methane. The data were collected by personnel from Penn State, the U.S. Geological Survey, and volunteers. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, students will first investigate a low methane concentration measured in Southwest PA in Washington County. Students will find the analyses for samples in this area in HydroClient, then you will look up nearby well locations and records using the PA Oil and Gas Mapping Tool and the Exploration and Development Web Information Network (EDWIN), respectively, to begin to assess whether any of the streams may be contaminated by gas or oil wells. Students will also learn something about possible methane sources.\n\n\n\nThis image was created with the assistance of DALL·E"
+    "text": "Investigate three hypothetical water-supply complaints involving methane in Pennsylvania surface waters. Students use Shale Network observations and nearby well records to consider multiple possible methane sources. Detecting methane alone does not establish a leaking oil or gas well.\n\nAudience: Intermediate undergraduate hydrology students.\nEstimated time: 2 hours.\nTools: HydroClient, the Pennsylvania DEP Oil and Gas Mapping Tool, and EDWIN well records.\nCreators: Liza Brazil, Susan L. Brantley, Jennifer Z. Williams, Seth Pelepko, Stew Beattie, Kyle Homman, and Andrew Nyblade.\nHost: Science Education Resource Center at Carleton College (SERC).\n\nThe cases cover Chartiers Creek, Black Moshannon Lake, and Sugar Run. Instructions guide students through finding observations, examining nearby wells, and considering alternative explanations.\nOpen the activity and instructions on SERC"
   },
   {
-    "objectID": "education/env-methane.html#course-description",
-    "href": "education/env-methane.html#course-description",
-    "title": "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania",
+    "objectID": "education/env-methane.html#about-the-activity",
+    "href": "education/env-methane.html#about-the-activity",
+    "title": "Investigating Potential Methane Sources in Pennsylvania Streams",
     "section": "",
-    "text": "This course, Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania, is to guide students through the initial stages of a hypothetical water supply complaint investigation for 3 scenarios where methane has been detected in surface water in PA. This activity uses data accessible through the CUAHSI database (Shale Network (2015)) at three stream locations, and introduces three different potential sources of the observed in-stream methane. The data were collected by personnel from Penn State, the U.S. Geological Survey, and volunteers. This course is offered through the SERC platform, in partnership with CUAHSI HydroClient\nIn this course, students will first investigate a low methane concentration measured in Southwest PA in Washington County. Students will find the analyses for samples in this area in HydroClient, then you will look up nearby well locations and records using the PA Oil and Gas Mapping Tool and the Exploration and Development Web Information Network (EDWIN), respectively, to begin to assess whether any of the streams may be contaminated by gas or oil wells. Students will also learn something about possible methane sources.\n\n\n\nThis image was created with the assistance of DALL·E"
+    "text": "Investigate three hypothetical water-supply complaints involving methane in Pennsylvania surface waters. Students use Shale Network observations and nearby well records to consider multiple possible methane sources. Detecting methane alone does not establish a leaking oil or gas well.\n\nAudience: Intermediate undergraduate hydrology students.\nEstimated time: 2 hours.\nTools: HydroClient, the Pennsylvania DEP Oil and Gas Mapping Tool, and EDWIN well records.\nCreators: Liza Brazil, Susan L. Brantley, Jennifer Z. Williams, Seth Pelepko, Stew Beattie, Kyle Homman, and Andrew Nyblade.\nHost: Science Education Resource Center at Carleton College (SERC).\n\nThe cases cover Chartiers Creek, Black Moshannon Lake, and Sugar Run. Instructions guide students through finding observations, examining nearby wells, and considering alternative explanations.\nOpen the activity and instructions on SERC"
   },
   {
-    "objectID": "education/env-methane.html#when-is-this-taught",
-    "href": "education/env-methane.html#when-is-this-taught",
-    "title": "Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania",
-    "section": "When is this taught?",
-    "text": "When is this taught?\nThis course is completely online and self-paced. You can take the course on the SERC platform anytime you want."
+    "objectID": "education/env-methane.html#source",
+    "href": "education/env-methane.html#source",
+    "title": "Investigating Potential Methane Sources in Pennsylvania Streams",
+    "section": "Source",
+    "text": "Source\nBrazil, L., and coauthors. Using Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania. See the host page for the original materials and attribution.\n\n\n\nConceptual illustration created with the assistance of DALL·E."
   },
   {
-    "objectID": "education/index.html",
-    "href": "education/index.html",
-    "title": "Education",
+    "objectID": "education/iamg-2026-dl-geochemistry.html",
+    "href": "education/iamg-2026-dl-geochemistry.html",
+    "title": "Can River Chemistry Reveal Catchment Lithology?",
     "section": "",
-    "text": "Environmental Issues Related to Brine Disposal from Hydrocarbon Development\n\n\n\nSERC\n\n\nEarth and Environmental Sciences\n\n\nCUAHSI\n\n\n\nan online course on investigating environmental impact of oil and gas production on water quality\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Methane Concentrations in Streams to Investigate for Potential Leakage of Oil and Gas Wells in Pennsylvania\n\n\n\nSERC\n\n\nEarth and Environmental Sciences\n\n\nCUAHSI\n\n\n\nan online course on investigating methane content in Pennsylvanian streams\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science in Earth and Environmental Sciences\n\n\n\nHydroLearn\n\n\nR\n\n\nPython\n\n\nEarth and Environmental Sciences\n\n\nData Sciences\n\n\nCUAHSI\n\n\n\nan online course on introducing data sciences in earth and environmental sciences\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Developed by Tao Wen for the IAMG 2026 short course, this guided exercise uses river chemistry to distinguish carbonate-dominated catchments from those dominated by crystalline silicate rocks. Learners compare a linear classifier with a small neural network in PyTorch.\n\nAudience: Geoscientists with basic Python skills; no prior PyTorch, deep-learning, or hydrogeochemistry experience required.\nEstimated time: 40–45 minutes.\nTools: Google Colab on a free CPU runtime; no GPU or manual data upload required. Local Jupyter instructions are also available.\nDeveloper: Tao Wen, Syracuse University.\nTeaching data: A curated GLORICH subset with nine chemistry inputs for 2,986 stations.\n\nOpen the guided notebook in Colab\nView the module repository · Read the instructor guide"
   },
   {
-    "objectID": "events/index.html",
-    "href": "events/index.html",
-    "title": "News & Events",
+    "objectID": "education/iamg-2026-dl-geochemistry.html#about-the-module",
+    "href": "education/iamg-2026-dl-geochemistry.html#about-the-module",
+    "title": "Can River Chemistry Reveal Catchment Lithology?",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA Machine Learning Approach to Freshwater Analysis\n\n\n\n\n\n\nNews\n\n\nPublication\n\n\nResearch Updates\n\n\n\n\n\n\nJun 6, 2023\n\n\n5 min\n\n\n905 words\n\n\n\n\n\n\nNo matching items"
+    "text": "Developed by Tao Wen for the IAMG 2026 short course, this guided exercise uses river chemistry to distinguish carbonate-dominated catchments from those dominated by crystalline silicate rocks. Learners compare a linear classifier with a small neural network in PyTorch.\n\nAudience: Geoscientists with basic Python skills; no prior PyTorch, deep-learning, or hydrogeochemistry experience required.\nEstimated time: 40–45 minutes.\nTools: Google Colab on a free CPU runtime; no GPU or manual data upload required. Local Jupyter instructions are also available.\nDeveloper: Tao Wen, Syracuse University.\nTeaching data: A curated GLORICH subset with nine chemistry inputs for 2,986 stations.\n\nOpen the guided notebook in Colab\nView the module repository · Read the instructor guide"
+  },
+  {
+    "objectID": "education/iamg-2026-dl-geochemistry.html#learning-goals",
+    "href": "education/iamg-2026-dl-geochemistry.html#learning-goals",
+    "title": "Can River Chemistry Reveal Catchment Lithology?",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nDefine predictors and target classes from a geoscience question.\nSplit data before fitting transformations, then train and compare models.\nEvaluate class imbalance and interpret classification metrics.\nExperiment with activation functions and discuss limits of geographic transfer.\n\nA random station split tests performance in similar sampled settings. It does not establish transfer to unfamiliar regions or prove that lithology alone controls river chemistry."
+  },
+  {
+    "objectID": "education/iamg-2026-dl-geochemistry.html#attribution-and-reuse",
+    "href": "education/iamg-2026-dl-geochemistry.html#attribution-and-reuse",
+    "title": "Can River Chemistry Reveal Catchment Lithology?",
+    "section": "Attribution and reuse",
+    "text": "Attribution and reuse\nThe repository citation credits Tao Wen and identifies version 1.0.0, released July 11, 2026. Cite the module and its source dataset when reusing the materials:\n\nWen, T. (2026). Can River Chemistry Reveal Catchment Lithology? (Version 1.0.0) [Software]. GitHub.\nHartmann, J., Lauerwald, R., and Moosdorf, N. (2019). GLORICH — Global river chemistry database [Dataset]. PANGAEA.\n\nOriginal code, notebooks, and documentation are MIT-licensed unless otherwise stated. GLORICH-derived data have separate CC BY-NC-SA 4.0 terms and remain subject to the repository’s data-release conditions. Review the current license and data-use notice before redistribution or fee-supported teaching."
+  },
+  {
+    "objectID": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
+    "href": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html",
+    "title": "A Machine Learning Approach to Freshwater Analysis",
+    "section": "",
+    "text": "This summary refers to Dan Bernardi’s Syracuse University article, published June 12, 2023.\nResearchers from Syracuse University and Texas A&M University used observations from 226 U.S. river-monitoring sites and 32 watershed characteristics to model monthly sodium and alkalinity. The work examined how human activity and environmental conditions relate to river chemistry.\nPopulation density and impervious surfaces were important predictors in the sodium model. Climatic and hydrogeological variables were important in the alkalinity model. These predictive associations help frame further investigation; feature importance alone does not demonstrate a causal pathway or quantify net carbon removal."
+  },
+  {
+    "objectID": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html#research-paper",
+    "href": "events/A-Machine-Learning-Approach-to-Freshwater-Analysis.html#research-paper",
+    "title": "A Machine Learning Approach to Freshwater Analysis",
+    "section": "Research paper",
+    "text": "Research paper\nE, B., Zhang, S., Driscoll, C. T., and Wen, T. (2023). Human and natural impacts on the U.S. freshwater salinization and alkalinization: A machine learning approach. Science of the Total Environment. Read the paper.\n\n\n\nMills River, Pisgah National Forest, North Carolina. Image source: the Syracuse University article linked above."
+  },
+  {
+    "objectID": "events/weathering-release-2026.html",
+    "href": "events/weathering-release-2026.html",
+    "title": "River weathering data and machine-learning workflows released",
+    "section": "",
+    "text": "Xiying Sun’s weathering-ml-project manuscript release was archived on Zenodo on August 8, 2026. The record links to the project’s v1.0 GitHub tag and provides a persistent identifier for citing that research software release.\nThe GRID research output brings together derived data and code for river-weathering analysis. It is not a new version of the complete GRID database. The date on this news entry is the archive’s publication date.\n\nView the research highlight\nOpen the Zenodo release\nBrowse the archived version’s source code\n\nRelease citation: Sun, X. (2026). XiyingSun/weathering-ml-project: Initial release for manuscript (Zenodo). Zenodo. doi:10.5281/zenodo.21846324."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Global RIver-lanD (GRID) Database",
     "section": "",
-    "text": "Sites\nWatershed Properties\nData Sources\n\n\nTo be updated\nTo be updated\nTo be updated\n\n\n\nAs of 01/01/2025"
+    "text": "The Global RIver-lanD (GRID) project connects river hydrogeochemical observations with watershed information to support research on weathering, water quality, and river biogeochemical cycles.\nExplore released datasets, analysis code, teaching resources, and opportunities to collaborate."
   },
   {
-    "objectID": "index.html#status-of-the-global-river-land-grid-database",
-    "href": "index.html#status-of-the-global-river-land-grid-database",
+    "objectID": "index.html#grid-inventory",
+    "href": "index.html#grid-inventory",
     "title": "Global RIver-lanD (GRID) Database",
-    "section": "",
-    "text": "Sites\nWatershed Properties\nData Sources\n\n\nTo be updated\nTo be updated\nTo be updated\n\n\n\nAs of 01/01/2025"
+    "section": "GRID inventory",
+    "text": "GRID inventory\nAs of October 19, 2026\n\n  Sites154,577\n  Hydrogeochemical variables91\n  Watershed properties139\n  Watershed property data sources19\n\nThese totals describe the assembled GRID inventory. Individual releases cover specific subsets. Not every hydrogeochemical variable or watershed property is available at every site. View coverage and contents."
   },
   {
-    "objectID": "index.html#news-events",
-    "href": "index.html#news-events",
+    "objectID": "index.html#featured-research-output",
+    "href": "index.html#featured-research-output",
     "title": "Global RIver-lanD (GRID) Database",
-    "section": "News & Events",
-    "text": "News & Events\n\n\n\n\n\n\n\n\n\n\nA Machine Learning Approach to Freshwater Analysis\n\n\n\n\n\n\n\n\n\nJun 6, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Featured research output",
+    "text": "Featured research output\n\nRiver weathering data and machine-learning workflows\nAn August 2026 GRID output connects river chemistry and watershed context with geochemical inverse modeling and machine-learning analysis across the contiguous United States.\nExplore the data and code release"
   },
   {
-    "objectID": "index.html#dataset-highlights",
-    "href": "index.html#dataset-highlights",
+    "objectID": "index.html#datasets-and-research-outputs",
+    "href": "index.html#datasets-and-research-outputs",
     "title": "Global RIver-lanD (GRID) Database",
-    "section": "Dataset Highlights",
-    "text": "Dataset Highlights\n\n\n\n\n\n\n\n\n\n\nLong-Term River-Ocean Analyses in the Northern Gulf of Mexico\n\n\na compiled dataset containing all river and ocean water analyses in the northern Gulf of Mexico\n\n\n\n\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLong-Term Stream Water Analyses from 226 USGS River Monitoring Sites\n\n\na compiled hydrogeochemical dataset containing all stream water analyses from 226 USGS River Monitoring Sites\n\n\n\n\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Datasets and research outputs",
+    "text": "Datasets and research outputs\nVersioned releases document the data, code, and scope of individual studies.\n\n\n\n\n\n\n\n\n\n\nRiver Weathering Data and Machine-Learning Workflows\n\n\nDerived geochemical data, watershed predictors, and R code linking inverse modeling with machine learning to study rock-weathering fluxes.\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nROcD-nGoM: A River–Ocean Database for the Northern Gulf of Mexico\n\n\nRiver chemistry and discharge for 54 waterways entering the northern Gulf of Mexico, combined with 17 chemical and physical ocean parameters.\n\n\n\n\n\n\nNov 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nU.S. River Salinization and Alkalinization: Data from 226 Sites\n\n\nSodium, alkalinity, 32 watershed properties, and analysis code for 226 monitoring sites across the coterminous United States.\n\n\n\n\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#news-and-research-highlights",
+    "href": "index.html#news-and-research-highlights",
+    "title": "Global RIver-lanD (GRID) Database",
+    "section": "News and research highlights",
+    "text": "News and research highlights\n\n\n\n\n\n\n\n\n\n\nRiver weathering data and machine-learning workflows released\n\n\nXiying Sun’s weathering-ml-project manuscript release is available through a persistent Zenodo record.\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Machine Learning Approach to Freshwater Analysis\n\n\nResearch on sodium and alkalinity across 226 U.S. river-monitoring sites, reported by Syracuse University.\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#help-shape-the-next-stage",
+    "href": "index.html#help-shape-the-next-stage",
+    "title": "Global RIver-lanD (GRID) Database",
+    "section": "Help shape the next stage",
+    "text": "Help shape the next stage\nGRID-SI is a proposed development program to improve chemistry documentation, catchment links, and reusable workflows. Read the development roadmap or discuss a contribution."
   }
 ]
